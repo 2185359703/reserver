@@ -1,0 +1,25 @@
+# 运行时缓存（个人积累数据，不入库）
+_tdc_key_cache.json
+_tdc_key_cache.json.bak
+
+# 临时 tdc.js / 探针中间产物
+_tdc_tmp.js
+_tdc_tmp_*.js
+_tmp_*.js
+_t_*.js
+_*.log
+_*.png
+_*.jpg
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
