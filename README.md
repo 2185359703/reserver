@@ -36,6 +36,20 @@ python verify_captcha.py --times 5 --gap 10
 ✅ 通过 (ticket: tr03-xxx...)
 ```
 
+### 📸 端到端验证截图
+
+**实测连续 3 次成功**（`verify_captcha.py` 真实运行结果，每隔 10 秒一次）：
+
+![端到端成功案例](docs/success_screenshot.png)
+
+| 次数 | 耗时 | 缺口 cfg_x | conf | attempts |
+|---|---|---|---|---|
+| #1 | 2642 ms | 294 | — | 2 |
+| #2 | 1102 ms | 381 | 0.529 | 1 |
+| #3 | 1352 ms | 478 | 0.552 | 1 |
+
+三次都拿到了真实的 `tr03-...` ticket（randstr `@f7j`、`@u0o`、`@zll`）。
+
 ### 集成到你的代码
 
 ```python
@@ -85,14 +99,16 @@ tdc.js (Chaos VM 混淆)
 
 ```
 .
-├── tdc_collect.py          # 核心：字节码解码 / 参数提取 / XTEA 加密 / gen_collect
-├── tencent_captcha.py      # 主流程：prehandle → 缺口检测 → PoW → collect → verify
-├── verify_captcha.py       # 一键验收脚本
-├── _key_extract_probe.js   # 探针：注入 VM 提取密钥/偏移/明文-密文对（Node，仅首次）
-├── _dump_fixed_segs.js     # 明文模板提取（Node，仅首次）
-├── _get_collect.js         # Node 基准验证工具（开发用）
-├── 腾讯滑块验证码逆向思路报告.md    # 逆向全过程思路文档
-└── 腾讯滑块验证码算法深度分析报告.md  # 算法逐层拆解 + 真实证据
+├── tdc_collect.py                  # 核心：字节码解码 / 参数提取 / XTEA 加密 / gen_collect
+├── tencent_captcha.py              # 主流程：prehandle → 缺口检测 → PoW → collect → verify
+├── verify_captcha.py               # 一键验收脚本
+├── _key_extract_probe.js           # 探针：注入 VM 提取密钥/偏移/明文-密文对（Node，仅首次）
+├── _dump_fixed_segs.js             # 明文模板提取（Node，仅首次）
+├── _get_collect.js                 # Node 基准验证工具（开发用）
+├── docs/
+│   └── success_screenshot.png      # 端到端验证截图（3 次连续成功）
+├── 腾讯滑块验证码逆向思路报告.md      # 逆向全过程思路文档
+└── 腾讯滑块验证码算法深度分析报告.md    # 算法逐层拆解 + 真实证据
 ```
 
 ## ⚠️ 注意事项
