@@ -50,6 +50,22 @@ python verify_captcha.py --times 5 --gap 10
 
 三次都拿到了真实的 `tr03-...` ticket（randstr `@f7j`、`@u0o`、`@zll`）。
 
+### 📸 无感验证（同一核心的扩展用例）
+
+除了滑块验证，本项目的核心模块（`tdc_collect.py` + `tencent_captcha.py`）也支持 **腾讯无感验证**（`subcapclass=1001`，免交互）——
+
+只需将 `appid` 改为 `198550928`，`ans` 改为 `[{"elem_id":0,"type":"DynAnswerType_TIME","data":""}]` 即可（无需图片/缺口检测）。详见 [docs/无感验证还原说明.md](docs/无感验证还原说明.md)。
+
+**实测 3/3 通过**（脚本 `replay_silent.py --times 3 --gap 12`，基于本项目核心模块）：
+
+![无感验证成功](docs/silent_replay_screenshot.png)
+
+| 次数 | 耗时 | tlg (collect长度) | sess 前缀 | ans 类型 |
+|---|---|---|---|---|
+| #1 | 1443 ms | 248 | `s0mSBzX2Ukru...` | `DynAnswerType_TIME` |
+| #2 | 1633 ms | 736 | `s0Lzgv5nGi8_...` | `DynAnswerType_TIME` |
+| #3 | 1277 ms | 750 | `s0XpjwizAFD...` | `DynAnswerType_TIME` |
+
 ### 集成到你的代码
 
 ```python
@@ -106,7 +122,9 @@ tdc.js (Chaos VM 混淆)
 ├── _dump_fixed_segs.js             # 明文模板提取（Node，仅首次）
 ├── _get_collect.js                 # Node 基准验证工具（开发用）
 ├── docs/
-│   └── success_screenshot.png      # 端到端验证截图（3 次连续成功）
+│   ├── success_screenshot.png        # 滑块验证：3 次连续成功截图
+│   ├── silent_replay_screenshot.png  # 无感验证：3 次连续成功截图
+│   └── 无感验证还原说明.md            # 无感验证扩展用例完整说明
 ├── 腾讯滑块验证码逆向思路报告.md      # 逆向全过程思路文档
 └── 腾讯滑块验证码算法深度分析报告.md    # 算法逐层拆解 + 真实证据
 ```
