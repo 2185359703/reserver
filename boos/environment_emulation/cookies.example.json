@@ -1,0 +1,203 @@
+{
+ "cookies": [
+  {
+   "name": "ab_guid",
+   "domain": "www.zhipin.com",
+   "path": "/",
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "None",
+   "value": ""
+  },
+  {
+   "name": "lastCity",
+   "domain": ".zhipin.com",
+   "path": "/",
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "None",
+   "value": ""
+  },
+  {
+   "name": "ab_guid",
+   "domain": "login.zhipin.com",
+   "path": "/",
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "None",
+   "value": ""
+  },
+  {
+   "name": "Hm_lvt_194df3105ad7148dcf2b98a91b5e727a",
+   "domain": ".zhipin.com",
+   "path": "/",
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "None",
+   "value": ""
+  },
+  {
+   "name": "i18n_redirected",
+   "domain": "cv.zhipin.com",
+   "path": "/",
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "Lax",
+   "value": ""
+  },
+  {
+   "name": "__g",
+   "domain": ".zhipin.com",
+   "path": "/",
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "None",
+   "value": ""
+  },
+  {
+   "name": "wt2",
+   "domain": ".zhipin.com",
+   "path": "/",
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "None",
+   "value": ""
+  },
+  {
+   "name": "wbg",
+   "domain": ".zhipin.com",
+   "path": "/",
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "None",
+   "value": ""
+  },
+  {
+   "name": "zp_at",
+   "domain": ".zhipin.com",
+   "path": "/",
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "None",
+   "value": ""
+  },
+  {
+   "name": "__l",
+   "domain": ".zhipin.com",
+   "path": "/",
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "None",
+   "value": ""
+  },
+  {
+   "name": "isOHPC",
+   "domain": "www.zhipin.com",
+   "path": "/",
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "None",
+   "value": ""
+  },
+  {
+   "name": "bst",
+   "domain": ".zhipin.com",
+   "path": "/",
+   "httpOnly": false,
+   "secure": true,
+   "sameSite": "None",
+   "value": ""
+  },
+  {
+   "name": "__c",
+   "domain": ".zhipin.com",
+   "path": "/",
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "None",
+   "value": ""
+  },
+  {
+   "name": "__a",
+   "domain": ".zhipin.com",
+   "path": "/",
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "None",
+   "value": ""
+  },
+  {
+   "name": "tgw_l7_route",
+   "domain": "ws6.zhipin.com",
+   "path": "/",
+   "httpOnly": false,
+   "secure": true,
+   "sameSite": "None",
+   "value": ""
+  },
+  {
+   "name": "__zp_stoken__",
+   "domain": ".zhipin.com",
+   "path": "/",
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "None",
+   "value": ""
+  }
+ ],
+ "origins": [
+  {
+   "origin": "https://www.zhipin.com",
+   "localStorage": [
+    {
+     "name": "passport-uuid",
+     "value": "uuid-2a9ae0pHRGkxcunMAaGPG"
+    },
+    {
+     "name": "apmsdk_browser_id",
+     "value": "mu2yn6vza9QCRmxkhB"
+    },
+    {
+     "name": "apmsdk_data_cache",
+     "value": "[]"
+    },
+    {
+     "name": "wljssdk_cross_new_user",
+     "value": "{\"value\":1,\"expireTime\":1789574399580}"
+    },
+    {
+     "name": "passport_config",
+     "value": "{\"zhipin_geek_spa_web\":{\"appName\":\"zhipin_geek_spa_web\",\"code\":37,\"data\":{\"code\":37,\"message\":\"您的环境存在异常.\",\"zpData\":{\"seed\":\"RLpATckjlPNQmiPHGRQsZ2w9Gmi2o0QEF9rrLhVHu0g=\",\"name\":\"c6efa04f\",\"ts\":1789494206305}},\"env\":\"prod\"}}"
+    },
+    {
+     "name": "geek_chat_sdk_worker_version",
+     "value": "2.0.3?t=v4"
+    },
+    {
+     "name": "no-debug-uuid",
+     "value": "uuid-2a90dcj2HWwMGpCfhagdQ"
+    },
+    {
+     "name": "apmsdk_uv",
+     "value": "mu2ynbdmRaBxWFHjwt"
+    },
+    {
+     "name": "ka-uid",
+     "value": "kauid-2a8e4ckskkEFvxOw5HNsKSybyy"
+    },
+    {
+     "name": "warlockjssdkcross",
+     "value": "{\"distinct_id\":\"1a0a62a8ce95a-0cebfbc937d5dc-9575122-3686400-1a0a62a8ceab7\",\"first_id\":\"\",\"props\":{},\"identities\":{}}"
+    },
+    {
+     "name": "apmsdk_uv_timestamp",
+     "value": "1789487999999"
+    },
+    {
+     "name": "HELLO_STORAGE",
+     "value": "10001222"
+    }
+   ]
+  }
+ ]
+}

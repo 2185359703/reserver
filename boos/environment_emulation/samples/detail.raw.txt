@@ -1,0 +1,23 @@
+### REQUEST (detail.json)
+GET https://www.zhipin.com/wapi/zpgeek/job/detail.json?securityId=SpdTSOVzxI9ac-T1VH_g_gAQBPeCCtwj6IQhOsGlI__UUHUa0uc6RdsbuNNqOy5XJCsrHmsmPCzWGcq2Mi9u3FGs2abkl8fBclFeRYHhKdnS7ahzrfZ7pUt3jI1uSqMMZEslvoTQWvOonJOZTThzWfm22HWx3tLVNz9MYDUU9hOScCQ9AKusLHomJ2bKlJ0EB9XiI6eTGvCw59a9gXnkhOGjK0Y8fUuTFjjNNcn09yYH0GSI8PkRflXBHlAqhuDgNSBcyBzSGPP5IAZNlLVAfkT3mnWkMZYoo-Lw9FMoqVowxPZJpGQE&lid=58U67IIdkYJ.search.1&_=1789548365266 HTTP/1.1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0
+accept: application/json, text/plain, */*
+accept-language: zh-CN,zh;q=0.9
+x-requested-with: XMLHttpRequest
+referer: https://www.zhipin.com/web/geek/jobs?ka=header-jobs
+Cookie: <REDACTED>
+
+### RESPONSE
+HTTP/1.1 200 
+date: Wed, 16 Sep 2026 08:46:08 GMT
+content-type: application/json
+set-cookie: __zp_sseed__=<REDACTED> Path=/; Domain=.zhipin.com
+set-cookie: __zp_sname__=<REDACTED> Path=/; Domain=.zhipin.com
+set-cookie: __zp_sts__=<REDACTED> Path=/; Domain=.zhipin.com
+process-stage: Stage-Outbound
+cache-control: no-cache
+server-info: boss-alb
+content-security-policy: frame-ancestors 'self' https://www.zhipin.com https://m.zhipin.com https://live.zhipin.com
+content-encoding: gzip
+
+{"code":0,"message":"Success","zpData":{"pageType":0,"selfAccess":false,"securityId":"XMswSUjhoahHc-Q16p2aSuPu8Spm9VwFjG2sk-NzH3SKz-3zaBYjowX7nf0vtf2J1N8YOfLdkUPg_CWoDR4wArSEaI5vHTfAMtTONS0GwPwP4_y_EXBuzr-YuRU4E7AQ-YnEO3L_ANQH0QSk1dgb6EFddWDbB6XlFns-Da2KAS7-mO1yyh6Ad6opP-nsSMWqUkJeTVuBFYmNNtE3NoqBsbmj1KdMq7wOaKOKnTS2Gpmgcms6cwcT4Yzy9SzA8F-qXfpxjKhWyLQ0tmueaoqixP_BMv5M3fltk1QWMmSUQMu1IwlhSLEc0UQQxXXI6j9XBQb_rdnGvOsQpamvBe0y_rGvE8DHmoZwRHSATb_X-OI8Lz0R1YG4wwYB2FFmqKIaEtLpJvIFx2e3jTMj","sessionId":null,"lid":"58U67IIdkYJ.search.1","jobInfo":{"encryptId":"a9ca0789fe01982d0nN-29--FFZS","encryptUserId":"f3e333c5851a80320HB72dW9EVdU","invalidStatus":false,"jobName":"缺人！今天面试明天上班","position":130305,"positionName":"客服专员","location":101090500,"locationName":"唐山","locationUrl":"/c101090500/","experienceName":"经验不限","degreeName":"本科","jobType":0,"proxyJob":0,"proxyType":0,"salaryDesc":"6-7K","payTypeDesc":null,"postDescription":"岗位职责：  \n1、根据公司业务需求，快速到岗并投入工作；  \n2、配合团队完成日常任务，确保工作进度⾼效推进；  \n3、遵守公司规章制度，按时完成分配的⼯作内容；  \n\n任职要求：  \n1、有较强的责任⼼和执行力，能适应快节奏⼯作环境；  \n2、具备良好的沟通能力，能够与同事有效协作；  \n3、身体健康，能胜任岗位基本工作强度；  \n4、面试通过后可立即入职，时间灵活者优先。","recruitmentCountDesc":null,"encryptAddressId":"8b9ea8daa68069011Hx-3t-0GVVYw4i2Uv2Z","address":"唐山路南区唐山万达广场写字楼-B座18","longitude":118.1862497677105,"latitude":39.62472215913115,"staticMapUrl":"https://img.bosszhipin.com/beijin/upload/amap_proxy/20250806/48ba41acc9cef1bfdd7818b371f0b21c8a187b84706250566bb61e3b7bce0931da574d19d1d82c88.png.webp","pcStaticMapUrl":"https://img.bosszhipin.com/beijin/upload/amap_proxy/20250806/48ba41acc9cef1bf6c2a8d00b6b57f5417d1ea0a8ef40bc96bb61e3b7bce0931da574d19d1d82c88.png.webp","baiduStaticMapUrl":"https://img.bosszhipin.com/beijin/upload/amap_proxy/20250806/48ba41acc9cef1bfc9a30f3caeac23fec5c09ca195dc049c6bb61e3b7bce0931da574d19d1d82c88.png.webp","baiduPcStaticMapUrl":"https://img.bosszhipin.com/beijin/upload/amap_proxy/20250806/48ba41acc9cef1bff9039dc296e5b06288068393417453cb6bb61e3b7bce0931da574d19d1d82c88.png.webp","overseasAddressList":[],"overseasInfo":null,"showSkills":[],"anonymous":0,"jobStatusDesc":"最新"},"bossInfo":{"name":"李凌函","title":"招聘者","tiny":"https://img.bosszhipin.com/beijin/upload/avatar/20260812/607f1f3d68754fd023e36229d16b695157b69cec5ab8c57eae277244e30d290510f03e13f2d00f12_s.jpg.webp","large":"https://img.bosszhipin.com/beijin/upload/avatar/20260812/607f1f3d68754fd023e36229d16b695157b69cec5ab8c57eae277244e30d290510f03e13f2d00f12.jpg.webp","activeTimeDesc":"刚刚活跃","bossOnline":true,"brandName":"唐山慧结果商务服务","bossSource":0,"certificated":true,"tagIconUrl":null,"avatarStickerUrl":null},"brandComInfo":{"encryptBrandId":"5e89b040a03e2b85031y2d29E1c~","brandName":"唐山慧结果商务服务","logo":"https://img.bosszhipin.com/beijin/icon/894ce6fa7e58d64d57e7f22d2f3a9d18afa7fcceaa24b8ea28f56f1bb14732c0.png","stage":0,"stageName":"","scale":301,"scaleName":"0-20人","industry":100020,"industryName":"互联网","introduce":"","labels":[],"activeTime":1789548242834,"visibleBrandInfo":true,"focusBrand":false,"customerBrandName":"唐山慧结果商务服务","customerBrandStageName":""},"oneKeyResumeInfo":{"inviteType":0,"alreadySend":false,"canSendResume":false,"canSendPhone":false,"canSendWechat":false},"relationInfo":{"interestJob":false,"beFriend":false},"handicappedInfo":null,"appendixInfo":{"canFeedback":false,"chatBubble":null},"atsOnlineApplyInfo":{"inviteType":0,"alreadyApply":false},"certMaterials":[]}}

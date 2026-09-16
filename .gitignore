@@ -23,3 +23,12 @@ venv/
 .idea/
 .DS_Store
 Thumbs.db
+
+# ---- 会话态与敏感文件(不入库) ----
+cookies.json
+**/cookies.json
+**/cookies*.json
+!**/cookies.example.json
+
+# 含 cookie/token 的原始报文(脱敏后请命名为 samples/*.raw.txt 再入库)
+**/raw_*.txt
