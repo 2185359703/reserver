@@ -1,0 +1,13 @@
+{
+  "name": "cqvip-journal-collector",
+  "version": "1.0.0",
+  "private": true,
+  "description": "中国农村经济维普公开元数据采集器",
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "verify-cookie": "node js/cqvip_cookie.bundle.js --verify"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

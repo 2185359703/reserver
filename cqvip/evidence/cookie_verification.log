@@ -1,0 +1,23 @@
+[1/6 challenge] status=412 bytes=2919
+[2/6 server-cookie] name=6HZbKHDjIEcgS length=88 value=<redacted>
+[3/6 challenge-js] status=200 bytes=255360
+[4/6 local-rebuild] nsd=17545 basearr=148 randomStats=54,9 codeUid=2844
+[5/6 client-cookie] name=6HZbKHDjIEcgT length=300 value=<redacted>
+[6/6 replay] status=200 bytes=266044 journal=true passed=true
+{
+  "challengeStatus": 412,
+  "challengeScriptBytes": 255360,
+  "nsd": 17545,
+  "basearrLength": 148,
+  "randomStats": [
+    54,
+    9
+  ],
+  "codeUid": 2844,
+  "sLength": 88,
+  "tLength": 300,
+  "verifyStatus": 200,
+  "verifyBytes": 266044,
+  "verifyHasJournal": true,
+  "verifyPassed": true
+}

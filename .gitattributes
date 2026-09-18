@@ -1,0 +1,10 @@
+cqvip/** text=auto
+cqvip/**/*.py text eol=lf
+cqvip/**/*.js text eol=lf
+cqvip/**/*.mjs text eol=lf
+cqvip/**/*.json text eol=lf
+cqvip/**/*.md text eol=lf
+cqvip/**/*.txt text eol=lf
+cqvip/**/*.log text eol=lf
+cqvip/**/*.csv binary
+cqvip/**/*.bundle.js binary

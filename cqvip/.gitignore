@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+*.tmp
+中国农村经济_全年份_采集失败.csv

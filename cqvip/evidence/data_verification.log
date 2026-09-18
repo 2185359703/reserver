@@ -1,0 +1,32 @@
+{
+  "csv": "中国农村经济_全年份_文章详情.csv",
+  "bytes": 7693455,
+  "sha256": "6efba9167462967eb805933265670b217b821870be0d8edead8a077024a63d75",
+  "columns": 28,
+  "headers_match": true,
+  "rows": 5314,
+  "unique_ids": 5314,
+  "index_articles": 5314,
+  "issue_coverage": 500,
+  "index_year_range": [
+    "1985",
+    "2026"
+  ],
+  "article_year_range": [
+    "1989",
+    "2026"
+  ],
+  "journals": [
+    "中国农村经济"
+  ],
+  "missing_ids": [],
+  "extra_ids": [],
+  "year_or_issue_mismatches": [],
+  "nonempty": {
+    "titles": 5314,
+    "authors": 4784,
+    "abstracts": 4464,
+    "keywords": 5229
+  },
+  "ok": true
+}

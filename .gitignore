@@ -17,6 +17,8 @@ __pycache__/
 *.egg-info/
 .venv/
 venv/
+node_modules/
+*.tmp
 
 # 编辑器 / 系统
 .vscode/
@@ -32,3 +34,4 @@ cookies.json
 
 # 含 cookie/token 的原始报文(脱敏后请命名为 samples/*.raw.txt 再入库)
 **/raw_*.txt
+**/*_采集失败.csv
