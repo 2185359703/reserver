@@ -1,0 +1,8 @@
+{
+  "bootstrapBodyMatches": true,
+  "refreshBodyMatches": true,
+  "deviceTokenMatches": true,
+  "originalSignatureMatches": true,
+  "originalTokenChecksumMatches": true,
+  "originalTokenDecrypts": false
+}

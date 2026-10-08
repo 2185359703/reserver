@@ -1,0 +1,40 @@
+{
+  "id": 63,
+  "url": "https://10jtz0.captcha-open.aliyuncs.com/",
+  "method": "POST",
+  "resource_type": "xhr",
+  "request_headers": {
+    "host": "10jtz0.captcha-open.aliyuncs.com",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+    "accept": "*/*",
+    "accept-language": "zh-TW,zh;q=0.9",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "content-length": "513",
+    "origin": "https://art.ccmgip.com",
+    "connection": "keep-alive",
+    "referer": "https://art.ccmgip.com/",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site"
+  },
+  "request_post_data": "AaduaneId=111jdk439dJJIjd023823201&SignatureMethod=HMAC-SHA1&SignatureVersion=1.0&Format=JSON&Timestamp=2026-10-08T10%3A28%3A29Z&Version=2023-03-05&Action=InitCaptcha&SceneId=12u7sbfh&Language=cn&Mode=popup&DeviceData=byAgDBTTWK6iQ63aLnMRvywYbJ50c453wUz9CdNf4pWB%2BH4EOu7koqzwbASi1Zy3iBNHsTrYyh6Wzqt9c37LI8OpdVwAwiXzNK9t%2Bgnz6B21AyqJV%2BEp%2Bes49PYS7Hj9zL%2FwChGc3lXiDab2SejevaGi848zHyk24IVygrfWOcxIU8amyiiJwdXuYRNwdlMx&SignatureNonce=28462903-e266-475b-8db2-97cc81822b4a&Signature=ZJafzYOC7mSYbiyL9Ks4zZYXgHc%3D",
+  "timestamp": 1791455309231,
+  "status": 200,
+  "response_headers": {
+    "date": "Thu, 08 Oct 2026 10:28:33 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "set-cookie": "acw_tc=0a1ece7a17914553136288196e54b36107760975c83491b23ef03b4d362f21;path=/;HttpOnly;Max-Age=1800",
+    "vary": "Accept-Encoding, Origin",
+    "access-control-allow-origin": "https://art.ccmgip.com",
+    "access-control-expose-headers": "X-AUTH-MSG",
+    "access-control-allow-credentials": "true",
+    "content-encoding": "br",
+    "x-firefox-spdy": "h2"
+  },
+  "response_body": "{\"CertifyId\":\"htQgXSlx93\",\"Message\":\"success\",\"RequestId\":\"81E27755-D6F7-41AA-A1E0-F7DB4CD433DB\",\"Code\":\"Success\",\"LimitFlow\":false,\"Success\":true,\"StaticPath\":\"3.29.0/sg.061.9e7fd57221596bad\",\"CaptchaType\":\"SLIDING\",\"DeviceConfig\":\"001qXuIdKE+YlwNNJdPUzMMFba9xv2PNPpGb2sDMXRoUghlKAWlcJ1pota87iVrNoKXqjYZMqxDqqpIVDpX9w2B7uoOFzDXnX5s7R+ObCEAaF7ygDelYQXq4cdhFSF6lifq6NAXvOCiGS0KlY4Il3c+zC/0RARapFs/eHet9R3QI6LU2mVZwdNvrnz6Cbsh2hKFQB2/KLWTrDD1vvv+uoUitEHQninhaNrPZruKnA6omHs/HJ5IhzZaZQythxvqt6p8R6dEHxnpezj4e/J2GMW0lTxTdcc6DiPhOwm6I86Td1ut6meLoS8OxC43Mfglr\"}",
+  "duration": 3595,
+  "response_body_truncated": false,
+  "response_body_original_size": 555,
+  "response_body_size_returned": 555
+}

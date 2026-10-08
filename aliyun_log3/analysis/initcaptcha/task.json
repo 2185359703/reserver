@@ -1,0 +1,68 @@
+{
+  "page": "https://art.ccmgip.com/login?reason=invalidtoken",
+  "endpoint": "https://10jtz0.captcha-open.aliyuncs.com/",
+  "action": "InitCaptcha",
+  "sceneId": "12u7sbfh",
+  "requestedGroups": 15,
+  "observedFirstInit": {
+    "http": 200,
+    "code": "Success",
+    "success": true,
+    "captchaType": "SLIDING",
+    "hasDeviceData": true,
+    "hasDeviceToken": false
+  },
+  "observedSdkSha256": "c39b3b4093e4226b05eb0242c93f4219d1416caa34cf01dfd13b78913bac3a9f",
+  "goal": "还原刷新阶段的 CertifyId / DeviceToken / Timestamp / Signature，生成随机化本地请求",
+  "sampling": "complete",
+  "localRebuild": "complete",
+  "batchId": "20261008-02318f4c",
+  "summary": {
+    "groups": 15,
+    "fullWireParity": 15,
+    "browserBootstrapSuccess": 15,
+    "browserRefreshSuccess": 15,
+    "localFlowSuccess": 15,
+    "freshServerContextVerified": 15,
+    "locales": {
+      "en-US": 5,
+      "zh-CN": 5,
+      "zh-TW": 5
+    },
+    "screens": {
+      "3440x1440": 1,
+      "3072x1728": 4,
+      "2560x1440": 3,
+      "1920x1080": 2,
+      "5120x1440": 2,
+      "1600x900": 1,
+      "1680x1050": 2
+    },
+    "distinctEnvironments": 15,
+    "distinctCapturedSessions": 15,
+    "distinctCapturedTokens": 15,
+    "distinctLocalTokens": 15,
+    "distinctLocalCertifyIds": 15,
+    "distinctCaptchaSigningKeys": 1,
+    "distinctCapturedTokenKeys": 2,
+    "observedRefreshEndpoints": {
+      "https://10jtz0.captcha-open.aliyuncs.com/": 14,
+      "https://10jtz0.captcha-open-b.aliyuncs.com/": 1
+    }
+  },
+  "randomPoolEnabled": true,
+  "serverConfigUnpacking": {
+    "secretIndex": 0,
+    "sessionIndex": 2,
+    "fieldMap": {
+      "87": 7,
+      "42": 8
+    }
+  },
+  "legacyOriginalToken": [
+    "HMAC matches",
+    "MD5 matches",
+    "historical AES key not supplied in cURL"
+  ],
+  "temporaryProbesRemoved": true
+}

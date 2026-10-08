@@ -11,7 +11,7 @@ Web 客户端协议逆向案例集。仓库关注浏览器中的动态参数、�
 | [`cqvip/`](cqvip/) | 维普期刊瑞数 412 挑战与公开元数据采集 | `S/T` Cookie 配对、148 字节环境块、双层加密、空 200 诱饵 | Python HTTP + 单文件 Node Cookie helper；运行时不需要浏览器或 npm 依赖 | 实时回放通过；500 个刊期、5,314 篇详情完整校验 |
 | [`tds/`](tds/) | 腾讯行为式验证码 `tdc.js` | Chaos VM、XTEA 变体、动态密钥/偏移、图像缺口定位 | 参数链主要为纯 Python；新脚本版本首次提参需要 Node | 仓库内包含固定向量、样本评估和历史成功截图 |
 | [`boos/`](boos/) | BOSS直聘 `__zp_stoken__` | 自研 VM、种子轮换、Canvas/WebGL 等宿主环境表面 | Python 协议层 + `iv8` 环境仿真 | 已记录活体验收；明确标注为 `snapshot-driven`，尚非纯 Python |
-| [`aliyun_log3/`](aliyun_log3/) | 阿里云设备上报 `Log3` | 分层 AES/Base64、HMAC-SHA1、设备/事件/密钥配对、SDK 构建切换 | Python `curl_cffi` + 无 npm 依赖的 Node.js 计算；配套样本随机选择 | 15 组完整字节比对与 30 次成对请求成功；设备配置为 `snapshot-driven` |
+| [`aliyun_log3/`](aliyun_log3/) | 阿里云 `Log3` 设备上报与 `InitCaptcha` 初始化/刷新 | AES/Base64、HMAC、令牌 MD5、新 DeviceConfig / CertifyId 配对、SDK 切换 | Python `curl_cffi` + 无 npm 依赖的 Node.js 计算；配套样本随机选择 | 两个接口各 15 组完整比对与真实流程成功；设备画像为 `snapshot-driven` |
 
 ## 仓库原则
 
@@ -20,6 +20,8 @@ Web 客户端协议逆向案例集。仓库关注浏览器中的动态参数、�
 - **区分算法正确与服务端接受**：固定输入逐字节一致、实时回放成功、业务正文完整是不同验证层级。
 - **不隐藏残余边界**：环境快照、索引日期、版本轮换和风控污染都要写清楚。
 - **敏感状态不入库**：Cookie、账号会话、原始 token 和未脱敏报文不提交。
+
+InitCaptcha 当前案例按用户明确要求完整公开其授权取样资料，包含原始请求、设备令牌、响应和配套密钥，保存在 `aliyun_log3/.private/initcaptcha/`；这是本轮指定数据集的公开交付，其他案例仍保持原数据处理方式。
 
 ## 快速开始
 
@@ -54,7 +56,7 @@ python -m pip install -r requirements.txt
 
 此案例需要使用者自行提供合法会话，仓库只保留空值示例。详情见 [`boos/README.md`](boos/README.md)。
 
-### 阿里云 Log3 参数与随机样本
+### 阿里云 Log3 与 InitCaptcha 随机样本
 
 ```powershell
 cd aliyun_log3
@@ -62,7 +64,9 @@ python -m pip install -r requirements.txt
 python .\aliyun_log3.py --help
 ```
 
-配置自己的合法取样后，可使用 `python .\aliyun_log3.py --dry-run` 查看随机选组摘要，再执行请求。公开保存代码、脱敏证据和已确认的 SDK 共享算法参数；设备状态、账号凭证和原始报文留在本地 `.private` 目录。详见 [`aliyun_log3/README.md`](aliyun_log3/README.md)。
+Log3 配置自己的合法取样后，可使用 `python .\aliyun_log3.py --dry-run` 查看随机选组摘要。InitCaptcha 本轮 15 组原始样本、配置和取证资料已按用户要求完整上传，可直接使用随附样本池。详见 [`aliyun_log3/README.md`](aliyun_log3/README.md)。
+
+新增的 `python .\aliyun_initcaptcha.py` 会随机选择设备画像，重新初始化取得服务端 CertifyId / DeviceConfig，再计算并发送刷新请求；它不处理验证码答案或登录业务。
 
 ## 目录结构
 
@@ -76,7 +80,7 @@ reserver/
 │   └── README.md
 ├── tds/                         # 腾讯 TDC/Chaos VM 案例
 ├── boos/                        # BOSS token 环境仿真案例
-├── aliyun_log3/                 # 阿里云设备上报参数与随机配套样本
+├── aliyun_log3/                 # 阿里云 Log3 / InitCaptcha 参数与随机样本
 ├── LICENSE
 └── README.md
 ```
@@ -95,7 +99,7 @@ reserver/
 ## 安全与数据处理
 
 - 仅用于协议学习、公开数据采集、授权测试和防护研究。
-- 不提交登录 Cookie、账号令牌、未脱敏请求或可识别个人信息。
+- 常规案例不提交登录 Cookie、账号令牌、未脱敏请求或可识别个人信息。InitCaptcha 本轮指定原始数据集的公开交付按用户明确要求记录在其 README 中。
 - 默认使用低并发和请求间隔；出现拒绝或风控升级时停止重复探测。
 - 不用于未授权访问、付费内容获取、账号接管或生产系统破坏。
 

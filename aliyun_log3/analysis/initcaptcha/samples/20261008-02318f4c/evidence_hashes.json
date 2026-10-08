@@ -1,0 +1,5 @@
+{
+  "analysis/initcaptcha/samples/20261008-02318f4c/manifest.json": "bb0eb7050ba9a177cc3674df96df144d5dca8dd2c3160df6eba937652a94b398",
+  "analysis/initcaptcha/samples/20261008-02318f4c/random_validation.json": "0d95c480165233596b438604f035b158f03c164076e6bac5b0806bb825af768f",
+  "analysis/initcaptcha/baseline_validation.json": "7020032f53b53a7f697edf19a1d4ac10af3b586a639369f7c5e1b7e1f7b91604"
+}

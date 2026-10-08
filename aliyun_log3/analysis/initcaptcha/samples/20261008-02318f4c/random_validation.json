@@ -1,0 +1,24 @@
+{
+  "batchId": "20261008-02318f4c",
+  "offlineRequests": 45,
+  "uniqueTokens": 45,
+  "uniqueNonces": 45,
+  "uniqueBodies": 45,
+  "selectionDistribution": {
+    "sample-15": 3,
+    "sample-09": 3,
+    "sample-12": 6,
+    "sample-05": 3,
+    "sample-06": 4,
+    "sample-13": 3,
+    "sample-03": 6,
+    "sample-10": 5,
+    "sample-07": 2,
+    "sample-08": 1,
+    "sample-04": 4,
+    "sample-14": 2,
+    "sample-01": 1,
+    "sample-02": 2
+  },
+  "networkRequests": 0
+}

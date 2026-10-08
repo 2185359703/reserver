@@ -1,0 +1,1224 @@
+{
+  "batchId": "20261008-02318f4c",
+  "targetCount": 15,
+  "samples": [
+    {
+      "id": "sample-01",
+      "batchId": "20261008-02318f4c",
+      "plan": {
+        "id": "sample-01",
+        "locale": "en-US",
+        "os": "windows",
+        "humanize": true,
+        "pointerClicks": false,
+        "inviteInput": "sample_6369",
+        "typingDelayMs": 68,
+        "waitMs": 1666
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "en-US",
+        "languages": [
+          "en-US",
+          "en"
+        ],
+        "hardwareConcurrency": 2,
+        "screen": {
+          "width": 3440,
+          "height": 1440,
+          "availWidth": 3440,
+          "availHeight": 1392
+        },
+        "viewport": {
+          "width": 1961,
+          "height": 1045
+        },
+        "devicePixelRatio": 1.5
+      },
+      "feilinSdk": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin041.2a3946443830dedf38954c509ea97a8de5b4bb27464aff39d5ccaf0c982b9449.js",
+      "sessionSha256": "8f1901dc87ee973132978f5c0e5009fc35c369f7ec25982d8f2eebd204d4a6a5",
+      "tokenFieldsSha256": "d717f11999d5e8a08f465f12fa2e9c1a9857c1e30fcf827bfcfc6aa649089fc7",
+      "tokenCharacters": 1220,
+      "tokenSha256": "5d0e1a3b27bf1428dbf6c4c0a43ea00fb079b20366ece37b0343cbef97ae90cd",
+      "tokenKeySha256": "9fd4abc1d37c70104a208d8d7727c500d7797f22e4b32ab29244a1283dba6658",
+      "captchaSecretSha256": "66d1e72649cc64a26925f23b649ebc0f308b223f44e9cfe9605f1f1270d6fb56",
+      "fieldCount": 142,
+      "clockIndex": 74,
+      "traceIndex": 43,
+      "parity": {
+        "bootstrapBody": true,
+        "refreshBody": true,
+        "deviceToken": true
+      },
+      "browser": {
+        "bootstrap": {
+          "http": 200,
+          "code": "Success",
+          "success": true
+        },
+        "refresh": {
+          "http": 200,
+          "code": "Success",
+          "success": true,
+          "certifyIdSha256": "02d021a7d5455dd8a90e727188c0af9b938383d5a51a3ca6f03a2f5e70ab1b13",
+          "endpoint": "https://10jtz0.captcha-open.aliyuncs.com/"
+        }
+      },
+      "local": {
+        "http": 200,
+        "code": "Success",
+        "success": true,
+        "certifyIdSha256": "d66b22e12156b33451f017eb6d2ac755b254c2c9fe878777f9e56acc1836b9b4",
+        "nonceSha256": "3899d6c6e8d5510029fc2503d91d815f53e432576e1a1a6d3774d91612206ffb",
+        "timestamp": "2026-10-08T11:25:23Z",
+        "tokenSha256": "15c42d2f4d0dfdb88c8dfeddc18f23565add90864a4a408a15b8ce07c239a352",
+        "bodySha256": "4367b7a3e27a8472660e9d9c483c5f69f421f951433d250755560d1708431f0d",
+        "tokenCharacters": 1220,
+        "freshServerSession": true,
+        "freshServerFields": true,
+        "freshServerCertifyId": true
+      },
+      "environmentSha256": "36b3c84b61f0d7953a907b1ca4aae7ff2c8c63e38e160613b335c915e1c9886c"
+    },
+    {
+      "id": "sample-02",
+      "batchId": "20261008-02318f4c",
+      "plan": {
+        "id": "sample-02",
+        "locale": "zh-CN",
+        "os": "windows",
+        "humanize": true,
+        "pointerClicks": true,
+        "inviteInput": "sample_a79bcfa2ff",
+        "typingDelayMs": 106,
+        "waitMs": 1075
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "zh-CN",
+        "languages": [
+          "zh-CN",
+          "zh"
+        ],
+        "hardwareConcurrency": 8,
+        "screen": {
+          "width": 3072,
+          "height": 1728,
+          "availWidth": 3072,
+          "availHeight": 1680
+        },
+        "viewport": {
+          "width": 1771,
+          "height": 1247
+        },
+        "devicePixelRatio": 1.5
+      },
+      "feilinSdk": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin041.2a3946443830dedf38954c509ea97a8de5b4bb27464aff39d5ccaf0c982b9449.js",
+      "sessionSha256": "3102d44a93d5fb4759e345dc52ac40526b6d703a48ec2770bf72a70bc9574fb2",
+      "tokenFieldsSha256": "a55cba50f333f2a54d92a60fc23ae860ac0b848a438d77971df5be9956d1d0b9",
+      "tokenCharacters": 1220,
+      "tokenSha256": "d38b686b67f0b16320234172ddb28363003c4e469f7b6e50d2885a0514b306a4",
+      "tokenKeySha256": "9fd4abc1d37c70104a208d8d7727c500d7797f22e4b32ab29244a1283dba6658",
+      "captchaSecretSha256": "66d1e72649cc64a26925f23b649ebc0f308b223f44e9cfe9605f1f1270d6fb56",
+      "fieldCount": 142,
+      "clockIndex": 74,
+      "traceIndex": 43,
+      "parity": {
+        "bootstrapBody": true,
+        "refreshBody": true,
+        "deviceToken": true
+      },
+      "browser": {
+        "bootstrap": {
+          "http": 200,
+          "code": "Success",
+          "success": true
+        },
+        "refresh": {
+          "http": 200,
+          "code": "Success",
+          "success": true,
+          "certifyIdSha256": "f10a4fd0d225ac8e93e0f192d964041e472d1de0d67fec7f9ff9b715010ae33f",
+          "endpoint": "https://10jtz0.captcha-open.aliyuncs.com/"
+        }
+      },
+      "local": {
+        "http": 200,
+        "code": "Success",
+        "success": true,
+        "certifyIdSha256": "0d2992feeec1ccfef24d82735a2524f4020b478106e473a0ac15d221a0eff60e",
+        "nonceSha256": "f4de043d9776351b52348e01d1714a802e10f70f6bfa0abbfc50a823be894232",
+        "timestamp": "2026-10-08T11:25:24Z",
+        "tokenSha256": "c6f7fd5a9ff549e030e820fe755066bc2bb2c12c053745296eccef7fff27b372",
+        "bodySha256": "b8112b5198b12f7ad9fb80a7bfc26acaa8096d82f4a4ab42ee8fdff002fd36cc",
+        "tokenCharacters": 1220,
+        "freshServerSession": true,
+        "freshServerFields": true,
+        "freshServerCertifyId": true
+      },
+      "environmentSha256": "4a1df03f1d17314b879ff3623d385397687062a2c1a6af3eccba06a6a3afbec5"
+    },
+    {
+      "id": "sample-03",
+      "batchId": "20261008-02318f4c",
+      "plan": {
+        "id": "sample-03",
+        "locale": "zh-TW",
+        "os": "windows",
+        "humanize": true,
+        "pointerClicks": true,
+        "inviteInput": "sample_a8dc0508aa",
+        "typingDelayMs": 48,
+        "waitMs": 1593
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "zh-TW",
+        "languages": [
+          "zh-TW",
+          "zh"
+        ],
+        "hardwareConcurrency": 12,
+        "screen": {
+          "width": 2560,
+          "height": 1440,
+          "availWidth": 2560,
+          "availHeight": 1400
+        },
+        "viewport": {
+          "width": 1905,
+          "height": 991
+        },
+        "devicePixelRatio": 1.5
+      },
+      "feilinSdk": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin041.2a3946443830dedf38954c509ea97a8de5b4bb27464aff39d5ccaf0c982b9449.js",
+      "sessionSha256": "e9c43ad48fe6b946afd1af61a24cc82a7e975278b4bf4392f8b564b9e5ab4a96",
+      "tokenFieldsSha256": "ca08442a09560bf3702f7e62cc7e9cf11106d80447f7ea2a89cb864aa1aca250",
+      "tokenCharacters": 1220,
+      "tokenSha256": "900071534af8b3179fc3cb5c17683fa02a6c7196f864b3b0fa3478bbe4773f95",
+      "tokenKeySha256": "9fd4abc1d37c70104a208d8d7727c500d7797f22e4b32ab29244a1283dba6658",
+      "captchaSecretSha256": "66d1e72649cc64a26925f23b649ebc0f308b223f44e9cfe9605f1f1270d6fb56",
+      "fieldCount": 142,
+      "clockIndex": 74,
+      "traceIndex": 43,
+      "parity": {
+        "bootstrapBody": true,
+        "refreshBody": true,
+        "deviceToken": true
+      },
+      "browser": {
+        "bootstrap": {
+          "http": 200,
+          "code": "Success",
+          "success": true
+        },
+        "refresh": {
+          "http": 200,
+          "code": "Success",
+          "success": true,
+          "certifyIdSha256": "e884c311cd846657f9c0b0a3f4f7a4c70ed751a0ac08262da393c28073b3018b",
+          "endpoint": "https://10jtz0.captcha-open.aliyuncs.com/"
+        }
+      },
+      "local": {
+        "http": 200,
+        "code": "Success",
+        "success": true,
+        "certifyIdSha256": "0e14f0ccf75a08295a1a45e46a8c6b16f9e513278a1aa67dc647e64d90276a7e",
+        "nonceSha256": "b87cfee312fdd1e6f07f2a72ae0e756d2ef73cc33efd6bdf72324d4e226e8199",
+        "timestamp": "2026-10-08T11:25:25Z",
+        "tokenSha256": "81c431cdf63121dbbfca83588670aaffcaa9314acc31f83e0587f00638bbd6a1",
+        "bodySha256": "8118b2fea7c481a46024a6e4e91576cde20b50c0aa0c028298b9500c575068ee",
+        "tokenCharacters": 1220,
+        "freshServerSession": true,
+        "freshServerFields": true,
+        "freshServerCertifyId": true
+      },
+      "environmentSha256": "d7a064fdac25da02f0ce8b578f4d6542cbaa613cfa0129bcac58a29d62bb48c9"
+    },
+    {
+      "id": "sample-04",
+      "batchId": "20261008-02318f4c",
+      "plan": {
+        "id": "sample-04",
+        "locale": "en-US",
+        "os": "windows",
+        "humanize": true,
+        "pointerClicks": true,
+        "inviteInput": "sample_5a967b9e6b15",
+        "typingDelayMs": 103,
+        "waitMs": 838
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "en-US",
+        "languages": [
+          "en-US",
+          "en"
+        ],
+        "hardwareConcurrency": 8,
+        "screen": {
+          "width": 1920,
+          "height": 1080,
+          "availWidth": 1920,
+          "availHeight": 1040
+        },
+        "viewport": {
+          "width": 1905,
+          "height": 973
+        },
+        "devicePixelRatio": 1.5
+      },
+      "feilinSdk": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin041.2a3946443830dedf38954c509ea97a8de5b4bb27464aff39d5ccaf0c982b9449.js",
+      "sessionSha256": "971d85d73430cf1aa7636c1c49c25501526de103af98d2b900ea1a21c85a11ca",
+      "tokenFieldsSha256": "afc49418368c9f5a86d7ef776c45319d61621493238fbd9d938118069c8df3b3",
+      "tokenCharacters": 1220,
+      "tokenSha256": "cf917302997d0a3c504b08736075511cdbee5574d4f10d6b88758601a374fd47",
+      "tokenKeySha256": "c08dc2fcf38e0261e9a610da2b65eb7c3141c05d2dccc37d8ce7184b189f5e6e",
+      "captchaSecretSha256": "66d1e72649cc64a26925f23b649ebc0f308b223f44e9cfe9605f1f1270d6fb56",
+      "fieldCount": 142,
+      "clockIndex": 74,
+      "traceIndex": 43,
+      "parity": {
+        "bootstrapBody": true,
+        "refreshBody": true,
+        "deviceToken": true
+      },
+      "browser": {
+        "bootstrap": {
+          "http": 200,
+          "code": "Success",
+          "success": true
+        },
+        "refresh": {
+          "http": 200,
+          "code": "Success",
+          "success": true,
+          "certifyIdSha256": "77a7002f13ad80c656eb246120019c14f3071232dc87ca4f805913c9a425c966",
+          "endpoint": "https://10jtz0.captcha-open.aliyuncs.com/"
+        }
+      },
+      "local": {
+        "http": 200,
+        "code": "Success",
+        "success": true,
+        "certifyIdSha256": "3a491796d57480498cb57770a877cb31bfbab95748ca52ab455b9bd76e7e2bbb",
+        "nonceSha256": "cd14f4b07bd816ed978ca1495536ec8ea0d2a3681f04fa356783d5c35c4f1377",
+        "timestamp": "2026-10-08T11:25:25Z",
+        "tokenSha256": "6f8114796175e05938061d6844422c76937da40ac9e9875205e9d18c83f37f03",
+        "bodySha256": "ad3a7ee2931e74d66eed17a6248aa50830786a4f7cac697f9689aa0521ecbd2d",
+        "tokenCharacters": 1220,
+        "freshServerSession": true,
+        "freshServerFields": true,
+        "freshServerCertifyId": true
+      },
+      "environmentSha256": "f4a11bbe5b6fa4f4730cd58bd8b17577fe8b2a55b921060baa1c6a833536ceae"
+    },
+    {
+      "id": "sample-05",
+      "batchId": "20261008-02318f4c",
+      "plan": {
+        "id": "sample-05",
+        "locale": "en-US",
+        "os": "windows",
+        "humanize": true,
+        "pointerClicks": true,
+        "inviteInput": "sample_ff4a2dec",
+        "typingDelayMs": 54,
+        "waitMs": 1123
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "en-US",
+        "languages": [
+          "en-US",
+          "en"
+        ],
+        "hardwareConcurrency": 16,
+        "screen": {
+          "width": 5120,
+          "height": 1440,
+          "availWidth": 5120,
+          "availHeight": 1392
+        },
+        "viewport": {
+          "width": 1869,
+          "height": 1328
+        },
+        "devicePixelRatio": 1.5
+      },
+      "feilinSdk": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin041.2a3946443830dedf38954c509ea97a8de5b4bb27464aff39d5ccaf0c982b9449.js",
+      "sessionSha256": "07be7aecea5aec12da65046c09faa04923287efae0a4a327f5fe64099ec9a50e",
+      "tokenFieldsSha256": "deab980c3219117f8d9b8e218cdc641925895ce4e59eb9f3f4474ad51200e8fb",
+      "tokenCharacters": 1220,
+      "tokenSha256": "b6cfb18607018426074399f65f981ff6bd3f06bb1ce970070cbdcd7260c9f682",
+      "tokenKeySha256": "c08dc2fcf38e0261e9a610da2b65eb7c3141c05d2dccc37d8ce7184b189f5e6e",
+      "captchaSecretSha256": "66d1e72649cc64a26925f23b649ebc0f308b223f44e9cfe9605f1f1270d6fb56",
+      "fieldCount": 142,
+      "clockIndex": 74,
+      "traceIndex": 43,
+      "parity": {
+        "bootstrapBody": true,
+        "refreshBody": true,
+        "deviceToken": true
+      },
+      "browser": {
+        "bootstrap": {
+          "http": 200,
+          "code": "Success",
+          "success": true
+        },
+        "refresh": {
+          "http": 200,
+          "code": "Success",
+          "success": true,
+          "certifyIdSha256": "012946755465d285516ba86bd0d07d3bac415cf9fd8f930cccf2639f6e444755",
+          "endpoint": "https://10jtz0.captcha-open.aliyuncs.com/"
+        }
+      },
+      "local": {
+        "http": 200,
+        "code": "Success",
+        "success": true,
+        "certifyIdSha256": "3e272ba1a8c0bb8951043e9321b38eeef1492e7bb656daa21b26f12708447df8",
+        "nonceSha256": "f826936e4a7f622885576438f793ff0227717c0182c9ca6e99386a4ec282d531",
+        "timestamp": "2026-10-08T11:25:26Z",
+        "tokenSha256": "847c4730ab5089f84e2099ea4fdcf15a806fee8c5506e0f50ca6ce06e2ab0214",
+        "bodySha256": "b662837683e250178e15819e6aebf5ab98c9bd52501f05800fc0a0163cf4b03e",
+        "tokenCharacters": 1220,
+        "freshServerSession": true,
+        "freshServerFields": true,
+        "freshServerCertifyId": true
+      },
+      "environmentSha256": "a13a7246b5fdabfdf018c68fb88dc9681cdd9a7db19dc7335bf8e2687f7f78d6"
+    },
+    {
+      "id": "sample-06",
+      "batchId": "20261008-02318f4c",
+      "plan": {
+        "id": "sample-06",
+        "locale": "zh-TW",
+        "os": "windows",
+        "humanize": true,
+        "pointerClicks": false,
+        "inviteInput": "sample_6859d2d3fc2d",
+        "typingDelayMs": 63,
+        "waitMs": 1128
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "zh-TW",
+        "languages": [
+          "zh-TW",
+          "zh"
+        ],
+        "hardwareConcurrency": 8,
+        "screen": {
+          "width": 2560,
+          "height": 1440,
+          "availWidth": 2560,
+          "availHeight": 1400
+        },
+        "viewport": {
+          "width": 2201,
+          "height": 1164
+        },
+        "devicePixelRatio": 1.5
+      },
+      "feilinSdk": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin041.2a3946443830dedf38954c509ea97a8de5b4bb27464aff39d5ccaf0c982b9449.js",
+      "sessionSha256": "c3e0cc6f0ec5ed8156da05184b5b9deb45f58beab81e8b754d451fb0b42f3896",
+      "tokenFieldsSha256": "6a9ace48b9ee0fced1c2daeea59b2f58be7bf8cd9b2dcff8cf89e59c03b5eb8c",
+      "tokenCharacters": 1220,
+      "tokenSha256": "9d25918e8d13c2331a5018ec300a3cd9f161038c78fefa610eba6fb64e04e0dc",
+      "tokenKeySha256": "c08dc2fcf38e0261e9a610da2b65eb7c3141c05d2dccc37d8ce7184b189f5e6e",
+      "captchaSecretSha256": "66d1e72649cc64a26925f23b649ebc0f308b223f44e9cfe9605f1f1270d6fb56",
+      "fieldCount": 142,
+      "clockIndex": 74,
+      "traceIndex": 43,
+      "parity": {
+        "bootstrapBody": true,
+        "refreshBody": true,
+        "deviceToken": true
+      },
+      "browser": {
+        "bootstrap": {
+          "http": 200,
+          "code": "Success",
+          "success": true
+        },
+        "refresh": {
+          "http": 200,
+          "code": "Success",
+          "success": true,
+          "certifyIdSha256": "440e9803f5ec847e6d7d8e7702fb24281ed319c4d60bcc9d99cf028e8c405d26",
+          "endpoint": "https://10jtz0.captcha-open.aliyuncs.com/"
+        }
+      },
+      "local": {
+        "http": 200,
+        "code": "Success",
+        "success": true,
+        "certifyIdSha256": "7e606d7e5e0577e1067cd4a02904449d2d57cf8dafb2d0b0718dfe15a028ab1f",
+        "nonceSha256": "16a6ec20d11f1d74a3b33c9501ae7736ce06e2efd63016842ca2ac064d97e48f",
+        "timestamp": "2026-10-08T11:25:27Z",
+        "tokenSha256": "6e5729ee1c636ad863f94bfbd91a772eb11dcea4572792ca95defe68a2008017",
+        "bodySha256": "4e4f3ef72c232e381f99dd37ee3dc579a5700da2bb29a919dc9cfe5807f34f56",
+        "tokenCharacters": 1220,
+        "freshServerSession": true,
+        "freshServerFields": true,
+        "freshServerCertifyId": true
+      },
+      "environmentSha256": "5d30c298e8fd6c86ccda7a59a844852fe71679251b2168000bdcfeb074387674"
+    },
+    {
+      "id": "sample-07",
+      "batchId": "20261008-02318f4c",
+      "plan": {
+        "id": "sample-07",
+        "locale": "en-US",
+        "os": "windows",
+        "humanize": true,
+        "pointerClicks": false,
+        "inviteInput": "sample_b8e672ce20",
+        "typingDelayMs": 93,
+        "waitMs": 1486
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "en-US",
+        "languages": [
+          "en-US",
+          "en"
+        ],
+        "hardwareConcurrency": 8,
+        "screen": {
+          "width": 3072,
+          "height": 1728,
+          "availWidth": 3072,
+          "availHeight": 1680
+        },
+        "viewport": {
+          "width": 1637,
+          "height": 1228
+        },
+        "devicePixelRatio": 1.5
+      },
+      "feilinSdk": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin041.2a3946443830dedf38954c509ea97a8de5b4bb27464aff39d5ccaf0c982b9449.js",
+      "sessionSha256": "2843a44289a56b04cc24fae9b7ce836c352792caf1047703eeff7d0fb023f5c6",
+      "tokenFieldsSha256": "f8d575a54d8e950c7a392cb519b1f1061590d74db9cef3e7892fbfde0c056a44",
+      "tokenCharacters": 1220,
+      "tokenSha256": "c5b1a64a77d563697b187a096299594cbb723e8d5682623f6d44e0f41911bcd2",
+      "tokenKeySha256": "c08dc2fcf38e0261e9a610da2b65eb7c3141c05d2dccc37d8ce7184b189f5e6e",
+      "captchaSecretSha256": "66d1e72649cc64a26925f23b649ebc0f308b223f44e9cfe9605f1f1270d6fb56",
+      "fieldCount": 142,
+      "clockIndex": 74,
+      "traceIndex": 43,
+      "parity": {
+        "bootstrapBody": true,
+        "refreshBody": true,
+        "deviceToken": true
+      },
+      "browser": {
+        "bootstrap": {
+          "http": 200,
+          "code": "Success",
+          "success": true
+        },
+        "refresh": {
+          "http": 200,
+          "code": "Success",
+          "success": true,
+          "certifyIdSha256": "5b53a6118114ecac063f1b41d82bd01debfacaa74e928512ac83554dd2747d2d",
+          "endpoint": "https://10jtz0.captcha-open.aliyuncs.com/"
+        }
+      },
+      "local": {
+        "http": 200,
+        "code": "Success",
+        "success": true,
+        "certifyIdSha256": "d2dce50411588b199493b2b173bdc08d5b0baea850e381f0d838a9c7d6cc75b2",
+        "nonceSha256": "fbb64f8ef601de676932c60a8bcc30eba0b30be91d1ead7d08385c84f1915842",
+        "timestamp": "2026-10-08T11:25:28Z",
+        "tokenSha256": "43d7c0ce494fe0752ec799f0a4b71929712c2fa197ddec5fdd57056580e4f2e3",
+        "bodySha256": "5a9d0e21790dafd6feba3f48b6084d2e143cc56e9e93abc0aec8b2d5e749cd08",
+        "tokenCharacters": 1220,
+        "freshServerSession": true,
+        "freshServerFields": true,
+        "freshServerCertifyId": true
+      },
+      "environmentSha256": "a8216ebc89bfa19db4b93df12da6069871994135609756ec93aac89333028133"
+    },
+    {
+      "id": "sample-08",
+      "batchId": "20261008-02318f4c",
+      "plan": {
+        "id": "sample-08",
+        "locale": "zh-CN",
+        "os": "windows",
+        "humanize": true,
+        "pointerClicks": false,
+        "inviteInput": "sample_21a8f8d41f24",
+        "typingDelayMs": 83,
+        "waitMs": 1747
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "zh-CN",
+        "languages": [
+          "zh-CN",
+          "zh"
+        ],
+        "hardwareConcurrency": 8,
+        "screen": {
+          "width": 1600,
+          "height": 900,
+          "availWidth": 1600,
+          "availHeight": 860
+        },
+        "viewport": {
+          "width": 1585,
+          "height": 796
+        },
+        "devicePixelRatio": 1.5
+      },
+      "feilinSdk": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin041.2a3946443830dedf38954c509ea97a8de5b4bb27464aff39d5ccaf0c982b9449.js",
+      "sessionSha256": "a832ce2cd2d739b2f44542e6e8c912d9546a34017f553841fe9882b74cdb3b16",
+      "tokenFieldsSha256": "828db55f49f6d733a596e8c85d7d56478ccae923c2de2d63606aeedb584e60fe",
+      "tokenCharacters": 1220,
+      "tokenSha256": "498b3a3b1aff10ce20c7d5e2c4263628aa5d1a903d0d957030e050c49de879e7",
+      "tokenKeySha256": "c08dc2fcf38e0261e9a610da2b65eb7c3141c05d2dccc37d8ce7184b189f5e6e",
+      "captchaSecretSha256": "66d1e72649cc64a26925f23b649ebc0f308b223f44e9cfe9605f1f1270d6fb56",
+      "fieldCount": 142,
+      "clockIndex": 74,
+      "traceIndex": 43,
+      "parity": {
+        "bootstrapBody": true,
+        "refreshBody": true,
+        "deviceToken": true
+      },
+      "browser": {
+        "bootstrap": {
+          "http": 200,
+          "code": "Success",
+          "success": true
+        },
+        "refresh": {
+          "http": 200,
+          "code": "Success",
+          "success": true,
+          "certifyIdSha256": "a539b5cee8a521f0c51b731b613032541dc4d13948d751bd5592fea3622c6799",
+          "endpoint": "https://10jtz0.captcha-open.aliyuncs.com/"
+        }
+      },
+      "local": {
+        "http": 200,
+        "code": "Success",
+        "success": true,
+        "certifyIdSha256": "20750c9c82f308678bc51f28f89c62c189c8b303fb20cc47b7539b978ed811ef",
+        "nonceSha256": "677933201a7a4cb78fa865ca7660a6bf85cd517fde6bec33dcc43e14c2ffbe10",
+        "timestamp": "2026-10-08T11:25:29Z",
+        "tokenSha256": "10a4b1f296e5f05ad3a5a0680713125a36cc6b882fcb29d28269c49662335d3b",
+        "bodySha256": "1e19b70bfb63f82931d7b6e4dec8b87d5a81620599d6a657b5ab38024d0a23a2",
+        "tokenCharacters": 1220,
+        "freshServerSession": true,
+        "freshServerFields": true,
+        "freshServerCertifyId": true
+      },
+      "environmentSha256": "68cffe7783b1d5ab5117d2882a643511129c2e07be54c2bb328f88105aa25ce8"
+    },
+    {
+      "id": "sample-09",
+      "batchId": "20261008-02318f4c",
+      "plan": {
+        "id": "sample-09",
+        "locale": "en-US",
+        "os": "windows",
+        "humanize": true,
+        "pointerClicks": false,
+        "inviteInput": "sample_35c5e1bd94",
+        "typingDelayMs": 47,
+        "waitMs": 1089
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "en-US",
+        "languages": [
+          "en-US",
+          "en"
+        ],
+        "hardwareConcurrency": 12,
+        "screen": {
+          "width": 2560,
+          "height": 1440,
+          "availWidth": 2560,
+          "availHeight": 1400
+        },
+        "viewport": {
+          "width": 1905,
+          "height": 991
+        },
+        "devicePixelRatio": 1.5
+      },
+      "feilinSdk": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin041.2a3946443830dedf38954c509ea97a8de5b4bb27464aff39d5ccaf0c982b9449.js",
+      "sessionSha256": "612bc6d0c0ddcdb8d0c4117bb34b311cf90f97287a9ca899e2831d69d21de1a0",
+      "tokenFieldsSha256": "5bde5f67083738305054fe094aab9b60fd78ed658bb937e69241a3c37460ea0c",
+      "tokenCharacters": 1220,
+      "tokenSha256": "a589c4791d6db7c3cb32a1ee44b43876484057d4cb5fbba62084cfca47c97620",
+      "tokenKeySha256": "c08dc2fcf38e0261e9a610da2b65eb7c3141c05d2dccc37d8ce7184b189f5e6e",
+      "captchaSecretSha256": "66d1e72649cc64a26925f23b649ebc0f308b223f44e9cfe9605f1f1270d6fb56",
+      "fieldCount": 142,
+      "clockIndex": 74,
+      "traceIndex": 43,
+      "parity": {
+        "bootstrapBody": true,
+        "refreshBody": true,
+        "deviceToken": true
+      },
+      "browser": {
+        "bootstrap": {
+          "http": 200,
+          "code": "Success",
+          "success": true
+        },
+        "refresh": {
+          "http": 200,
+          "code": "Success",
+          "success": true,
+          "certifyIdSha256": "4c82b23f64f550ec5eec8bd34436b8ae9d0492e149eaec5db09ebc8607f03474",
+          "endpoint": "https://10jtz0.captcha-open.aliyuncs.com/"
+        }
+      },
+      "local": {
+        "http": 200,
+        "code": "Success",
+        "success": true,
+        "certifyIdSha256": "4902309ddffc5ea71af68cd4871fa6b2999b0a708f03a641b2588068ed847cb1",
+        "nonceSha256": "bb2be983072b02ba16bf69639af203088113fcd0e63f192df4f486fc19aff178",
+        "timestamp": "2026-10-08T11:25:29Z",
+        "tokenSha256": "42fabbb243939dc215c91944702f848e1925db3f2a21c531f4c0a9522f62dd69",
+        "bodySha256": "943f433e0b3963e372dca7269bac007f23cc83eabb9ebd5610b917b0f820669c",
+        "tokenCharacters": 1220,
+        "freshServerSession": true,
+        "freshServerFields": true,
+        "freshServerCertifyId": true
+      },
+      "environmentSha256": "5f259a63af1301843d63f43ed832456166332fde1cd1d4449e83aa8095d136f9"
+    },
+    {
+      "id": "sample-10",
+      "batchId": "20261008-02318f4c",
+      "plan": {
+        "id": "sample-10",
+        "locale": "zh-TW",
+        "os": "windows",
+        "humanize": true,
+        "pointerClicks": true,
+        "inviteInput": "sample_d3e8b6b5602b",
+        "typingDelayMs": 86,
+        "waitMs": 1482
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "zh-TW",
+        "languages": [
+          "zh-TW",
+          "zh"
+        ],
+        "hardwareConcurrency": 8,
+        "screen": {
+          "width": 3072,
+          "height": 1728,
+          "availWidth": 3072,
+          "availHeight": 1680
+        },
+        "viewport": {
+          "width": 1771,
+          "height": 1247
+        },
+        "devicePixelRatio": 1.5
+      },
+      "feilinSdk": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin041.2a3946443830dedf38954c509ea97a8de5b4bb27464aff39d5ccaf0c982b9449.js",
+      "sessionSha256": "d810240f2df92f5fce88ae02fab2f77b4aa8ea02939652b37dd7290fd85dc4dc",
+      "tokenFieldsSha256": "369dc5f4462d83783a4545daaf9899e4e9ca678b3aa3ecda1f7b854f4202f4ae",
+      "tokenCharacters": 1220,
+      "tokenSha256": "1247249ccf9f4adefd4e4ec0ee6bed6a86aebfa88e698eaff44c6690b5180e77",
+      "tokenKeySha256": "c08dc2fcf38e0261e9a610da2b65eb7c3141c05d2dccc37d8ce7184b189f5e6e",
+      "captchaSecretSha256": "66d1e72649cc64a26925f23b649ebc0f308b223f44e9cfe9605f1f1270d6fb56",
+      "fieldCount": 142,
+      "clockIndex": 74,
+      "traceIndex": 43,
+      "parity": {
+        "bootstrapBody": true,
+        "refreshBody": true,
+        "deviceToken": true
+      },
+      "browser": {
+        "bootstrap": {
+          "http": 200,
+          "code": "Success",
+          "success": true
+        },
+        "refresh": {
+          "http": 200,
+          "code": "Success",
+          "success": true,
+          "certifyIdSha256": "5ea2054a3e67b57ae99e264b50df6cab45d6f8076462df95d556520e7040e131",
+          "endpoint": "https://10jtz0.captcha-open.aliyuncs.com/"
+        }
+      },
+      "local": {
+        "http": 200,
+        "code": "Success",
+        "success": true,
+        "certifyIdSha256": "073fe14d5cbe469c37a04c1d6f5d0df3a046e08bc04cb85aa1778d175f4047ac",
+        "nonceSha256": "e57ea1148d5545f1555e3ced2aa52d3bbc7ecccb6394a7b6ab4645ecbaf06e64",
+        "timestamp": "2026-10-08T11:26:51Z",
+        "tokenSha256": "754728bd1f418a82201b8d01f7941e697caecc4ed2fe0542d183e46975ee23ea",
+        "bodySha256": "7f2df1f21885ca8107ebca24609ac343ac0e0825c6f3ac72a11e2825bd41f5a4",
+        "tokenCharacters": 1220,
+        "freshServerSession": true,
+        "freshServerFields": true,
+        "freshServerCertifyId": true
+      },
+      "environmentSha256": "554c923e9b5ed724b6f47ac151902d2ddbfa1b8820639ac268d13307134341cf"
+    },
+    {
+      "id": "sample-11",
+      "batchId": "20261008-02318f4c",
+      "plan": {
+        "id": "sample-11",
+        "locale": "zh-TW",
+        "os": "windows",
+        "humanize": true,
+        "pointerClicks": true,
+        "inviteInput": "sample_5ef2cd",
+        "typingDelayMs": 92,
+        "waitMs": 725
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "zh-TW",
+        "languages": [
+          "zh-TW",
+          "zh"
+        ],
+        "hardwareConcurrency": 12,
+        "screen": {
+          "width": 1680,
+          "height": 1050,
+          "availWidth": 1680,
+          "availHeight": 1002
+        },
+        "viewport": {
+          "width": 1665,
+          "height": 938
+        },
+        "devicePixelRatio": 1.5
+      },
+      "feilinSdk": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin041.2a3946443830dedf38954c509ea97a8de5b4bb27464aff39d5ccaf0c982b9449.js",
+      "sessionSha256": "03078a64f151925dcca58f2b0182edb9a24fd3861608de15c41769ca35227e24",
+      "tokenFieldsSha256": "56a06d1a101fcfec7a3fc113b8e2a277c247f6996d48979d7da7c437d5afbd2f",
+      "tokenCharacters": 1220,
+      "tokenSha256": "a9a6466aa941974549573143db08739e6d8d0e32d2d789d5f19dc926d9189faf",
+      "tokenKeySha256": "c08dc2fcf38e0261e9a610da2b65eb7c3141c05d2dccc37d8ce7184b189f5e6e",
+      "captchaSecretSha256": "66d1e72649cc64a26925f23b649ebc0f308b223f44e9cfe9605f1f1270d6fb56",
+      "fieldCount": 142,
+      "clockIndex": 74,
+      "traceIndex": 43,
+      "parity": {
+        "bootstrapBody": true,
+        "refreshBody": true,
+        "deviceToken": true
+      },
+      "browser": {
+        "bootstrap": {
+          "http": 200,
+          "code": "Success",
+          "success": true
+        },
+        "refresh": {
+          "http": 200,
+          "code": "Success",
+          "success": true,
+          "certifyIdSha256": "6a78e4c1b50533d6b3df60eb6a170bbc11d160d084d48f1a515d634576d2bcc3",
+          "endpoint": "https://10jtz0.captcha-open.aliyuncs.com/"
+        }
+      },
+      "local": {
+        "http": 200,
+        "code": "Success",
+        "success": true,
+        "certifyIdSha256": "82c41e51f712f507b84fe0e055011142a3e3b3927b5fb102cc78c526f234d459",
+        "nonceSha256": "79678a7959d0049bfef7e1b00cdaee80debcf9244a619d140925836ef41bc940",
+        "timestamp": "2026-10-08T11:27:15Z",
+        "tokenSha256": "06ab7963ba91963895b780b4185688c3258af7e36fb323b51127384b156a2f60",
+        "bodySha256": "109c897ea51663702f17fb982b445617a4eb55c1a614dda9f0ca1a2785a00556",
+        "tokenCharacters": 1220,
+        "freshServerSession": true,
+        "freshServerFields": true,
+        "freshServerCertifyId": true
+      },
+      "environmentSha256": "6ddeb17547e4f448a8af0f6cc71bed9dbb8fe859793ae2eaf3078240ae540b81"
+    },
+    {
+      "id": "sample-12",
+      "batchId": "20261008-02318f4c",
+      "plan": {
+        "id": "sample-12",
+        "locale": "zh-CN",
+        "os": "windows",
+        "humanize": true,
+        "pointerClicks": false,
+        "inviteInput": "sample_e5f32c",
+        "typingDelayMs": 46,
+        "waitMs": 1474
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "zh-CN",
+        "languages": [
+          "zh-CN",
+          "zh"
+        ],
+        "hardwareConcurrency": 8,
+        "screen": {
+          "width": 5120,
+          "height": 1440,
+          "availWidth": 5120,
+          "availHeight": 1392
+        },
+        "viewport": {
+          "width": 1869,
+          "height": 1328
+        },
+        "devicePixelRatio": 1.5
+      },
+      "feilinSdk": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin041.2a3946443830dedf38954c509ea97a8de5b4bb27464aff39d5ccaf0c982b9449.js",
+      "sessionSha256": "ddca5c92e1ed95ec6fa9078a8ea6386c72597a814bdc2e884d7d3904eb1f2f2f",
+      "tokenFieldsSha256": "c5000fbfd3faaede03a9da22a972454b625b4b7160b8e58febfcf700cd22ddba",
+      "tokenCharacters": 1220,
+      "tokenSha256": "7c05b4703271f41e987d1062315358d66db7af475ec18ad747ee98c5726b0b57",
+      "tokenKeySha256": "c08dc2fcf38e0261e9a610da2b65eb7c3141c05d2dccc37d8ce7184b189f5e6e",
+      "captchaSecretSha256": "66d1e72649cc64a26925f23b649ebc0f308b223f44e9cfe9605f1f1270d6fb56",
+      "fieldCount": 142,
+      "clockIndex": 74,
+      "traceIndex": 43,
+      "parity": {
+        "bootstrapBody": true,
+        "refreshBody": true,
+        "deviceToken": true
+      },
+      "browser": {
+        "bootstrap": {
+          "http": 200,
+          "code": "Success",
+          "success": true
+        },
+        "refresh": {
+          "http": 200,
+          "code": "Success",
+          "success": true,
+          "certifyIdSha256": "eeac2e871079d3b573f094b2874ff2444ba37442d5aff7c7498b0b7f57d76105",
+          "endpoint": "https://10jtz0.captcha-open.aliyuncs.com/"
+        }
+      },
+      "local": {
+        "http": 200,
+        "code": "Success",
+        "success": true,
+        "certifyIdSha256": "3bd9973c24c20ef705e1329857fed182e47e50691386d65b86fa3a34c0b82bc8",
+        "nonceSha256": "982119a7c255aa00b7deedd11a1cd186746564a0734b4b1f9ceb8a0a1f08f4dc",
+        "timestamp": "2026-10-08T11:31:33Z",
+        "tokenSha256": "b451242a306b26d27b8172c471ece995f96a8bd39ac3b3c1def2a7a00d6fcddf",
+        "bodySha256": "738257b63298a6c419bee1d2d96b772cf5097326a7cf825a38dffa7a46c7b426",
+        "tokenCharacters": 1220,
+        "freshServerSession": true,
+        "freshServerFields": true,
+        "freshServerCertifyId": true
+      },
+      "environmentSha256": "9fe302af871077d19c829b03104597c87614b7ff73392231b6d54bb6f5a55b62"
+    },
+    {
+      "id": "sample-13",
+      "batchId": "20261008-02318f4c",
+      "plan": {
+        "id": "sample-13",
+        "locale": "zh-CN",
+        "os": "windows",
+        "humanize": true,
+        "pointerClicks": false,
+        "inviteInput": "sample_39655040b6ac",
+        "typingDelayMs": 84,
+        "waitMs": 1693
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "zh-CN",
+        "languages": [
+          "zh-CN",
+          "zh"
+        ],
+        "hardwareConcurrency": 32,
+        "screen": {
+          "width": 1680,
+          "height": 1050,
+          "availWidth": 1680,
+          "availHeight": 1002
+        },
+        "viewport": {
+          "width": 1665,
+          "height": 938
+        },
+        "devicePixelRatio": 1.5
+      },
+      "feilinSdk": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin041.2a3946443830dedf38954c509ea97a8de5b4bb27464aff39d5ccaf0c982b9449.js",
+      "sessionSha256": "813ffd948bdd6950ad93a294696b133e4e53bd6bf759ab5e9b584f7cb24c5a52",
+      "tokenFieldsSha256": "e99025b73f6aa11505f4423721269ab26f7db68391a5bda47ad5f1feefe85d6c",
+      "tokenCharacters": 1220,
+      "tokenSha256": "bbfdf963c7d89f69289c0f800474c302356dacda63ca20681ae9051d9767b098",
+      "tokenKeySha256": "c08dc2fcf38e0261e9a610da2b65eb7c3141c05d2dccc37d8ce7184b189f5e6e",
+      "captchaSecretSha256": "66d1e72649cc64a26925f23b649ebc0f308b223f44e9cfe9605f1f1270d6fb56",
+      "fieldCount": 142,
+      "clockIndex": 74,
+      "traceIndex": 43,
+      "parity": {
+        "bootstrapBody": true,
+        "refreshBody": true,
+        "deviceToken": true
+      },
+      "browser": {
+        "bootstrap": {
+          "http": 200,
+          "code": "Success",
+          "success": true
+        },
+        "refresh": {
+          "http": 200,
+          "code": "Success",
+          "success": true,
+          "certifyIdSha256": "a5248bb001f3d8ac95651fd0d25e1b9925d077523463fb4d42472b8ec40fd0f6",
+          "endpoint": "https://10jtz0.captcha-open.aliyuncs.com/"
+        }
+      },
+      "local": {
+        "http": 200,
+        "code": "Success",
+        "success": true,
+        "certifyIdSha256": "8cdf04d7e71c0ee72790ad68c7b2a63925f1b6c765cc5a7cffca0ff7b15b7095",
+        "nonceSha256": "14e66fa0be21c271d8cd7fdd070620f147f8a4eb02f0eec2f90b727e40cf645e",
+        "timestamp": "2026-10-08T11:32:01Z",
+        "tokenSha256": "eb7270ebe12b0767858e9fbfc56f781f6b66d903342cc4a6c1ce25f6d7afb196",
+        "bodySha256": "7e30c81b0f52f4e13fc059f21a94090fb13a97fe22ca9a1534b2ba2af34847af",
+        "tokenCharacters": 1220,
+        "freshServerSession": true,
+        "freshServerFields": true,
+        "freshServerCertifyId": true
+      },
+      "environmentSha256": "22254a37e05ead9684f9bdf375b398d9b49b518115d5f91a612056d1c458fd32"
+    },
+    {
+      "id": "sample-14",
+      "batchId": "20261008-02318f4c",
+      "plan": {
+        "id": "sample-14",
+        "locale": "zh-CN",
+        "os": "windows",
+        "humanize": true,
+        "pointerClicks": false,
+        "inviteInput": "sample_321543",
+        "typingDelayMs": 67,
+        "waitMs": 855
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "zh-CN",
+        "languages": [
+          "zh-CN",
+          "zh"
+        ],
+        "hardwareConcurrency": 2,
+        "screen": {
+          "width": 1920,
+          "height": 1080,
+          "availWidth": 1920,
+          "availHeight": 1040
+        },
+        "viewport": {
+          "width": 1905,
+          "height": 976
+        },
+        "devicePixelRatio": 1.5
+      },
+      "feilinSdk": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin041.2a3946443830dedf38954c509ea97a8de5b4bb27464aff39d5ccaf0c982b9449.js",
+      "sessionSha256": "d5ac7358e5165e0a4e0e7a08f3d73515db78d89c8b0397e618402395212f203c",
+      "tokenFieldsSha256": "3d36189b9f7446b16da79597c6cff6c2e55bdc0e7964eaa8db8d52d59cf8c6c5",
+      "tokenCharacters": 1220,
+      "tokenSha256": "edd32003c90842e1b39e13de9cca94f650fa58fd26c1b861effcc27f93bc78fc",
+      "tokenKeySha256": "c08dc2fcf38e0261e9a610da2b65eb7c3141c05d2dccc37d8ce7184b189f5e6e",
+      "captchaSecretSha256": "66d1e72649cc64a26925f23b649ebc0f308b223f44e9cfe9605f1f1270d6fb56",
+      "fieldCount": 142,
+      "clockIndex": 74,
+      "traceIndex": 43,
+      "parity": {
+        "bootstrapBody": true,
+        "refreshBody": true,
+        "deviceToken": true
+      },
+      "browser": {
+        "bootstrap": {
+          "http": 200,
+          "code": "Success",
+          "success": true
+        },
+        "refresh": {
+          "http": 200,
+          "code": "Success",
+          "success": true,
+          "certifyIdSha256": "487a2cf3bb3d832164d4452a3f09b7845161298f0b9af118f9bf916f06193e2c",
+          "endpoint": "https://10jtz0.captcha-open.aliyuncs.com/"
+        }
+      },
+      "local": {
+        "http": 200,
+        "code": "Success",
+        "success": true,
+        "certifyIdSha256": "1dd971da5a8ce850b1511b743e09dc39961c7f771480fa077608e952793f16dc",
+        "nonceSha256": "e031d387b595bb25a08a901978329e1e34eb2eb37bef3f5695ac9ada30494f66",
+        "timestamp": "2026-10-08T11:34:00Z",
+        "tokenSha256": "7206d1629e4556b4520139a5bfd6add98fc9a01de37f55bd02bda41963d879ee",
+        "bodySha256": "a241b7cb9faa9fc93efb81b8bdfe26c82bb29ab60da5781b1175bf30a35c7860",
+        "tokenCharacters": 1220,
+        "freshServerSession": true,
+        "freshServerFields": true,
+        "freshServerCertifyId": true
+      },
+      "environmentSha256": "d1fde49284e4b705793ee8dbedc920e72fae87bc4b57973e990f34ea33e58fc9"
+    },
+    {
+      "id": "sample-15",
+      "batchId": "20261008-02318f4c",
+      "plan": {
+        "id": "sample-15",
+        "locale": "zh-TW",
+        "os": "windows",
+        "humanize": true,
+        "pointerClicks": false,
+        "inviteInput": "sample_c370aa63",
+        "typingDelayMs": 44,
+        "waitMs": 1698
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "zh-TW",
+        "languages": [
+          "zh-TW",
+          "zh"
+        ],
+        "hardwareConcurrency": 8,
+        "screen": {
+          "width": 3072,
+          "height": 1728,
+          "availWidth": 3072,
+          "availHeight": 1680
+        },
+        "viewport": {
+          "width": 1665,
+          "height": 1345
+        },
+        "devicePixelRatio": 1.5
+      },
+      "feilinSdk": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin041.2a3946443830dedf38954c509ea97a8de5b4bb27464aff39d5ccaf0c982b9449.js",
+      "sessionSha256": "1b8c0935ffbebfd9ef8b5968427b1bf4849ad61b139584cf5a6bafec0e7f17b9",
+      "tokenFieldsSha256": "f60103a6a1e09b75c01855e84fb5051d8b62afb2526d17fa9db8152604e8f55a",
+      "tokenCharacters": 1220,
+      "tokenSha256": "f505584db16f1d7fdd8ab4c21a104bf2d1ce5735bb2b504f2ba54c0e9099fb98",
+      "tokenKeySha256": "c08dc2fcf38e0261e9a610da2b65eb7c3141c05d2dccc37d8ce7184b189f5e6e",
+      "captchaSecretSha256": "66d1e72649cc64a26925f23b649ebc0f308b223f44e9cfe9605f1f1270d6fb56",
+      "fieldCount": 142,
+      "clockIndex": 74,
+      "traceIndex": 43,
+      "parity": {
+        "bootstrapBody": true,
+        "refreshBody": true,
+        "deviceToken": true
+      },
+      "browser": {
+        "bootstrap": {
+          "http": 200,
+          "code": "Success",
+          "success": true
+        },
+        "refresh": {
+          "http": 200,
+          "code": "Success",
+          "success": true,
+          "certifyIdSha256": "4f649a31259c5a4d6f20cada648c522e87670715a691e20803e351445694474b",
+          "endpoint": "https://10jtz0.captcha-open-b.aliyuncs.com/"
+        }
+      },
+      "local": {
+        "http": 200,
+        "code": "Success",
+        "success": true,
+        "certifyIdSha256": "9ee9695dee5e8944d0bf19716661eda7ae203d91b24c95da4bacc50415e8994d",
+        "nonceSha256": "0b8e5d97d5962295e56cd0baa3037defbda30ad0bdb25191747045c398b9c643",
+        "timestamp": "2026-10-08T11:40:50Z",
+        "tokenSha256": "65d457e1a81df3758b8bf44edf3a05cd82db38ece1747c358423af1a93f28c78",
+        "bodySha256": "d64bf111d60c8cc9cfd313d3d432777a6ad452840551e9737f787e0cf86f5d81",
+        "tokenCharacters": 1220,
+        "freshServerSession": true,
+        "freshServerFields": true,
+        "freshServerCertifyId": true
+      },
+      "environmentSha256": "a72877fa7996f3fa108443744bde04ef9e2509f11fe21d6d572f37333040ff23"
+    }
+  ],
+  "summary": {
+    "groups": 15,
+    "fullWireParity": 15,
+    "browserBootstrapSuccess": 15,
+    "browserRefreshSuccess": 15,
+    "localFlowSuccess": 15,
+    "freshServerContextVerified": 15,
+    "locales": {
+      "en-US": 5,
+      "zh-CN": 5,
+      "zh-TW": 5
+    },
+    "screens": {
+      "3440x1440": 1,
+      "3072x1728": 4,
+      "2560x1440": 3,
+      "1920x1080": 2,
+      "5120x1440": 2,
+      "1600x900": 1,
+      "1680x1050": 2
+    },
+    "distinctEnvironments": 15,
+    "distinctCapturedSessions": 15,
+    "distinctCapturedTokens": 15,
+    "distinctLocalTokens": 15,
+    "distinctLocalCertifyIds": 15,
+    "distinctCaptchaSigningKeys": 1,
+    "distinctCapturedTokenKeys": 2,
+    "observedRefreshEndpoints": {
+      "https://10jtz0.captcha-open.aliyuncs.com/": 14,
+      "https://10jtz0.captcha-open-b.aliyuncs.com/": 1
+    }
+  }
+}

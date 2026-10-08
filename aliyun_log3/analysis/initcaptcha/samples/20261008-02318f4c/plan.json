@@ -1,0 +1,156 @@
+{
+  "batchId": "20261008-02318f4c",
+  "targetCount": 15,
+  "samples": [
+    {
+      "id": "sample-01",
+      "locale": "en-US",
+      "os": "windows",
+      "humanize": true,
+      "pointerClicks": false,
+      "inviteInput": "sample_6369",
+      "typingDelayMs": 68,
+      "waitMs": 1666
+    },
+    {
+      "id": "sample-02",
+      "locale": "zh-CN",
+      "os": "windows",
+      "humanize": true,
+      "pointerClicks": true,
+      "inviteInput": "sample_a79bcfa2ff",
+      "typingDelayMs": 106,
+      "waitMs": 1075
+    },
+    {
+      "id": "sample-03",
+      "locale": "zh-TW",
+      "os": "windows",
+      "humanize": true,
+      "pointerClicks": true,
+      "inviteInput": "sample_a8dc0508aa",
+      "typingDelayMs": 48,
+      "waitMs": 1593
+    },
+    {
+      "id": "sample-04",
+      "locale": "en-US",
+      "os": "windows",
+      "humanize": true,
+      "pointerClicks": true,
+      "inviteInput": "sample_5a967b9e6b15",
+      "typingDelayMs": 103,
+      "waitMs": 838
+    },
+    {
+      "id": "sample-05",
+      "locale": "en-US",
+      "os": "windows",
+      "humanize": true,
+      "pointerClicks": true,
+      "inviteInput": "sample_ff4a2dec",
+      "typingDelayMs": 54,
+      "waitMs": 1123
+    },
+    {
+      "id": "sample-06",
+      "locale": "zh-TW",
+      "os": "windows",
+      "humanize": true,
+      "pointerClicks": false,
+      "inviteInput": "sample_6859d2d3fc2d",
+      "typingDelayMs": 63,
+      "waitMs": 1128
+    },
+    {
+      "id": "sample-07",
+      "locale": "en-US",
+      "os": "windows",
+      "humanize": true,
+      "pointerClicks": false,
+      "inviteInput": "sample_b8e672ce20",
+      "typingDelayMs": 93,
+      "waitMs": 1486
+    },
+    {
+      "id": "sample-08",
+      "locale": "zh-CN",
+      "os": "windows",
+      "humanize": true,
+      "pointerClicks": false,
+      "inviteInput": "sample_21a8f8d41f24",
+      "typingDelayMs": 83,
+      "waitMs": 1747
+    },
+    {
+      "id": "sample-09",
+      "locale": "en-US",
+      "os": "windows",
+      "humanize": true,
+      "pointerClicks": false,
+      "inviteInput": "sample_35c5e1bd94",
+      "typingDelayMs": 47,
+      "waitMs": 1089
+    },
+    {
+      "id": "sample-10",
+      "locale": "zh-TW",
+      "os": "windows",
+      "humanize": true,
+      "pointerClicks": true,
+      "inviteInput": "sample_d3e8b6b5602b",
+      "typingDelayMs": 86,
+      "waitMs": 1482
+    },
+    {
+      "id": "sample-11",
+      "locale": "zh-TW",
+      "os": "windows",
+      "humanize": true,
+      "pointerClicks": true,
+      "inviteInput": "sample_5ef2cd",
+      "typingDelayMs": 92,
+      "waitMs": 725
+    },
+    {
+      "id": "sample-12",
+      "locale": "zh-CN",
+      "os": "windows",
+      "humanize": true,
+      "pointerClicks": false,
+      "inviteInput": "sample_e5f32c",
+      "typingDelayMs": 46,
+      "waitMs": 1474
+    },
+    {
+      "id": "sample-13",
+      "locale": "zh-CN",
+      "os": "windows",
+      "humanize": true,
+      "pointerClicks": false,
+      "inviteInput": "sample_39655040b6ac",
+      "typingDelayMs": 84,
+      "waitMs": 1693
+    },
+    {
+      "id": "sample-14",
+      "locale": "zh-CN",
+      "os": "windows",
+      "humanize": true,
+      "pointerClicks": false,
+      "inviteInput": "sample_321543",
+      "typingDelayMs": 67,
+      "waitMs": 855
+    },
+    {
+      "id": "sample-15",
+      "locale": "zh-TW",
+      "os": "windows",
+      "humanize": true,
+      "pointerClicks": false,
+      "inviteInput": "sample_c370aa63",
+      "typingDelayMs": 44,
+      "waitMs": 1698
+    }
+  ]
+}

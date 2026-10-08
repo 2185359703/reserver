@@ -1,0 +1,16 @@
+﻿id,locale,screen,token_characters,bootstrap_parity,refresh_parity,token_parity,browser_success,local_success,fresh_server_session,fresh_server_certify_id,observed_refresh_endpoint
+sample-01,en-US,3440x1440,1220,True,True,True,True,True,True,True,https://10jtz0.captcha-open.aliyuncs.com/
+sample-02,zh-CN,3072x1728,1220,True,True,True,True,True,True,True,https://10jtz0.captcha-open.aliyuncs.com/
+sample-03,zh-TW,2560x1440,1220,True,True,True,True,True,True,True,https://10jtz0.captcha-open.aliyuncs.com/
+sample-04,en-US,1920x1080,1220,True,True,True,True,True,True,True,https://10jtz0.captcha-open.aliyuncs.com/
+sample-05,en-US,5120x1440,1220,True,True,True,True,True,True,True,https://10jtz0.captcha-open.aliyuncs.com/
+sample-06,zh-TW,2560x1440,1220,True,True,True,True,True,True,True,https://10jtz0.captcha-open.aliyuncs.com/
+sample-07,en-US,3072x1728,1220,True,True,True,True,True,True,True,https://10jtz0.captcha-open.aliyuncs.com/
+sample-08,zh-CN,1600x900,1220,True,True,True,True,True,True,True,https://10jtz0.captcha-open.aliyuncs.com/
+sample-09,en-US,2560x1440,1220,True,True,True,True,True,True,True,https://10jtz0.captcha-open.aliyuncs.com/
+sample-10,zh-TW,3072x1728,1220,True,True,True,True,True,True,True,https://10jtz0.captcha-open.aliyuncs.com/
+sample-11,zh-TW,1680x1050,1220,True,True,True,True,True,True,True,https://10jtz0.captcha-open.aliyuncs.com/
+sample-12,zh-CN,5120x1440,1220,True,True,True,True,True,True,True,https://10jtz0.captcha-open.aliyuncs.com/
+sample-13,zh-CN,1680x1050,1220,True,True,True,True,True,True,True,https://10jtz0.captcha-open.aliyuncs.com/
+sample-14,zh-CN,1920x1080,1220,True,True,True,True,True,True,True,https://10jtz0.captcha-open.aliyuncs.com/
+sample-15,zh-TW,3072x1728,1220,True,True,True,True,True,True,True,https://10jtz0.captcha-open-b.aliyuncs.com/

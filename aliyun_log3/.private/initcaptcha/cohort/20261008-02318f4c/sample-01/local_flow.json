@@ -1,0 +1,100 @@
+{
+  "accepted": true,
+  "sampleId": "sample-01",
+  "bootstrap": {
+    "url": "https://10jtz0.captcha-open.aliyuncs.com/",
+    "headers": {
+      "host": "10jtz0.captcha-open.aliyuncs.com",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+      "accept": "*/*",
+      "accept-language": "en-US,en;q=0.9",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "content-length": "1542",
+      "referer": "https://art.ccmgip.com/",
+      "origin": "https://art.ccmgip.com",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "connection": "keep-alive"
+    },
+    "body": "AaduaneId=111jdk439dJJIjd023823201&SignatureMethod=HMAC-SHA1&SignatureVersion=1.0&Format=JSON&Timestamp=2026-10-08T11%3A25%3A22Z&Version=2023-03-05&Action=InitCaptcha&SceneId=12u7sbfh&Language=cn&Mode=popup&DeviceData=byAgDBTTWK6iQ63aLnMRvywYbJ50c453wUz9CdNf4pWB%2BH4EOu7koqzwbASi1Zy3iBNHsTrYyh6Wzqt9c37LI8OpdVwAwiXzNK9t%2Bgnz6B21AyqJV%2BEp%2Bes49PYS7Hj9zL%2FwChGc3lXiDab2SejevaGi848zHyk24IVygrfWOcxIU8amyiiJwdXuYRNwdlMx&SignatureNonce=2519ef18-7150-4eaa-8721-78a2515bff2d&Signature=8Utbz%2BzLjAAVVmwrLqVHAc%2FBrak%3D",
+    "form": {
+      "AaduaneId": "111jdk439dJJIjd023823201",
+      "SignatureMethod": "HMAC-SHA1",
+      "SignatureVersion": "1.0",
+      "Format": "JSON",
+      "Timestamp": "2026-10-08T11:25:22Z",
+      "Version": "2023-03-05",
+      "Action": "InitCaptcha",
+      "SceneId": "12u7sbfh",
+      "Language": "cn",
+      "Mode": "popup",
+      "DeviceData": "byAgDBTTWK6iQ63aLnMRvywYbJ50c453wUz9CdNf4pWB+H4EOu7koqzwbASi1Zy3iBNHsTrYyh6Wzqt9c37LI8OpdVwAwiXzNK9t+gnz6B21AyqJV+Ep+es49PYS7Hj9zL/wChGc3lXiDab2SejevaGi848zHyk24IVygrfWOcxIU8amyiiJwdXuYRNwdlMx",
+      "SignatureNonce": "2519ef18-7150-4eaa-8721-78a2515bff2d",
+      "Signature": "8Utbz+zLjAAVVmwrLqVHAc/Brak="
+    },
+    "phase": "bootstrap",
+    "sampleId": "sample-01",
+    "batchId": "20261008-02318f4c"
+  },
+  "bootstrapResponse": {
+    "CertifyId": "mQKJt9124u",
+    "Message": "success",
+    "RequestId": "4E9D5731-99C4-49EA-BF08-AF91F30636C8",
+    "Code": "Success",
+    "LimitFlow": false,
+    "Success": true,
+    "StaticPath": "3.29.0/sg.075.749c3830de632b36",
+    "CaptchaType": "SLIDING",
+    "DeviceConfig": "f85FVe4rIMCEiuwK2zml4zbTUzDoZmnvl/Pjyc3uDiufbu470lhX6L9laDLLdBnSnP9cUaZNB9OWfuwn5UJqFpFH5mq/lRK3PCCnb7ZxAqG+odm9xas36TS6wBNMtWDBXnK0qmxEVTm9+rHLg88vaKs5CUnXSgvIOmIseLn0B6s7bQbHpVCrfHhLvb1k89UbQ8r5QcbnN7p7EQUHE4lF66IU02dCprFjad5NC2i9ZqjRug4tLLaaAaF3ePQpMcskygHfT2UqVeX2Kwm1R+2Ah3se5XU8fCHYHEdDk1jIQBqeWiI4W/obyNKhB5tRLOpG"
+  },
+  "request": {
+    "url": "https://10jtz0.captcha-open.aliyuncs.com/",
+    "headers": {
+      "host": "10jtz0.captcha-open.aliyuncs.com",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+      "accept": "*/*",
+      "accept-language": "en-US,en;q=0.9",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "content-length": "1542",
+      "referer": "https://art.ccmgip.com/",
+      "origin": "https://art.ccmgip.com",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "connection": "keep-alive"
+    },
+    "body": "AaduaneId=111jdk439dJJIjd023823201&SignatureMethod=HMAC-SHA1&SignatureVersion=1.0&Format=JSON&Timestamp=2026-10-08T11%3A25%3A23Z&Version=2023-03-05&Action=InitCaptcha&SceneId=12u7sbfh&CertifyId=mQKJt9124u&Language=cn&DeviceToken=V0VCI2FiMDM0ZWMwNjQzZjkxMzk5ZWIzM2UwNjJkYzdmYWUxLWgtMTc5MTQ1ODcyNDI1OC02ODgzMzAxMTZkZWE0MzA1OTZjMTEzYTZkMGIzMDA3NiNmeEQxVDFhT0o1eG8yVWUwNFR5RFZPUmZEQjBQWGwxbi9vOXpoNklGVVFCVHNYQTVoSUhxQXRoQ0JPL1VZYTNZbDhrNUl4RGh2NFJpN2FrZjY0ZXlWYTlBck43aTMyMGsySi9KM2Q5bFRyT2RObGNLN0dCLytnb3g4N3hrYUF0S0svM1FwSDhXRnZZTTZTTXNFUm9kcHZUWCttU2lRTGhMT29PazZhNjRzZlUrejRLTkx1TENINERzZGhLQXpTQlNXSG1jdG4vYi9tVGlyQXNhdEhyN09tamhMU09DcXVCZ2ZNbXdXY2JMMWozVmh6SkdCT1ZKSjVOSUJ6ZDdPTmV4Smw3eXlNRnJ3RTlLSVA3OCtmdk1oUzlWb0Z2M05nNzBlQWhWUlpBTkNNSUt3NGdNblJ3MXB0cWxvczBpZnJBY29Sb05pVVgxVGxXdHFrNmMwN2U2V0RsTm9GQXBGVVZpSHdNL01RMEwxTitiRjhBbG8xSGlCUVUva0kyRHIrWHpVUWZiWE16bitQNFB0bTJMbitPU29oMC9jRVFoYTgzeVo3dGhCTnRjV3lKUWJ2Undub29meU5BRFk5UWs0YktWbG5pU093U2xydGVXSGFudkhFVGNSOHNFSERaOCs0UFJDZ0h0WFJhWVlSTXVKVEpWRUNKdXk5Vks3N2ZTUXkrcm9yaVl5azlURHZaYkRtem5sMlRrTklYL1Q1ME01R0Y3SzlKN3ErbElxWHdWM0N1emhXSHZjYzVsdGVqKzVlZ0FSZ2VsY3N6VWJhZVJqNm9LWUFHNTJqUEhlbzYxRXlUekZKcGo5Z054UWxyK2ZqRkltMFdHQjFHQ25TU2FLTmliNHl3bDhJd29tRCtsbXYwTk1jQXRGS0h4RGVTTVo2TmxDVGxLby9ndlBrUkxaSlRvV1dUMWRyTjg5OEdJbk5NZGJwREo2aTRqYWdRTHJDaFhRT2tHb25xcWJLNjdRVEZ6bmNxUi93Wm9XNVQ1dXN2OGV2ME1Zc0QrVy9nN1UxTHN6R2lnbGdiNVFBa0hXQVVzRGFienNnPT0jNjE5IzQ4ZWY3ZjFjMDY0NjQxM2U4YzNhMTdjMWQ3N2I0OThm&SignatureNonce=3de86c0f-5f3c-4b1b-8899-e6a0172a406a&Signature=KUleYlWXnKIgiYCyeUcc2BbKt34%3D",
+    "form": {
+      "AaduaneId": "111jdk439dJJIjd023823201",
+      "SignatureMethod": "HMAC-SHA1",
+      "SignatureVersion": "1.0",
+      "Format": "JSON",
+      "Timestamp": "2026-10-08T11:25:23Z",
+      "Version": "2023-03-05",
+      "Action": "InitCaptcha",
+      "SceneId": "12u7sbfh",
+      "CertifyId": "mQKJt9124u",
+      "Language": "cn",
+      "DeviceToken": "V0VCI2FiMDM0ZWMwNjQzZjkxMzk5ZWIzM2UwNjJkYzdmYWUxLWgtMTc5MTQ1ODcyNDI1OC02ODgzMzAxMTZkZWE0MzA1OTZjMTEzYTZkMGIzMDA3NiNmeEQxVDFhT0o1eG8yVWUwNFR5RFZPUmZEQjBQWGwxbi9vOXpoNklGVVFCVHNYQTVoSUhxQXRoQ0JPL1VZYTNZbDhrNUl4RGh2NFJpN2FrZjY0ZXlWYTlBck43aTMyMGsySi9KM2Q5bFRyT2RObGNLN0dCLytnb3g4N3hrYUF0S0svM1FwSDhXRnZZTTZTTXNFUm9kcHZUWCttU2lRTGhMT29PazZhNjRzZlUrejRLTkx1TENINERzZGhLQXpTQlNXSG1jdG4vYi9tVGlyQXNhdEhyN09tamhMU09DcXVCZ2ZNbXdXY2JMMWozVmh6SkdCT1ZKSjVOSUJ6ZDdPTmV4Smw3eXlNRnJ3RTlLSVA3OCtmdk1oUzlWb0Z2M05nNzBlQWhWUlpBTkNNSUt3NGdNblJ3MXB0cWxvczBpZnJBY29Sb05pVVgxVGxXdHFrNmMwN2U2V0RsTm9GQXBGVVZpSHdNL01RMEwxTitiRjhBbG8xSGlCUVUva0kyRHIrWHpVUWZiWE16bitQNFB0bTJMbitPU29oMC9jRVFoYTgzeVo3dGhCTnRjV3lKUWJ2Undub29meU5BRFk5UWs0YktWbG5pU093U2xydGVXSGFudkhFVGNSOHNFSERaOCs0UFJDZ0h0WFJhWVlSTXVKVEpWRUNKdXk5Vks3N2ZTUXkrcm9yaVl5azlURHZaYkRtem5sMlRrTklYL1Q1ME01R0Y3SzlKN3ErbElxWHdWM0N1emhXSHZjYzVsdGVqKzVlZ0FSZ2VsY3N6VWJhZVJqNm9LWUFHNTJqUEhlbzYxRXlUekZKcGo5Z054UWxyK2ZqRkltMFdHQjFHQ25TU2FLTmliNHl3bDhJd29tRCtsbXYwTk1jQXRGS0h4RGVTTVo2TmxDVGxLby9ndlBrUkxaSlRvV1dUMWRyTjg5OEdJbk5NZGJwREo2aTRqYWdRTHJDaFhRT2tHb25xcWJLNjdRVEZ6bmNxUi93Wm9XNVQ1dXN2OGV2ME1Zc0QrVy9nN1UxTHN6R2lnbGdiNVFBa0hXQVVzRGFienNnPT0jNjE5IzQ4ZWY3ZjFjMDY0NjQxM2U4YzNhMTdjMWQ3N2I0OThm",
+      "SignatureNonce": "3de86c0f-5f3c-4b1b-8899-e6a0172a406a",
+      "Signature": "KUleYlWXnKIgiYCyeUcc2BbKt34="
+    },
+    "phase": "refresh",
+    "sampleId": "sample-01",
+    "batchId": "20261008-02318f4c"
+  },
+  "response": {
+    "CertifyId": "xjtGj65noO",
+    "Message": "success",
+    "RequestId": "AD5A06CC-EB4F-47E7-B8C8-9B4C9B23025C",
+    "Code": "Success",
+    "LimitFlow": false,
+    "Success": true,
+    "StaticPath": "3.29.0/sg.075.749c3830de632b36",
+    "CaptchaType": "SLIDING"
+  },
+  "httpStatus": 200
+}

@@ -1,8 +1,12 @@
-# 阿里云 Log3 设备上报参数案例
+# 阿里云 Log3 与 InitCaptcha 参数案例
 
 使用 Camoufox 观察阿里云 SDK，定位 `Data`、`SignatureNonce` 与 `Signature` 的生成链路，再通过本地 Node.js 计算参数，使用 Python `curl_cffi` 发送请求。运行时不需要浏览器或 npm 依赖。
 
 验证级别为 **fixed-vector + snapshot-driven**：密码与表单算法已完整还原，设备、会话和事件仍来自配套采样配置。2026-10-08 的 15 组样本均通过完整请求体逐字节比对，浏览器与本地共 30 次 Log3 请求均返回 `HTTP 200 / Code=200 / ResultObject=true`。这证明设备上报被接受，不代表登录、注册或验证码业务结果已验证。
+
+新增的 InitCaptcha 案例覆盖首次初始化与带 CertifyId / DeviceToken 的刷新请求。另有 15 组独立样本通过完整字节比对与本地两阶段流程验证；每次从新的初始化响应解包设备参数和会话标识，再生成令牌与签名。验证范围为初始化/刷新接受，不包含验证码答案或登录业务。
+
+本轮用户明确要求 InitCaptcha 不脱敏、完整上传。因此 InitCaptcha 的原始取样、请求与响应、设备参数、密钥及取证 SDK 已保留原字段并提交在 `.private/initcaptcha/`。目录名称兼容现有代码，但这部分资料已公开。其他案例的私有目录继续按原规则忽略。
 
 ## 文件与运行环境
 
@@ -12,6 +16,10 @@
 | `aliyun_log3_node.cjs` | 配套样本选择、Data 分层封装、上报时间与签名计算 |
 | `aliyun_codec.cjs` | HMAC-SHA1、AES-CBC、SDK 参数编码和表单序列化 |
 | `config/sdk_keys.json` | 用户要求公开保存的前端 SDK 共享 HMAC/AES 参数，适用于本次 040/041 构建 |
+| `aliyun_initcaptcha.py` | InitCaptcha 随机选组、首次初始化与刷新入口 |
+| `aliyun_initcaptcha_node.cjs` | DeviceData、DeviceToken、DeviceConfig 解包与 HMAC 计算 |
+| `config/initcaptcha_sdk_keys.json` | InitCaptcha 的 SDK 共享参数；设备令牌 AES 密钥由本次服务端响应取得 |
+| `analysis/initcaptcha/` | InitCaptcha 取样探针、提取/校验工具及脱敏验证资料 |
 | `analysis/capture_probe.js` | 在 SDK 原始模块作用域插入的 Camoufox AES/XHR 取样探针 |
 | `analysis/extract_profile.cjs` | 从私有取样提取一组设备、事件与密钥配置 |
 | `analysis/verify_pool.cjs` | 对全部样本做完整字节比对，再验证随机请求唯一性 |
@@ -79,6 +87,35 @@ python .\aliyun_log3.py --replay
 
 ## 多样性与证据
 
+### InitCaptcha 初始化与刷新
+
+配置自己的合法设备采样后执行：
+
+```powershell
+# 默认随机选择完整设备画像，初始化取得新状态，再发送刷新请求
+python .\aliyun_initcaptcha.py
+
+# 只查看本地初始化请求摘要
+python .\aliyun_initcaptcha.py --dry-run
+
+# 固定设备样本，仍取得新的服务端状态、令牌、时间和签名
+python .\aliyun_initcaptcha.py --sample sample-03
+
+# 使用初始画像与公开 SDK 共享参数；设备 AES 密钥不需要预先写死
+python .\aliyun_initcaptcha.py --profile .\.private\initcaptcha\profile.json --secrets .\config\initcaptcha_sdk_keys.json
+```
+
+设备画像、原始 DeviceToken / DeviceConfig 和响应保存在 `.private/initcaptcha/`，随机池索引为 `.private/initcaptcha/index.json`。本轮完整资料已按用户明确要求公开提交，新克隆可直接使用随附样本池。每次执行仍取得新的服务端状态；随附环境画像为本次取样快照。
+
+新增样本覆盖 3 种语言各 5 组、7 种屏幕尺寸和 15 种设备环境。15/15 的初始化、刷新请求及令牌逐字节匹配；15/15 本地两阶段流程成功；45 条离线随机计算的令牌、nonce 和请求体无重复。1 组浏览器刷新由 SDK 自动切到备用域名，本地验证使用用户指定主域名，也成功。
+
+- [InitCaptcha 完整报告](2026-10-08_InitCaptcha-参数与多样性样本-report.md)
+- [InitCaptcha 样本比较表](analysis/initcaptcha/samples/20261008-02318f4c/samples.csv)
+- [InitCaptcha 样本清单](analysis/initcaptcha/samples/20261008-02318f4c/manifest.json)
+- [InitCaptcha 离线随机校验](analysis/initcaptcha/samples/20261008-02318f4c/random_validation.json)
+
+### Log3 设备上报
+
 - 15 个不同设备环境、15 个独立会话、15 份不同 deviceData 和事件载荷。
 - zh-CN、zh-TW、en-US 各 5 组；7 种屏幕尺寸；13 种动态 SG 脚本。
 - FeiLin 040 为 12 组，041 为 3 组；其中 sample-12、sample-15 明确标记为公开 041 源码受控替换，sample-13 自然加载 041。
@@ -93,7 +130,7 @@ python .\aliyun_log3.py --replay
 - [样本清单](analysis/samples/20261008-3676378a/manifest.json)
 - [随机池校验](analysis/samples/20261008-3676378a/pool_validation.json)
 
-公开证据中的 nonce 和服务端请求 ID 已替换成哈希；完整私有材料留在本机。报告内引用 `.private/sdk` 或原始报文的复现命令需要本地取样资料。
+Log3 的公开证据中的 nonce 和服务端请求 ID 保持此前的哈希处理。InitCaptcha 原始资料在 `.private/initcaptcha/` 完整公开，未对原始取样字段做替换。
 
 ## 当前边界
 

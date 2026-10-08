@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "batchId": "20261008-02318f4c",
+  "samples": [
+    {
+      "id": "sample-01",
+      "profile": ".private/initcaptcha/cohort/20261008-02318f4c/sample-01/profile.json",
+      "secrets": ".private/initcaptcha/cohort/20261008-02318f4c/sample-01/secrets.json"
+    },
+    {
+      "id": "sample-02",
+      "profile": ".private/initcaptcha/cohort/20261008-02318f4c/sample-02/profile.json",
+      "secrets": ".private/initcaptcha/cohort/20261008-02318f4c/sample-02/secrets.json"
+    },
+    {
+      "id": "sample-03",
+      "profile": ".private/initcaptcha/cohort/20261008-02318f4c/sample-03/profile.json",
+      "secrets": ".private/initcaptcha/cohort/20261008-02318f4c/sample-03/secrets.json"
+    },
+    {
+      "id": "sample-04",
+      "profile": ".private/initcaptcha/cohort/20261008-02318f4c/sample-04/profile.json",
+      "secrets": ".private/initcaptcha/cohort/20261008-02318f4c/sample-04/secrets.json"
+    },
+    {
+      "id": "sample-05",
+      "profile": ".private/initcaptcha/cohort/20261008-02318f4c/sample-05/profile.json",
+      "secrets": ".private/initcaptcha/cohort/20261008-02318f4c/sample-05/secrets.json"
+    },
+    {
+      "id": "sample-06",
+      "profile": ".private/initcaptcha/cohort/20261008-02318f4c/sample-06/profile.json",
+      "secrets": ".private/initcaptcha/cohort/20261008-02318f4c/sample-06/secrets.json"
+    },
+    {
+      "id": "sample-07",
+      "profile": ".private/initcaptcha/cohort/20261008-02318f4c/sample-07/profile.json",
+      "secrets": ".private/initcaptcha/cohort/20261008-02318f4c/sample-07/secrets.json"
+    },
+    {
+      "id": "sample-08",
+      "profile": ".private/initcaptcha/cohort/20261008-02318f4c/sample-08/profile.json",
+      "secrets": ".private/initcaptcha/cohort/20261008-02318f4c/sample-08/secrets.json"
+    },
+    {
+      "id": "sample-09",
+      "profile": ".private/initcaptcha/cohort/20261008-02318f4c/sample-09/profile.json",
+      "secrets": ".private/initcaptcha/cohort/20261008-02318f4c/sample-09/secrets.json"
+    },
+    {
+      "id": "sample-10",
+      "profile": ".private/initcaptcha/cohort/20261008-02318f4c/sample-10/profile.json",
+      "secrets": ".private/initcaptcha/cohort/20261008-02318f4c/sample-10/secrets.json"
+    },
+    {
+      "id": "sample-11",
+      "profile": ".private/initcaptcha/cohort/20261008-02318f4c/sample-11/profile.json",
+      "secrets": ".private/initcaptcha/cohort/20261008-02318f4c/sample-11/secrets.json"
+    },
+    {
+      "id": "sample-12",
+      "profile": ".private/initcaptcha/cohort/20261008-02318f4c/sample-12/profile.json",
+      "secrets": ".private/initcaptcha/cohort/20261008-02318f4c/sample-12/secrets.json"
+    },
+    {
+      "id": "sample-13",
+      "profile": ".private/initcaptcha/cohort/20261008-02318f4c/sample-13/profile.json",
+      "secrets": ".private/initcaptcha/cohort/20261008-02318f4c/sample-13/secrets.json"
+    },
+    {
+      "id": "sample-14",
+      "profile": ".private/initcaptcha/cohort/20261008-02318f4c/sample-14/profile.json",
+      "secrets": ".private/initcaptcha/cohort/20261008-02318f4c/sample-14/secrets.json"
+    },
+    {
+      "id": "sample-15",
+      "profile": ".private/initcaptcha/cohort/20261008-02318f4c/sample-15/profile.json",
+      "secrets": ".private/initcaptcha/cohort/20261008-02318f4c/sample-15/secrets.json"
+    }
+  ]
+}

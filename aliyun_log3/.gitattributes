@@ -1,0 +1,4 @@
+# 原始取样保持文件字节，不做行尾转换；允许原始 CRLF 行尾。
+.private/initcaptcha/** -text whitespace=cr-at-eol
+# 下载的站点打包源码作为原始取证文件保存，避免展开超大单行差异。
+.private/initcaptcha/sdk/site_main.js -diff
