@@ -1,0 +1,137 @@
+{
+  "target_page": "https://console.beeize.com/",
+  "target_request": "https://cloudauth-device-dualstack.cn-shanghai.aliyuncs.com/",
+  "action": "Log3",
+  "parameters": [
+    "Data",
+    "Signature",
+    "SignatureNonce",
+    "AaduaneId"
+  ],
+  "analysis_environment": "Camoufox MCP, visible Windows browser, zh-CN",
+  "local_runtime": "Node.js v24.14.0",
+  "scope": "Observe supplied request generation, rebuild in Node.js, send through curl_cffi",
+  "observe": {
+    "page_status": 200,
+    "title": "集蜂云",
+    "candidate_scripts": [
+      "https://console.beeize.com/assets/index-1ca43166.js",
+      "https://o.alicdn.com/captcha-frontend/aliyunCaptcha/AliyunCaptcha.js",
+      "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin040.34057464b5d3da9732a4ad120074561471ef038715874eb39fc2402176003d06.js"
+    ],
+    "actual_page": "https://console.beeize.com/regist"
+  },
+  "capture": {
+    "status": "complete",
+    "page_world": "wrappedJSObject",
+    "entry": "um.getToken",
+    "target_request_id": 25,
+    "crypto": "CryptoJS AES raw key, default CBC, IV, Pkcs7",
+    "temporary_instrumentation_removed": true
+  },
+  "rebuild": {
+    "status": "complete",
+    "algorithms": [
+      "HMAC-SHA1",
+      "AES-128-CBC",
+      "Base64 layering",
+      "SDK form encoding"
+    ],
+    "browser_needed_for_each_request": false,
+    "device_and_event_source": "random selection from 15 paired Camoufox profiles",
+    "fresh_fields": [
+      "report timestamp",
+      "Data",
+      "SignatureNonce",
+      "Signature"
+    ]
+  },
+  "verification": {
+    "offline_parity": true,
+    "original_curl_signature_parity": true,
+    "original_curl_ciphertext_parity": true,
+    "fresh_live_requests": 3,
+    "all_http_200": true,
+    "all_code_200": true,
+    "all_result_object_true": true,
+    "evidence": "analysis/live_validation.json",
+    "cohort_browser_acceptances": 15,
+    "cohort_local_acceptances": 15
+  },
+  "limitations": [
+    "Same sampled device/session configuration",
+    "No automatic new-device fingerprint collection",
+    "No login, registration, SMS or CAPTCHA business result verification"
+  ],
+  "browser": {
+    "running": true,
+    "page": "https://console.beeize.com/regist",
+    "sampling_hooks_removed": true,
+    "network_capture_stopped": true
+  },
+  "cohort": {
+    "batchId": "20261008-3676378a",
+    "groupCount": 15,
+    "summary": {
+      "groups": 15,
+      "browserAccepted": 15,
+      "localAccepted": 15,
+      "completeParity": 15,
+      "locales": {
+        "zh-CN": 5,
+        "zh-TW": 5,
+        "en-US": 5
+      },
+      "sdkVariants": {
+        "040": 12,
+        "041": 3
+      },
+      "controlledSourceGroups": [
+        "sample-12",
+        "sample-15"
+      ],
+      "screenResolutions": {
+        "1600x900": 1,
+        "5120x1440": 4,
+        "1920x1080": 2,
+        "3440x1440": 1,
+        "1680x1050": 3,
+        "2560x1440": 2,
+        "3072x1728": 2
+      },
+      "distinctEnvironments": 15,
+      "distinctSessions": 15,
+      "distinctDeviceData": 15,
+      "distinctEventPayloads": 15,
+      "distinctBrowserData": 15,
+      "distinctLocalData": 15,
+      "distinctBrowserNonces": 15,
+      "distinctLocalNonces": 15,
+      "dataCharacters": {
+        "min": 2200,
+        "max": 11180
+      },
+      "mouseMoves": {
+        "min": 0,
+        "max": 91
+      },
+      "keyUps": {
+        "min": 11,
+        "max": 32
+      },
+      "mouseClicks": {
+        "min": 0,
+        "max": 2
+      },
+      "distinctSgScripts": 13
+    },
+    "manifest": "analysis\\samples\\20261008-3676378a\\manifest.json",
+    "randomizedOfflineRequests": 45,
+    "randomPoolEnabled": true,
+    "controlled041": [
+      "sample-12",
+      "sample-15"
+    ],
+    "temporarySampleProbeRemoved": true
+  }
+}

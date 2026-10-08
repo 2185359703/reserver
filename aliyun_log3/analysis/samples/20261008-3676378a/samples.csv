@@ -1,0 +1,16 @@
+﻿id,locale,screen,sdk,controlled,mousemove,mouseclick,keyup,data_characters,browser_http,browser_code,local_http,local_code,parity
+sample-01,zh-CN,1600x900,040,False,0,0,32,2840,200,200,200,200,True
+sample-02,zh-TW,5120x1440,040,False,0,0,13,2200,200,200,200,200,True
+sample-03,zh-TW,1920x1080,040,False,0,0,17,2328,200,200,200,200,True
+sample-04,en-US,3440x1440,040,False,59,1,17,7788,200,200,200,200,True
+sample-05,zh-CN,1680x1050,040,False,91,2,26,11180,200,200,200,200,True
+sample-06,en-US,5120x1440,040,False,59,1,17,7744,200,200,200,200,True
+sample-07,zh-TW,2560x1440,040,False,55,1,15,7340,200,200,200,200,True
+sample-08,zh-CN,3072x1728,040,False,58,1,17,7640,200,200,200,200,True
+sample-09,zh-CN,5120x1440,040,False,59,1,13,7596,200,200,200,200,True
+sample-10,zh-TW,1680x1050,040,False,42,1,11,6016,200,200,200,200,True
+sample-11,en-US,2560x1440,040,False,54,1,11,7084,200,200,200,200,True
+sample-12,en-US,1920x1080,041,True,89,2,30,11180,200,200,200,200,True
+sample-13,en-US,1680x1050,041,False,56,1,13,7340,200,200,200,200,True
+sample-14,zh-CN,3072x1728,040,False,58,1,19,7680,200,200,200,200,True
+sample-15,zh-TW,5120x1440,041,True,58,1,13,7532,200,200,200,200,True

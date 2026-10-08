@@ -1,0 +1,13 @@
+# 私有密钥、会话配置、设备事件、原始报文和原始 SDK
+.private/
+
+# Python 与 Node.js 运行缓存
+__pycache__/
+*.py[cod]
+node_modules/
+
+# 取样时临时下载的站点与 SDK 源码
+analysis/AliyunCaptcha.js
+analysis/site_index.js
+analysis/feilin*.js
+analysis/sg.js

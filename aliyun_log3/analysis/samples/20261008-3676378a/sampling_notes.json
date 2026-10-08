@@ -1,0 +1,15 @@
+{
+  "transient_misses": [
+    {
+      "sample_id": "sample-08",
+      "reason": "Page switched from FeiLin 040 to 041; 040-only source probe was absent",
+      "browser_init_http_status": 200,
+      "resolution": "Save the actual 041 source, discover its signing/config anchor, install a matching probe and reload"
+    }
+  ],
+  "controlled_041": {
+    "first_attempt": "302 redirect loaded the published 041 source but the redirected script did not receive the Playwright source probe",
+    "resolution": "Use the actual published 041 source as an explicitly labelled script response replacement, with only the capture probe inserted",
+    "api_responses_mocked": false
+  }
+}

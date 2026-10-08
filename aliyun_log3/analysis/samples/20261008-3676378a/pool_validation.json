@@ -1,0 +1,25 @@
+{
+  "batchId": "20261008-3676378a",
+  "allSampleWireParity": 15,
+  "randomizedOfflineRequests": 45,
+  "uniqueNonces": 45,
+  "uniqueBodies": 45,
+  "uniqueData": 45,
+  "selectionDistribution": {
+    "sample-06": 7,
+    "sample-12": 5,
+    "sample-03": 5,
+    "sample-13": 6,
+    "sample-08": 2,
+    "sample-11": 3,
+    "sample-05": 3,
+    "sample-14": 2,
+    "sample-09": 2,
+    "sample-10": 3,
+    "sample-01": 4,
+    "sample-04": 1,
+    "sample-07": 1,
+    "sample-15": 1
+  },
+  "sentNetworkRequests": 0
+}

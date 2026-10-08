@@ -1,0 +1,42 @@
+{
+  "transport": "curl_cffi firefox",
+  "generation": "local Node.js from captured Camoufox profile",
+  "results": [
+    {
+      "run": 1,
+      "http_status": 200,
+      "code": "200",
+      "result_object": true,
+      "request_idSha256": "1a759587da697e30e1ed9e5a8e9468828e1aec395456a0350f0723eb59f4b5fa",
+      "timestamp": 1791451065273,
+      "nonceSha256": "64117b18cb58a418cc64a6bae12f2852c3cf78a7cb7ccadfa3710404c02b3c16",
+      "data_sha256": "460b45ca66d24fb13159b573df3ccc795a570e4d261e91166117b2a138d47f32",
+      "body_sha256": "7b2878b737043e153c3ab7a7e225d15a67a4d8f8239810825158d6d2c32697dc",
+      "body_bytes": 2039
+    },
+    {
+      "run": 2,
+      "http_status": 200,
+      "code": "200",
+      "result_object": true,
+      "request_idSha256": "e0feef764dbeef7c0da825dc637fe1d66e080a7ddc64664a59b6a243dd0c4f87",
+      "timestamp": 1791451065474,
+      "nonceSha256": "c1e4aceb64e871fb98d5dc5969a2821b7c025a07aefc560191aa4a0a3d4a0fcd",
+      "data_sha256": "23b2e25133ac3a7c9055e65d277929064f8cfcae055b3ea6beadf8814f7c2e6b",
+      "body_sha256": "fe015148b07bbe54231228c5449c0786a14c1490f1246b48b5573f4a777fab48",
+      "body_bytes": 2041
+    },
+    {
+      "run": 3,
+      "http_status": 200,
+      "code": "200",
+      "result_object": true,
+      "request_idSha256": "64bfd1ee211e6e657ed3bb5fda7164efa886b4e58ca919b3e6cac0cc9bc7d34c",
+      "timestamp": 1791451065967,
+      "nonceSha256": "faccf7e7acc94c20c79d7a4aede5c7d3b44b65273121752742609fd1cc1747e9",
+      "data_sha256": "3f542a88e89f5746a1d6e1d12912ddee9705f37dbfa4e35c5f13cb96e17a0392",
+      "body_sha256": "ade1520ce1ba03ab0de445f8afb5f1418914a01f7610ac9a79b101904cf42be4",
+      "body_bytes": 2041
+    }
+  ]
+}

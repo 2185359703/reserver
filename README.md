@@ -11,6 +11,7 @@ Web 客户端协议逆向案例集。仓库关注浏览器中的动态参数、�
 | [`cqvip/`](cqvip/) | 维普期刊瑞数 412 挑战与公开元数据采集 | `S/T` Cookie 配对、148 字节环境块、双层加密、空 200 诱饵 | Python HTTP + 单文件 Node Cookie helper；运行时不需要浏览器或 npm 依赖 | 实时回放通过；500 个刊期、5,314 篇详情完整校验 |
 | [`tds/`](tds/) | 腾讯行为式验证码 `tdc.js` | Chaos VM、XTEA 变体、动态密钥/偏移、图像缺口定位 | 参数链主要为纯 Python；新脚本版本首次提参需要 Node | 仓库内包含固定向量、样本评估和历史成功截图 |
 | [`boos/`](boos/) | BOSS直聘 `__zp_stoken__` | 自研 VM、种子轮换、Canvas/WebGL 等宿主环境表面 | Python 协议层 + `iv8` 环境仿真 | 已记录活体验收；明确标注为 `snapshot-driven`，尚非纯 Python |
+| [`aliyun_log3/`](aliyun_log3/) | 阿里云设备上报 `Log3` | 分层 AES/Base64、HMAC-SHA1、设备/事件/密钥配对、SDK 构建切换 | Python `curl_cffi` + 无 npm 依赖的 Node.js 计算；配套样本随机选择 | 15 组完整字节比对与 30 次成对请求成功；设备配置为 `snapshot-driven` |
 
 ## 仓库原则
 
@@ -53,6 +54,16 @@ python -m pip install -r requirements.txt
 
 此案例需要使用者自行提供合法会话，仓库只保留空值示例。详情见 [`boos/README.md`](boos/README.md)。
 
+### 阿里云 Log3 参数与随机样本
+
+```powershell
+cd aliyun_log3
+python -m pip install -r requirements.txt
+python .\aliyun_log3.py --help
+```
+
+配置自己的合法取样后，可使用 `python .\aliyun_log3.py --dry-run` 查看随机选组摘要，再执行请求。公开保存代码、脱敏证据和已确认的 SDK 共享算法参数；设备状态、账号凭证和原始报文留在本地 `.private` 目录。详见 [`aliyun_log3/README.md`](aliyun_log3/README.md)。
+
 ## 目录结构
 
 ```text
@@ -65,6 +76,7 @@ reserver/
 │   └── README.md
 ├── tds/                         # 腾讯 TDC/Chaos VM 案例
 ├── boos/                        # BOSS token 环境仿真案例
+├── aliyun_log3/                 # 阿里云设备上报参数与随机配套样本
 ├── LICENSE
 └── README.md
 ```

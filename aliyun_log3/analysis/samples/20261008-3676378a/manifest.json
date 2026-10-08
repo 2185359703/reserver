@@ -1,0 +1,1414 @@
+{
+  "batchId": "20261008-3676378a",
+  "targetCount": 15,
+  "samples": [
+    {
+      "id": "sample-01",
+      "batchId": "20261008-3676378a",
+      "plan": {
+        "id": "sample-01",
+        "locale": "zh-CN",
+        "os": "windows",
+        "mode": "mixed",
+        "waitMs": 1015,
+        "typingDelayMs": 98,
+        "username": "sample_e642038184",
+        "company": "sample_34d29cf2",
+        "humanize": true
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "zh-CN",
+        "languages": [
+          "zh-CN",
+          "zh"
+        ],
+        "hardwareConcurrency": 2,
+        "maxTouchPoints": 0,
+        "screen": {
+          "width": 1600,
+          "height": 900,
+          "availWidth": 1600,
+          "availHeight": 860,
+          "colorDepth": 24,
+          "pixelDepth": 24
+        },
+        "viewport": {
+          "width": 1585,
+          "height": 796
+        },
+        "devicePixelRatio": 1.5
+      },
+      "sgScripts": [
+        "https://g.alicdn.com/captcha-frontend/dynamicJS/3.29.0/sg.050.2b3b1aa282e37894.js"
+      ],
+      "sessionSha256": "cf0b312639af6f3cf367a994ac6b79802eb154ee861712a5c22b9dba97f03334",
+      "deviceDataSha256": "ec0abc5cc3dacb0299ad4e59e971729b4a8ca51562803c614415761a0c5494bc",
+      "eventsSha256": "e3623516074ec2351705df5a9b6972acc10f9a8f961c8cd56cfe6059a57f4dba",
+      "eventCounts": {
+        "mousemove": 0,
+        "mouseclick": 0,
+        "keyup": 32,
+        "scrollTop": 0,
+        "scrollLeft": 0,
+        "pointerEvent": 0
+      },
+      "gatherCost": "82",
+      "dataCharacters": 2840,
+      "browser": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "nonceSha256": "c43770a28fc52a14bc89737dc6655cdbe91f1c4f6c755ccc47808e21b2e76763",
+        "dataSha256": "f0c177a0fe769c6e0995e53fb7686a003be614b72094de54e7ad5a2e7542978f",
+        "bodySha256": "ac2b1ab4177f9c49471171b47059f2c129dea8c5eb6f12257e5bdfcb9792c7e3"
+      },
+      "parity": {
+        "data": true,
+        "signature": true,
+        "body": true
+      },
+      "local": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "requestIdSha256": "f0908a0004a45896a842fea18cb8a25acb58be640f56e289864f6a6c64a66b37",
+        "timestamp": 1791452111622,
+        "nonceSha256": "9ab97d0c4a7102382ba6f39c99a2658bd7ec18ceac076be2fa0aa954c789342c",
+        "dataSha256": "aca67249455c1c270b02a34dd313fa6a5fe5fa85caae6c56211999e6dc635806",
+        "bodySha256": "77f557e455ea662112c95660c016bae9c31ad7bb35148c68bad83b4599fd56d9",
+        "dataCharacters": 2840
+      },
+      "feilinScripts": [
+        "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin040.34057464b5d3da9732a4ad120074561471ef038715874eb39fc2402176003d06.js"
+      ],
+      "sdk": {
+        "url": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin040.34057464b5d3da9732a4ad120074561471ef038715874eb39fc2402176003d06.js",
+        "controlled": false,
+        "selection": "natural",
+        "variant": "040"
+      },
+      "environmentSha256": "35a5cd53f440891745af936da12853576d400d5df04a2bf8df78f941cf0a5387"
+    },
+    {
+      "id": "sample-02",
+      "batchId": "20261008-3676378a",
+      "plan": {
+        "id": "sample-02",
+        "locale": "zh-TW",
+        "os": "windows",
+        "mode": "company",
+        "waitMs": 536,
+        "typingDelayMs": 49,
+        "username": "sample_1d9bf8",
+        "company": "sample_2fe619",
+        "humanize": true
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "zh-TW",
+        "languages": [
+          "zh-TW",
+          "zh"
+        ],
+        "hardwareConcurrency": 2,
+        "maxTouchPoints": 0,
+        "screen": {
+          "width": 5120,
+          "height": 1440,
+          "availWidth": 5120,
+          "availHeight": 1392,
+          "colorDepth": 24,
+          "pixelDepth": 24
+        },
+        "viewport": {
+          "width": 1869,
+          "height": 1328
+        },
+        "devicePixelRatio": 1.5
+      },
+      "sgScripts": [
+        "https://g.alicdn.com/captcha-frontend/dynamicJS/3.29.0/sg.057.8524e36d5af24c15.js"
+      ],
+      "sessionSha256": "dbb3c6e46ec9628379f93adcb708434f03e930aa6e983b6099791df524a6ae81",
+      "deviceDataSha256": "9e43113ed7ebeebfec5dc97f6c6be12db75f7f513be657c59d071eac0bff8fcb",
+      "eventsSha256": "5d6b432f017fffb5a1dc8769b381ae7bc3763272e1f26966b640888bbf1ae50a",
+      "eventCounts": {
+        "mousemove": 0,
+        "mouseclick": 0,
+        "keyup": 13,
+        "scrollTop": 0,
+        "scrollLeft": 0,
+        "pointerEvent": 0
+      },
+      "gatherCost": "149",
+      "dataCharacters": 2200,
+      "browser": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "nonceSha256": "13c8be271a44be3d508f64f43217d7dda72158d3f29a68a504e64a57df8dfbd9",
+        "dataSha256": "75d00c59543bf9e43d0f6786ac02809a21761ede0c2e32727edb3e04dc0a87d7",
+        "bodySha256": "de6a0bdeb973226e5f6bc5cc30206a017e4c8d5cb9195bffe71c11d634d6014d"
+      },
+      "parity": {
+        "data": true,
+        "signature": true,
+        "body": true
+      },
+      "local": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "requestIdSha256": "8eccc17a228faf88e483706acfe9aa83c0f34d2f96d734d37cd4e1c1696cbb12",
+        "timestamp": 1791452174891,
+        "nonceSha256": "da76c3fae5a8525d3d39c813f4a1af8a3d4b3bc37cc5b555d2194165313aa2b6",
+        "dataSha256": "2e787d15131fbad496bdb02d30a302c3cc108e19c570e5c7d4c7a54c960e5ffb",
+        "bodySha256": "dd470f42915a7fdf15888808a069792f927d3279b99b0cee0efb6618b9f91bc8",
+        "dataCharacters": 2200
+      },
+      "feilinScripts": [
+        "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin040.34057464b5d3da9732a4ad120074561471ef038715874eb39fc2402176003d06.js"
+      ],
+      "sdk": {
+        "url": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin040.34057464b5d3da9732a4ad120074561471ef038715874eb39fc2402176003d06.js",
+        "controlled": false,
+        "selection": "natural",
+        "variant": "040"
+      },
+      "environmentSha256": "ca09c78d348d7725ca5b5ebd6a24e90566f4b9cf8bd05630b6ef036bab17e704"
+    },
+    {
+      "id": "sample-03",
+      "batchId": "20261008-3676378a",
+      "plan": {
+        "id": "sample-03",
+        "locale": "zh-TW",
+        "os": "windows",
+        "mode": "company",
+        "waitMs": 1480,
+        "typingDelayMs": 67,
+        "username": "sample_5cfdd29a77",
+        "company": "sample_36310a759d",
+        "humanize": true
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "zh-TW",
+        "languages": [
+          "zh-TW",
+          "zh"
+        ],
+        "hardwareConcurrency": 2,
+        "maxTouchPoints": 0,
+        "screen": {
+          "width": 1920,
+          "height": 1080,
+          "availWidth": 1920,
+          "availHeight": 1040,
+          "colorDepth": 24,
+          "pixelDepth": 24
+        },
+        "viewport": {
+          "width": 1905,
+          "height": 973
+        },
+        "devicePixelRatio": 1.5
+      },
+      "sgScripts": [
+        "https://g.alicdn.com/captcha-frontend/dynamicJS/3.29.0/sg.075.749c3830de632b36.js"
+      ],
+      "sessionSha256": "951c167d35702d9457afa71d01e34080b07199417f38cbe91ffe8a5b0f57e022",
+      "deviceDataSha256": "b25e9ea9897b3e5d6b1f25ca8cc54e03a2560f1dd569ee0c0bf67d8cfd107edc",
+      "eventsSha256": "4301eb8aeb18d889020d04a48a319e37249cd216ef9de5674a219e340061b280",
+      "eventCounts": {
+        "mousemove": 0,
+        "mouseclick": 0,
+        "keyup": 17,
+        "scrollTop": 0,
+        "scrollLeft": 0,
+        "pointerEvent": 0
+      },
+      "gatherCost": "78",
+      "dataCharacters": 2328,
+      "browser": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "nonceSha256": "d8b5e6872bf2b0ad7e0f0ed1e93725c1f9c619a6a4f999f181063fef447cbfed",
+        "dataSha256": "c5efb4a539f76eeec3394d306ee6adc3f6e7e88ececc2b46c8bec2c396dc5e27",
+        "bodySha256": "203982b0144ce7625bd9f56842f0d8b89ec89b3f20da50f458c87f9738506ad0"
+      },
+      "parity": {
+        "data": true,
+        "signature": true,
+        "body": true
+      },
+      "local": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "requestIdSha256": "83c29262a803e44c9fd1c34a1190025d33848608d63bdabd9af0ca0c69573561",
+        "timestamp": 1791452208784,
+        "nonceSha256": "d334f23983f7d06e5cb69d9d7d938a945c281f071da4b10b7d09ea4b95ab9398",
+        "dataSha256": "f7c60535a4257c71e62087a9d34fc8d950e3f5c9d64b4410a5b5449da27ee958",
+        "bodySha256": "e5064fd95007d4cdf0e7a243a84dc46ec266553eaf883f6ea3d3736a7e3e57fc",
+        "dataCharacters": 2328
+      },
+      "feilinScripts": [
+        "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin040.34057464b5d3da9732a4ad120074561471ef038715874eb39fc2402176003d06.js"
+      ],
+      "sdk": {
+        "url": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin040.34057464b5d3da9732a4ad120074561471ef038715874eb39fc2402176003d06.js",
+        "controlled": false,
+        "selection": "natural",
+        "variant": "040"
+      },
+      "environmentSha256": "9bebf89bc17c90a9985d12e6881a6be58977dd38bc215b64021a1c1f67d0660e"
+    },
+    {
+      "id": "sample-04",
+      "batchId": "20261008-3676378a",
+      "plan": {
+        "id": "sample-04",
+        "locale": "en-US",
+        "os": "windows",
+        "mode": "username",
+        "waitMs": 724,
+        "typingDelayMs": 74,
+        "username": "sample_55357a4410",
+        "company": "sample_01360101a56a",
+        "humanize": true,
+        "pointerClicks": true
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "en-US",
+        "languages": [
+          "en-US",
+          "en"
+        ],
+        "hardwareConcurrency": 8,
+        "maxTouchPoints": 0,
+        "screen": {
+          "width": 3440,
+          "height": 1440,
+          "availWidth": 3440,
+          "availHeight": 1392,
+          "colorDepth": 24,
+          "pixelDepth": 24
+        },
+        "viewport": {
+          "width": 1961,
+          "height": 1045
+        },
+        "devicePixelRatio": 1.5
+      },
+      "sgScripts": [
+        "https://g.alicdn.com/captcha-frontend/dynamicJS/3.29.0/sg.078.97acb98118147674.js"
+      ],
+      "sessionSha256": "5f92a6ea91505b6bb32ac41acedeabc15c75b86c3308bfcd8c20dc041e7481c4",
+      "deviceDataSha256": "4ed436ff8225b46e6a2826642d1f9df64513933e5ee3814550727d77469eb105",
+      "eventsSha256": "1c657f958a79246dfb2ea321471030b0072274012f557337903b4546eda0de3e",
+      "eventCounts": {
+        "mousemove": 59,
+        "mouseclick": 1,
+        "keyup": 17,
+        "scrollTop": 0,
+        "scrollLeft": 0,
+        "pointerEvent": 1
+      },
+      "gatherCost": "66",
+      "dataCharacters": 7788,
+      "browser": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "nonceSha256": "a8fb005740606f6dc1d1191391bce55294611e119b3619f6d180bd729ed11728",
+        "dataSha256": "a58703a3cdd6d085ad05c079e9434f0b6c65e5700e1fb415a4187b85b358b156",
+        "bodySha256": "a946eafbe10a2f43f5c4a3d7ae7bd687955350587649f2382ec99eb6b0afe95e"
+      },
+      "parity": {
+        "data": true,
+        "signature": true,
+        "body": true
+      },
+      "local": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "requestIdSha256": "f11532773bac0fefa1f91cf2893a05dcf1598385496eb920a5a589cfe62c6cd6",
+        "timestamp": 1791452279803,
+        "nonceSha256": "598a3d092d85a4c28e685ef7a05e051585e5028d82ed89f083a0dd7097bfebab",
+        "dataSha256": "221b5533565c15b3d19b047a178d04020eb2037e54bfb53811d377c381df898a",
+        "bodySha256": "1bf44619d1700c10650e02b2288b741d7f23123d402240b04b9087429e791f16",
+        "dataCharacters": 7788
+      },
+      "feilinScripts": [
+        "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin040.34057464b5d3da9732a4ad120074561471ef038715874eb39fc2402176003d06.js"
+      ],
+      "sdk": {
+        "url": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin040.34057464b5d3da9732a4ad120074561471ef038715874eb39fc2402176003d06.js",
+        "controlled": false,
+        "selection": "natural",
+        "variant": "040"
+      },
+      "environmentSha256": "af63262bb1ad0725534fc26b12a84bab0f56670ff0bbfff024ddab539616fc58"
+    },
+    {
+      "id": "sample-05",
+      "batchId": "20261008-3676378a",
+      "plan": {
+        "id": "sample-05",
+        "locale": "zh-CN",
+        "os": "windows",
+        "mode": "mixed",
+        "waitMs": 969,
+        "typingDelayMs": 67,
+        "username": "sample_f8ef1e",
+        "company": "sample_a5c04a",
+        "humanize": true,
+        "pointerClicks": true
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "zh-CN",
+        "languages": [
+          "zh-CN",
+          "zh"
+        ],
+        "hardwareConcurrency": 8,
+        "maxTouchPoints": 0,
+        "screen": {
+          "width": 1680,
+          "height": 1050,
+          "availWidth": 1680,
+          "availHeight": 1002,
+          "colorDepth": 24,
+          "pixelDepth": 24
+        },
+        "viewport": {
+          "width": 1665,
+          "height": 938
+        },
+        "devicePixelRatio": 1.5
+      },
+      "sgScripts": [
+        "https://g.alicdn.com/captcha-frontend/dynamicJS/3.29.0/sg.081.02e5b015d434379b.js"
+      ],
+      "sessionSha256": "bf7293f5d1505e94d630373603ac9ac09f28b199447b078dd0afdcc3f6bb59b0",
+      "deviceDataSha256": "179795c258c0c073802ffbf9ec8902f70574b45ea8ec6db170e90c3226155f2f",
+      "eventsSha256": "91b0bc1ddfab5fd6b4263960d5c60bec36cf23da7d02b394cf9e117f9abf79fa",
+      "eventCounts": {
+        "mousemove": 91,
+        "mouseclick": 2,
+        "keyup": 26,
+        "scrollTop": 0,
+        "scrollLeft": 0,
+        "pointerEvent": 2
+      },
+      "gatherCost": "62",
+      "dataCharacters": 11180,
+      "browser": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "nonceSha256": "7f60f202d121cc77cbfa0ee0c48903a8cfb5b7b1952428ef7f3be01115179374",
+        "dataSha256": "15a4d63565fafdd139803b19b8e3b2cfe5f78e1eccf48919ebd931202f4242cc",
+        "bodySha256": "d7b929e3f07cfaf1eb8854c57ff2409f0e4ac74fab8240e8d5a731f1d1894725"
+      },
+      "parity": {
+        "data": true,
+        "signature": true,
+        "body": true
+      },
+      "local": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "requestIdSha256": "4d09b89716d18f1c2877b846685003de03b18adb895afc29b8de55d1ebe887d3",
+        "timestamp": 1791452312851,
+        "nonceSha256": "e97cd82b34c227198dfa20c94c42f5cefe775af1f4beee743fe589618d791ee2",
+        "dataSha256": "b257cbd461f93f670e3dabf94eab8e628fd3a3605b3adddeffc59c8a7c551fef",
+        "bodySha256": "31e81f24c82aa68f755e973c504fc6c353191b2db88834a5f4547803de74a6a7",
+        "dataCharacters": 11180
+      },
+      "feilinScripts": [
+        "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin040.34057464b5d3da9732a4ad120074561471ef038715874eb39fc2402176003d06.js"
+      ],
+      "sdk": {
+        "url": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin040.34057464b5d3da9732a4ad120074561471ef038715874eb39fc2402176003d06.js",
+        "controlled": false,
+        "selection": "natural",
+        "variant": "040"
+      },
+      "environmentSha256": "9105b053afdac36de41bbdd2335af40a2e3231066a5a58e9831e13a453292741"
+    },
+    {
+      "id": "sample-06",
+      "batchId": "20261008-3676378a",
+      "plan": {
+        "id": "sample-06",
+        "locale": "en-US",
+        "os": "windows",
+        "mode": "username",
+        "waitMs": 768,
+        "typingDelayMs": 94,
+        "username": "sample_129e42562a",
+        "company": "sample_35c10048",
+        "humanize": true,
+        "pointerClicks": true
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "en-US",
+        "languages": [
+          "en-US",
+          "en"
+        ],
+        "hardwareConcurrency": 32,
+        "maxTouchPoints": 0,
+        "screen": {
+          "width": 5120,
+          "height": 1440,
+          "availWidth": 5120,
+          "availHeight": 1392,
+          "colorDepth": 24,
+          "pixelDepth": 24
+        },
+        "viewport": {
+          "width": 1869,
+          "height": 1328
+        },
+        "devicePixelRatio": 1.5
+      },
+      "sgScripts": [
+        "https://g.alicdn.com/captcha-frontend/dynamicJS/3.29.0/sg.078.97acb98118147674.js"
+      ],
+      "sessionSha256": "8ee188a6b1bb70a13f46696a506a6f3535ea1711eba442f8301f9d51e5a97e36",
+      "deviceDataSha256": "5020916f2461c28c1e9db27d1f17a13d0c0e4ad00852e64a014d1697a263afcc",
+      "eventsSha256": "bf6a7d6d9261b8f7a27f639c9d19489b34eaa5b1ea77a0eb8ecd2922a0aa45e3",
+      "eventCounts": {
+        "mousemove": 59,
+        "mouseclick": 1,
+        "keyup": 17,
+        "scrollTop": 0,
+        "scrollLeft": 0,
+        "pointerEvent": 1
+      },
+      "gatherCost": "61",
+      "dataCharacters": 7744,
+      "browser": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "nonceSha256": "751a8687ba29bf78f1cb185412b966a6f2fa8f136ccc4f60649f12c0ffa58e3f",
+        "dataSha256": "434a1961b4b024db802b129f7b0c887ef272b8b33cb0128a933e9787cbb639ec",
+        "bodySha256": "361a9b1522439f6624151e422447cd2851b8c809a9b1b32e937eae9b54340112"
+      },
+      "parity": {
+        "data": true,
+        "signature": true,
+        "body": true
+      },
+      "local": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "requestIdSha256": "3be7cff785127f394b0678ec55e5a3c03230dec888a5dbb00d56b7fe1d9cf212",
+        "timestamp": 1791452387485,
+        "nonceSha256": "b959379d2c511cc59cd57e26c8a3b73eeb246be8aaa9d9d391d2bc8d10284539",
+        "dataSha256": "7815f6032d3a46b628067da77d81d0f8618cffbc8509f3253a533a39ef8c5dc3",
+        "bodySha256": "32514e04e377e001b43d6d77492fe3b3db1a6d4eb18df5716b7d9312e5b389dd",
+        "dataCharacters": 7744
+      },
+      "feilinScripts": [
+        "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin040.34057464b5d3da9732a4ad120074561471ef038715874eb39fc2402176003d06.js"
+      ],
+      "sdk": {
+        "url": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin040.34057464b5d3da9732a4ad120074561471ef038715874eb39fc2402176003d06.js",
+        "controlled": false,
+        "selection": "natural",
+        "variant": "040"
+      },
+      "environmentSha256": "0ff9f88c33b38b2945f8ea0c59ec41603b80c6e8de58b8147a50b7678a46c76d"
+    },
+    {
+      "id": "sample-07",
+      "batchId": "20261008-3676378a",
+      "plan": {
+        "id": "sample-07",
+        "locale": "zh-TW",
+        "os": "windows",
+        "mode": "company",
+        "waitMs": 803,
+        "typingDelayMs": 63,
+        "username": "sample_3535c5f7",
+        "company": "sample_2da8d37e",
+        "humanize": true,
+        "pointerClicks": true
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "zh-TW",
+        "languages": [
+          "zh-TW",
+          "zh"
+        ],
+        "hardwareConcurrency": 8,
+        "maxTouchPoints": 0,
+        "screen": {
+          "width": 2560,
+          "height": 1440,
+          "availWidth": 2560,
+          "availHeight": 1400,
+          "colorDepth": 24,
+          "pixelDepth": 24
+        },
+        "viewport": {
+          "width": 1905,
+          "height": 991
+        },
+        "devicePixelRatio": 1.5
+      },
+      "sgScripts": [
+        "https://g.alicdn.com/captcha-frontend/dynamicJS/3.29.0/sg.065.141518780c4f4c58.js"
+      ],
+      "sessionSha256": "7e17f38228803d20b41cf7cca4e0ba57ba23164aac188176910223fbd67c4cb6",
+      "deviceDataSha256": "31ce408f09bd8675d4648febc861cb565ff69aa4ad402567604cb03096434bed",
+      "eventsSha256": "6494eea5d97ef2f6760f72e6d88dadd7843c11ab191b5c656aaf911e25204114",
+      "eventCounts": {
+        "mousemove": 55,
+        "mouseclick": 1,
+        "keyup": 15,
+        "scrollTop": 0,
+        "scrollLeft": 0,
+        "pointerEvent": 1
+      },
+      "gatherCost": "72",
+      "dataCharacters": 7340,
+      "browser": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "nonceSha256": "f55c08167913b8f79239a3a3ce9024710a75358bb25347ff7e6bc2df7cab0d13",
+        "dataSha256": "fdb89dc44f86d5263dc15e36b9019507710962c2b9fd8b515ebec810c051a502",
+        "bodySha256": "c31e590ce5c86d9ae0e26ebc72634376282635b84ecc2fe86e59c4a2ed181da6"
+      },
+      "parity": {
+        "data": true,
+        "signature": true,
+        "body": true
+      },
+      "local": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "requestIdSha256": "e629d26a141c7c4bbb11765e0983eb4b34bcd0f3a67147365fccce02585301db",
+        "timestamp": 1791452420918,
+        "nonceSha256": "e80ca12a08e15b6035ca268b354c7fc106e228791d12557d362c99b59bfe0137",
+        "dataSha256": "82676b7b355667e14c0d8afa7469bebc5cc8e4e2c64a5e9a408c8c97545a7d09",
+        "bodySha256": "796ee843717d68dd665a11fc14b4b36653be16aa0cbb65e42b3831d57dba14ea",
+        "dataCharacters": 7340
+      },
+      "feilinScripts": [
+        "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin040.34057464b5d3da9732a4ad120074561471ef038715874eb39fc2402176003d06.js"
+      ],
+      "sdk": {
+        "url": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin040.34057464b5d3da9732a4ad120074561471ef038715874eb39fc2402176003d06.js",
+        "controlled": false,
+        "selection": "natural",
+        "variant": "040"
+      },
+      "environmentSha256": "fd7dfa97f14c34a99145e4c07f7eaa94224ecae385ebcae02718092ddd26ceef"
+    },
+    {
+      "id": "sample-08",
+      "batchId": "20261008-3676378a",
+      "plan": {
+        "id": "sample-08",
+        "locale": "zh-CN",
+        "os": "windows",
+        "mode": "username",
+        "waitMs": 1203,
+        "typingDelayMs": 105,
+        "username": "sample_ed1c6ffe13",
+        "company": "sample_514d63c3a82a",
+        "humanize": true,
+        "pointerClicks": true
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "zh-CN",
+        "languages": [
+          "zh-CN",
+          "zh"
+        ],
+        "hardwareConcurrency": 8,
+        "maxTouchPoints": 0,
+        "screen": {
+          "width": 3072,
+          "height": 1728,
+          "availWidth": 3072,
+          "availHeight": 1680,
+          "colorDepth": 24,
+          "pixelDepth": 24
+        },
+        "viewport": {
+          "width": 1771,
+          "height": 1247
+        },
+        "devicePixelRatio": 1.5
+      },
+      "sgScripts": [
+        "https://g.alicdn.com/captcha-frontend/dynamicJS/3.29.0/sg.089.611e95e812057125.js"
+      ],
+      "feilinScripts": [
+        "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin040.34057464b5d3da9732a4ad120074561471ef038715874eb39fc2402176003d06.js"
+      ],
+      "sessionSha256": "0a0c10677f51830323a0ce3bf3063dd70d5d13d14ae314f513391d7619d01c9e",
+      "deviceDataSha256": "765ced7968a716019c4d4d3dc6053e963edf15cfe7d6db86a57eafacbeba160d",
+      "eventsSha256": "dba172744f2baf0af5174cedf14a0b9117a038927a85fbb7a4c83c28b46ed844",
+      "eventCounts": {
+        "mousemove": 58,
+        "mouseclick": 1,
+        "keyup": 17,
+        "scrollTop": 0,
+        "scrollLeft": 0,
+        "pointerEvent": 1
+      },
+      "gatherCost": "73",
+      "dataCharacters": 7640,
+      "browser": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "nonceSha256": "a6ba263643e0b6a34653b82b537a0cd8043f244fee30ec5809c74ad1bdfb4655",
+        "dataSha256": "c09142c61ade9ccf532f8cbbc9effd337d0d90774fcfac49d6b9a9e6cf7a7d30",
+        "bodySha256": "7553c8e7248dc092a50998e1faaea57a028ef7b3c2efc7f332abbe29ec148995"
+      },
+      "parity": {
+        "data": true,
+        "signature": true,
+        "body": true
+      },
+      "local": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "requestIdSha256": "0b9b2a28905a0847b0452d68c6388b73747719ccf2cb73a7a355b8f7183075ab",
+        "timestamp": 1791452681124,
+        "nonceSha256": "30f21c1729783040fd812bd0f5b91e356e066d684e482cca019731dd551d4918",
+        "dataSha256": "045740b07ecc3b5e2c3d8d1d3deac37bf64bcf1531543ff8a19d9a2e69350af1",
+        "bodySha256": "5c3c85d3eb3ffecaf9c92b49474d1bacebb39587db56b4086c32234b00a49291",
+        "dataCharacters": 7640
+      },
+      "sdk": {
+        "url": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin040.34057464b5d3da9732a4ad120074561471ef038715874eb39fc2402176003d06.js",
+        "controlled": false,
+        "selection": "natural",
+        "variant": "040"
+      },
+      "environmentSha256": "4fcb74a5bc02ac91e8b3bca15da91cd454107c94cdebf274491e5fbb5c3908e5"
+    },
+    {
+      "id": "sample-09",
+      "batchId": "20261008-3676378a",
+      "plan": {
+        "id": "sample-09",
+        "locale": "zh-CN",
+        "os": "windows",
+        "mode": "company",
+        "waitMs": 852,
+        "typingDelayMs": 83,
+        "username": "sample_85d4f3",
+        "company": "sample_b0a89d",
+        "humanize": true,
+        "pointerClicks": true
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "zh-CN",
+        "languages": [
+          "zh-CN",
+          "zh"
+        ],
+        "hardwareConcurrency": 32,
+        "maxTouchPoints": 0,
+        "screen": {
+          "width": 5120,
+          "height": 1440,
+          "availWidth": 5120,
+          "availHeight": 1392,
+          "colorDepth": 24,
+          "pixelDepth": 24
+        },
+        "viewport": {
+          "width": 1869,
+          "height": 1328
+        },
+        "devicePixelRatio": 1.5
+      },
+      "sgScripts": [
+        "https://g.alicdn.com/captcha-frontend/dynamicJS/3.29.0/sg.085.dba4b2e1f225a216.js"
+      ],
+      "feilinScripts": [
+        "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin040.34057464b5d3da9732a4ad120074561471ef038715874eb39fc2402176003d06.js"
+      ],
+      "sessionSha256": "6c8b7799bf1c489c793ea3b32b5fe6ba8e70fd41ef09e3c41f83708884505f35",
+      "deviceDataSha256": "ae53f6b67691b45542f4b74eb20904314597d83a642f5ea23683fe4c684601de",
+      "eventsSha256": "502f46f08148ae6b75f7fe21185d74690c60a9712b9ea217dcbecbb21d6d631a",
+      "eventCounts": {
+        "mousemove": 59,
+        "mouseclick": 1,
+        "keyup": 13,
+        "scrollTop": 0,
+        "scrollLeft": 0,
+        "pointerEvent": 1
+      },
+      "gatherCost": "61",
+      "dataCharacters": 7596,
+      "browser": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "nonceSha256": "be2d7c35f55823dfeb686eac02c2b9ef54158a4c7f2b847a170830196c3c6de6",
+        "dataSha256": "b97c44dd8a5d274e4484f82c64a53222f34833ded427357c93ab9fe9248bc38d",
+        "bodySha256": "a583aa12c316b8a3189c8ac031159e4677cc96993a304b009a7244c1c5cfb9ba"
+      },
+      "parity": {
+        "data": true,
+        "signature": true,
+        "body": true
+      },
+      "local": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "requestIdSha256": "b180af3db302649367e2403f1ab9e720b46c07a61d68229a116b02e46c163388",
+        "timestamp": 1791452711665,
+        "nonceSha256": "2e808e399eee9377f37cb8a7c380ffec44d00333cbe05cf9722a9e67afd38d48",
+        "dataSha256": "19e213f331cdc1f7415caba9b66edb0dce7bb89cd363fde79fcd69ea6a593f29",
+        "bodySha256": "c264c036adcc775729c0b729ab608514a7404ee3e92fc0f704c1fd3e79010998",
+        "dataCharacters": 7596
+      },
+      "sdk": {
+        "url": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin040.34057464b5d3da9732a4ad120074561471ef038715874eb39fc2402176003d06.js",
+        "controlled": false,
+        "selection": "natural",
+        "variant": "040"
+      },
+      "environmentSha256": "492e843e6badaa2693d4f3cdfeb8d2a253938d18eb5acf0091102ae635b90683"
+    },
+    {
+      "id": "sample-10",
+      "batchId": "20261008-3676378a",
+      "plan": {
+        "id": "sample-10",
+        "locale": "zh-TW",
+        "os": "windows",
+        "mode": "username",
+        "waitMs": 464,
+        "typingDelayMs": 50,
+        "username": "sample_96b3",
+        "company": "sample_898205b1e788",
+        "humanize": true,
+        "pointerClicks": true
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "zh-TW",
+        "languages": [
+          "zh-TW",
+          "zh"
+        ],
+        "hardwareConcurrency": 2,
+        "maxTouchPoints": 0,
+        "screen": {
+          "width": 1680,
+          "height": 1050,
+          "availWidth": 1680,
+          "availHeight": 1002,
+          "colorDepth": 24,
+          "pixelDepth": 24
+        },
+        "viewport": {
+          "width": 1665,
+          "height": 938
+        },
+        "devicePixelRatio": 1.5
+      },
+      "sgScripts": [
+        "https://g.alicdn.com/captcha-frontend/dynamicJS/3.29.0/sg.054.552412b48739563f.js"
+      ],
+      "feilinScripts": [
+        "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin040.34057464b5d3da9732a4ad120074561471ef038715874eb39fc2402176003d06.js"
+      ],
+      "sessionSha256": "179fd43d1a88e4e177a2b35db842723bdcf9d8918975ef75032cd085bcfa5884",
+      "deviceDataSha256": "ff2e816903d3096e695044b47dfb1bc38ea5fcf14dbb2a5acb23a255e47b1082",
+      "eventsSha256": "e095429ebd0155972759f6e904056d054f1ff7bfb2d92267e271286203407b8f",
+      "eventCounts": {
+        "mousemove": 42,
+        "mouseclick": 1,
+        "keyup": 11,
+        "scrollTop": 0,
+        "scrollLeft": 0,
+        "pointerEvent": 1
+      },
+      "gatherCost": "71",
+      "dataCharacters": 6016,
+      "browser": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "nonceSha256": "78a37a15b7175f185df4ab83c99296e6ac9600350b04a55a26925cd9112e8378",
+        "dataSha256": "ec8d3077daef5516eda4f520da01e855309e1d93d62822c25a31eb59d45c306b",
+        "bodySha256": "38f797dca028a51dc91b82b9cda1da183acdb7dc971d197ef9f82118f730f779"
+      },
+      "parity": {
+        "data": true,
+        "signature": true,
+        "body": true
+      },
+      "local": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "requestIdSha256": "9cdae3b5cebabf026d0b5b48263f7b62cc39fdb4dd53dea01c336b3b720e0f7f",
+        "timestamp": 1791452776376,
+        "nonceSha256": "afe8f2592361005c7fe4fca2f61daa09d6184a56af019d78ffb3576e46dd45f0",
+        "dataSha256": "96b358c20191f169a372d60719f528f34c089802ef5de9743dc02bfb8dc038f8",
+        "bodySha256": "5fc6369ba9445b8ed70f11da33a8febed010683ebdf43c1beafa72a7b198dd51",
+        "dataCharacters": 6016
+      },
+      "sdk": {
+        "url": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin040.34057464b5d3da9732a4ad120074561471ef038715874eb39fc2402176003d06.js",
+        "controlled": false,
+        "selection": "natural",
+        "variant": "040"
+      },
+      "environmentSha256": "8d12222ef3c31c71cd69feb6a1dba7d3a65fbacedd969da299d8ab9f610d34dc"
+    },
+    {
+      "id": "sample-11",
+      "batchId": "20261008-3676378a",
+      "plan": {
+        "id": "sample-11",
+        "locale": "en-US",
+        "os": "windows",
+        "mode": "username",
+        "waitMs": 1213,
+        "typingDelayMs": 88,
+        "username": "sample_56b5",
+        "company": "sample_32fd3c02beb57a",
+        "humanize": true,
+        "pointerClicks": true
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "en-US",
+        "languages": [
+          "en-US",
+          "en"
+        ],
+        "hardwareConcurrency": 8,
+        "maxTouchPoints": 0,
+        "screen": {
+          "width": 2560,
+          "height": 1440,
+          "availWidth": 2560,
+          "availHeight": 1400,
+          "colorDepth": 24,
+          "pixelDepth": 24
+        },
+        "viewport": {
+          "width": 1905,
+          "height": 991
+        },
+        "devicePixelRatio": 1.5
+      },
+      "sgScripts": [
+        "https://g.alicdn.com/captcha-frontend/dynamicJS/3.29.0/sg.097.2805309504a37ee7.js"
+      ],
+      "feilinScripts": [
+        "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin040.34057464b5d3da9732a4ad120074561471ef038715874eb39fc2402176003d06.js"
+      ],
+      "sessionSha256": "7a2f5c7891acb608338cd1f0c4db795ea61ed5c517b1c1c4faf0dddf505529a3",
+      "deviceDataSha256": "870239345d75924d96944eb8efed3a18b6c829361a3a44ece277f51cc62bb8a8",
+      "eventsSha256": "cdf496b2f5f4b1677936db9228e02327e21c5539a8cb09596b013852c9a0fa9e",
+      "eventCounts": {
+        "mousemove": 54,
+        "mouseclick": 1,
+        "keyup": 11,
+        "scrollTop": 0,
+        "scrollLeft": 0,
+        "pointerEvent": 1
+      },
+      "gatherCost": "64",
+      "dataCharacters": 7084,
+      "browser": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "nonceSha256": "79e5fb37130235b9afa5610e33d7e60e790347d71571d222ce9d05514ec46df2",
+        "dataSha256": "37c8580e7ec26cc2df1823c0b6bc62010a79ef8350009a4f55d940e33fd031e9",
+        "bodySha256": "da35c9d398d584d0912e5bcdbfdeab602a43be4c32ec0772d61f06d59b09edb3"
+      },
+      "parity": {
+        "data": true,
+        "signature": true,
+        "body": true
+      },
+      "local": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "requestIdSha256": "948829dc565c9b24e84a8127a7b44ef7c94b62ac9afc88260cc44ab42ea9fa1a",
+        "timestamp": 1791452803396,
+        "nonceSha256": "91a35f8d05ccc74b05f5f1e36474fa98d2b8e3b8e4cd9f8667b3b2d9bb60490a",
+        "dataSha256": "143649ae2dbb5b4c1f648fc6aa2e45252cd97a7984ba5a5227540f494ce65266",
+        "bodySha256": "4daebf05ff821b46a66b897d37f3e1afe194f4e273087d85e6ca564ac79d6969",
+        "dataCharacters": 7084
+      },
+      "sdk": {
+        "url": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin040.34057464b5d3da9732a4ad120074561471ef038715874eb39fc2402176003d06.js",
+        "controlled": false,
+        "selection": "natural",
+        "variant": "040"
+      },
+      "environmentSha256": "60600c0b2cd656b423292a4d442eeea0a8be18fae3769c5861a7a49375bc5379"
+    },
+    {
+      "id": "sample-12",
+      "batchId": "20261008-3676378a",
+      "plan": {
+        "id": "sample-12",
+        "locale": "en-US",
+        "os": "windows",
+        "mode": "mixed",
+        "waitMs": 958,
+        "typingDelayMs": 85,
+        "username": "sample_3eaf10aa4f",
+        "company": "sample_3195f1",
+        "humanize": true,
+        "pointerClicks": true,
+        "sdkMode": "pin-041"
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "en-US",
+        "languages": [
+          "en-US",
+          "en"
+        ],
+        "hardwareConcurrency": 32,
+        "maxTouchPoints": 0,
+        "screen": {
+          "width": 1920,
+          "height": 1080,
+          "availWidth": 1920,
+          "availHeight": 1040,
+          "colorDepth": 24,
+          "pixelDepth": 24
+        },
+        "viewport": {
+          "width": 1905,
+          "height": 976
+        },
+        "devicePixelRatio": 1.5
+      },
+      "sgScripts": [
+        "https://g.alicdn.com/captcha-frontend/dynamicJS/3.29.0/sg.061.9e7fd57221596bad.js"
+      ],
+      "feilinScripts": [
+        "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin040.34057464b5d3da9732a4ad120074561471ef038715874eb39fc2402176003d06.js"
+      ],
+      "sdk": {
+        "url": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin041.2a3946443830dedf38954c509ea97a8de5b4bb27464aff39d5ccaf0c982b9449.js",
+        "variant": "041",
+        "controlled": true,
+        "selection": "published-041-source-replacement",
+        "requestedPattern": "**/FeiLin/1.5.1/feilin040*.js"
+      },
+      "sessionSha256": "a03a44de7aa2b69c51937b1271cef116bcddeb067556e994a9a82a3bb6a615be",
+      "deviceDataSha256": "e02c7514403bded0292aecb7eff7d90f801847a0435e465da3ebbc9379ae5713",
+      "eventsSha256": "9d9fe307d4a5d0cb15bbc268a4f63fd3b117d5263bbe755ce9e66d8a4326074c",
+      "eventCounts": {
+        "mousemove": 89,
+        "mouseclick": 2,
+        "keyup": 30,
+        "scrollTop": 0,
+        "scrollLeft": 0,
+        "pointerEvent": 2
+      },
+      "gatherCost": "63",
+      "dataCharacters": 11180,
+      "browser": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "nonceSha256": "c532e6ec7c47c2709af8b02d0f65ef7dc4395d705c2e4b03714c459eed2775f3",
+        "dataSha256": "10dfd66beba82d427baf002d87dd3e12b26d0c9438f1358dcec4e3d819cf35cc",
+        "bodySha256": "23606544a0642079cc0d69c3e1e0eba3a4752525b48602a5555cd897822777ff"
+      },
+      "parity": {
+        "data": true,
+        "signature": true,
+        "body": true
+      },
+      "local": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "requestIdSha256": "3aa3e9732728ec354e3dce70ef74287305baf4583556a269544f1853d06a5e3f",
+        "timestamp": 1791453202165,
+        "nonceSha256": "3f9ae381eebced07b5fe6de99ffb965fa32e70256300c104277d65640cf3bfe2",
+        "dataSha256": "31afa597737a3d4885bc3da94c9a3e1a2ffa94c78cf1109090b4d919def141f4",
+        "bodySha256": "f44aeab995577c8063164baf2ee9826e110df3a33dea40f49c03612b2d0c6340",
+        "dataCharacters": 11180
+      },
+      "environmentSha256": "ec5373dabc85f2c6810c1e6a8be07328343197ada113b17d1b385d8ba181ef1c"
+    },
+    {
+      "id": "sample-13",
+      "batchId": "20261008-3676378a",
+      "plan": {
+        "id": "sample-13",
+        "locale": "en-US",
+        "os": "windows",
+        "mode": "company",
+        "waitMs": 1570,
+        "typingDelayMs": 90,
+        "username": "sample_8fa1805cc8",
+        "company": "sample_c75128",
+        "humanize": true,
+        "pointerClicks": true,
+        "sdkMode": "natural"
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "en-US",
+        "languages": [
+          "en-US",
+          "en"
+        ],
+        "hardwareConcurrency": 2,
+        "maxTouchPoints": 0,
+        "screen": {
+          "width": 1680,
+          "height": 1050,
+          "availWidth": 1680,
+          "availHeight": 1002,
+          "colorDepth": 24,
+          "pixelDepth": 24
+        },
+        "viewport": {
+          "width": 1665,
+          "height": 938
+        },
+        "devicePixelRatio": 1.5
+      },
+      "sgScripts": [
+        "https://g.alicdn.com/captcha-frontend/dynamicJS/3.29.0/sg.068.5acf1d4565ddc792.js"
+      ],
+      "feilinScripts": [
+        "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin041.2a3946443830dedf38954c509ea97a8de5b4bb27464aff39d5ccaf0c982b9449.js"
+      ],
+      "sdk": {
+        "url": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin041.2a3946443830dedf38954c509ea97a8de5b4bb27464aff39d5ccaf0c982b9449.js",
+        "variant": "041",
+        "controlled": false,
+        "selection": "natural",
+        "requestedPattern": "**/FeiLin/1.5.1/feilin041*.js"
+      },
+      "sessionSha256": "176a941ddbf0af424e161551d598fdfabcf1b3c5027c99c6b8fff7fa4542f864",
+      "deviceDataSha256": "c747d6b16768bb40ce34bf94cf7faf4f3bb2dd1d5714679c731466ebdd1c95eb",
+      "eventsSha256": "ede490ce8a4b048e146dc8d0d1b0dc0f8f8ba8f9e4c48c5b2df4a6ccfb83f1e9",
+      "eventCounts": {
+        "mousemove": 56,
+        "mouseclick": 1,
+        "keyup": 13,
+        "scrollTop": 0,
+        "scrollLeft": 0,
+        "pointerEvent": 1
+      },
+      "gatherCost": "66",
+      "dataCharacters": 7340,
+      "browser": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "nonceSha256": "588ac2961bc7398a750a9b1866080b82d3077448cca85cb294bb4f0be1aed3e0",
+        "dataSha256": "2131d42614fe7aef9502e44bbc3f78eb5a5f8fba82f7cd0018af1903de9261c8",
+        "bodySha256": "b3857a748327ede356ae4bdbebaab458e5bc08ee7965cda491e40577c683d360"
+      },
+      "parity": {
+        "data": true,
+        "signature": true,
+        "body": true
+      },
+      "local": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "requestIdSha256": "7f6e13777b25751880aaf06bddf24a23af68a223ff57d64ad92b100a0458e51d",
+        "timestamp": 1791453281749,
+        "nonceSha256": "64eaf151234dc3771000eddb621f9b5a892ded9f8eafd89d6103eeed4d8a893c",
+        "dataSha256": "178a8e88dc14519283bd377bad063d44ee273b79400d875c190dd8e960375992",
+        "bodySha256": "afddded7c3a692249619a65ecf19f56f9eb5bbab9d94b1fe25b0fd4b61f57c42",
+        "dataCharacters": 7340
+      },
+      "environmentSha256": "102d8c53caa469c6036bd94da60bf32b1ae80a9abb2fda49323371d60ff55b15"
+    },
+    {
+      "id": "sample-14",
+      "batchId": "20261008-3676378a",
+      "plan": {
+        "id": "sample-14",
+        "locale": "zh-CN",
+        "os": "windows",
+        "mode": "company",
+        "waitMs": 471,
+        "typingDelayMs": 92,
+        "username": "sample_3a624f",
+        "company": "sample_9fc6b563d8c4",
+        "humanize": true,
+        "pointerClicks": true,
+        "sdkMode": "natural"
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "zh-CN",
+        "languages": [
+          "zh-CN",
+          "zh"
+        ],
+        "hardwareConcurrency": 16,
+        "maxTouchPoints": 0,
+        "screen": {
+          "width": 3072,
+          "height": 1728,
+          "availWidth": 3072,
+          "availHeight": 1680,
+          "colorDepth": 24,
+          "pixelDepth": 24
+        },
+        "viewport": {
+          "width": 1771,
+          "height": 1247
+        },
+        "devicePixelRatio": 1.5
+      },
+      "sgScripts": [
+        "https://g.alicdn.com/captcha-frontend/dynamicJS/3.29.0/sg.091.fad1cda1aeac9daf.js"
+      ],
+      "feilinScripts": [
+        "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin040.34057464b5d3da9732a4ad120074561471ef038715874eb39fc2402176003d06.js"
+      ],
+      "sdk": {
+        "url": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin040.34057464b5d3da9732a4ad120074561471ef038715874eb39fc2402176003d06.js",
+        "variant": "040",
+        "controlled": false,
+        "selection": "natural",
+        "requestedPattern": "**/FeiLin/1.5.1/feilin040*.js"
+      },
+      "sessionSha256": "56cdd74657570a7e0b15a29e81e88bc2912047c9951f04a84efa34d07d655b13",
+      "deviceDataSha256": "4154cf8674368b9e7c7f3937dd1d1fbbc584765300775ad8f6ae7573059c313f",
+      "eventsSha256": "721ac00f1e75b8e1e431c44bf7780df12f1968e82fefd72451b77744e4ac7971",
+      "eventCounts": {
+        "mousemove": 58,
+        "mouseclick": 1,
+        "keyup": 19,
+        "scrollTop": 0,
+        "scrollLeft": 0,
+        "pointerEvent": 1
+      },
+      "gatherCost": "61",
+      "dataCharacters": 7680,
+      "browser": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "nonceSha256": "05bc8394e27fa3fdc831781034b8ee59df84176a222b52a9305b7f8a41fab81d",
+        "dataSha256": "7ef77ad5fbe267851f55a98dba4b027a0d551c943d7b4050f4f8c6c1e530f4b9",
+        "bodySha256": "967a80278ce7066f368dc3962cc3b936f17aaa527e4b8b113790fb20a94f9724"
+      },
+      "parity": {
+        "data": true,
+        "signature": true,
+        "body": true
+      },
+      "local": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "requestIdSha256": "379e239a6293c8b396d2c3b2a632463cad8fd846a1febaec89ae5062d429dec6",
+        "timestamp": 1791453312306,
+        "nonceSha256": "4913d19150a4eb91a3aa443e224cb42ebecf7bbd6a60d9470f3c54aefdbcfb85",
+        "dataSha256": "20bcb111552282828b71931f542fde5a99c2eeda8b091e9004f8d24ffe1ddc4c",
+        "bodySha256": "c11c4f726bb29ef4ef86047e6d231582e1c8a8432825f7db18dc03fb119ba198",
+        "dataCharacters": 7680
+      },
+      "environmentSha256": "4f7510c1dee44b37e3ebd4edf8ab920fc6797ce02065e7003241f1e0e39997d0"
+    },
+    {
+      "id": "sample-15",
+      "batchId": "20261008-3676378a",
+      "plan": {
+        "id": "sample-15",
+        "locale": "zh-TW",
+        "os": "windows",
+        "mode": "username",
+        "waitMs": 1348,
+        "typingDelayMs": 95,
+        "username": "sample_8126bb",
+        "company": "sample_fbbcdf",
+        "humanize": true,
+        "pointerClicks": true,
+        "sdkMode": "pin-041"
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "platform": "Win32",
+        "language": "zh-TW",
+        "languages": [
+          "zh-TW",
+          "zh"
+        ],
+        "hardwareConcurrency": 16,
+        "maxTouchPoints": 0,
+        "screen": {
+          "width": 5120,
+          "height": 1440,
+          "availWidth": 5120,
+          "availHeight": 1392,
+          "colorDepth": 24,
+          "pixelDepth": 24
+        },
+        "viewport": {
+          "width": 1869,
+          "height": 1328
+        },
+        "devicePixelRatio": 1.5
+      },
+      "sgScripts": [
+        "https://g.alicdn.com/captcha-frontend/dynamicJS/3.29.0/sg.089.611e95e812057125.js"
+      ],
+      "feilinScripts": [
+        "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin040.34057464b5d3da9732a4ad120074561471ef038715874eb39fc2402176003d06.js"
+      ],
+      "sdk": {
+        "url": "https://g.alicdn.com/captcha-frontend/FeiLin/1.5.1/feilin041.2a3946443830dedf38954c509ea97a8de5b4bb27464aff39d5ccaf0c982b9449.js",
+        "variant": "041",
+        "controlled": true,
+        "selection": "published-041-source-replacement",
+        "requestedPattern": "**/FeiLin/1.5.1/feilin040*.js"
+      },
+      "sessionSha256": "dea53cc0fb8a13510907ea62fe9586ab852f9d6d670e30b2d17b39deb874bd6f",
+      "deviceDataSha256": "1bce58572c8f5558668b8f38813397f2bf57a4a98d98a5a3d8eec46d93e515de",
+      "eventsSha256": "2f68783a40858d026d53bdbe027f966d23b5a5fd004f2684faf52b8ccf11a99b",
+      "eventCounts": {
+        "mousemove": 58,
+        "mouseclick": 1,
+        "keyup": 13,
+        "scrollTop": 0,
+        "scrollLeft": 0,
+        "pointerEvent": 1
+      },
+      "gatherCost": "68",
+      "dataCharacters": 7532,
+      "browser": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "nonceSha256": "866b46b01b3b5eb269b0b48291bf9cdcb5416879495a2c1e79e7a841efa65185",
+        "dataSha256": "935f892ee673187f35941d8cccf7c62e26bf699598f781692657c5501be654ac",
+        "bodySha256": "036ac5a5c442a31fc4be8f0424cd473bf37eca0dcf383e1f2da10fc1d3ed0631"
+      },
+      "parity": {
+        "data": true,
+        "signature": true,
+        "body": true
+      },
+      "local": {
+        "httpStatus": 200,
+        "code": "200",
+        "resultObject": true,
+        "requestIdSha256": "3fc258e10866f35c4be8c277c7ad2c9c41a5382a4168ef8b78e81eabd7afc19d",
+        "timestamp": 1791453408019,
+        "nonceSha256": "72c33dc24a8913339d4060bc8ccca58250746775f460ed368ad9986ac1b45849",
+        "dataSha256": "8ddc09970ed58b8b7687c7ac293d8d3441ca18a30d3743b421188f796a2b4d62",
+        "bodySha256": "787c3f295962f720a5c59b35854f5a78d9ca9129b664e5f5d4ff2fb798ebd709",
+        "dataCharacters": 7532
+      },
+      "environmentSha256": "e3a8a5038021c22249cb2f188482229b4f2dc0dee2e96da4915190edde43bcc3"
+    }
+  ],
+  "summary": {
+    "groups": 15,
+    "browserAccepted": 15,
+    "localAccepted": 15,
+    "completeParity": 15,
+    "locales": {
+      "zh-CN": 5,
+      "zh-TW": 5,
+      "en-US": 5
+    },
+    "sdkVariants": {
+      "040": 12,
+      "041": 3
+    },
+    "controlledSourceGroups": [
+      "sample-12",
+      "sample-15"
+    ],
+    "screenResolutions": {
+      "1600x900": 1,
+      "5120x1440": 4,
+      "1920x1080": 2,
+      "3440x1440": 1,
+      "1680x1050": 3,
+      "2560x1440": 2,
+      "3072x1728": 2
+    },
+    "distinctEnvironments": 15,
+    "distinctSessions": 15,
+    "distinctDeviceData": 15,
+    "distinctEventPayloads": 15,
+    "distinctBrowserData": 15,
+    "distinctLocalData": 15,
+    "distinctBrowserNonces": 15,
+    "distinctLocalNonces": 15,
+    "dataCharacters": {
+      "min": 2200,
+      "max": 11180
+    },
+    "mouseMoves": {
+      "min": 0,
+      "max": 91
+    },
+    "keyUps": {
+      "min": 11,
+      "max": 32
+    },
+    "mouseClicks": {
+      "min": 0,
+      "max": 2
+    },
+    "distinctSgScripts": 13
+  }
+}

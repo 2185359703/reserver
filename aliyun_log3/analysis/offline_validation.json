@@ -1,0 +1,34 @@
+{
+  "crypto": [
+    {
+      "action": "Log2",
+      "signature_matches": true,
+      "ciphertext_matches": true,
+      "serializer_matches": true,
+      "plaintext_characters": 3449
+    },
+    {
+      "action": "Log3",
+      "signature_matches": true,
+      "ciphertext_matches": true,
+      "serializer_matches": true,
+      "plaintext_characters": 1291
+    },
+    {
+      "source": "user_capture",
+      "action": "Log3",
+      "signature_matches": true,
+      "decrypts": true,
+      "plaintext_characters": 16311,
+      "ciphertext_matches": true
+    }
+  ],
+  "builder": {
+    "data_matches_browser": true,
+    "signature_matches_browser": true,
+    "body_matches_browser": true,
+    "new_timestamp_changes_data": true,
+    "new_request_changes_nonce": true,
+    "new_request_changes_signature": true
+  }
+}

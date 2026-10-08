@@ -35,3 +35,6 @@ cookies.json
 # 含 cookie/token 的原始报文(脱敏后请命名为 samples/*.raw.txt 再入库)
 **/raw_*.txt
 **/*_采集失败.csv
+
+# 各案例的本地私有状态与密钥
+**/.private/
