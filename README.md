@@ -12,6 +12,7 @@ Web 客户端协议逆向案例集。仓库关注浏览器中的动态参数、�
 | [`tds/`](tds/) | 腾讯行为式验证码 `tdc.js` | Chaos VM、XTEA 变体、动态密钥/偏移、图像缺口定位 | 参数链主要为纯 Python；新脚本版本首次提参需要 Node | 仓库内包含固定向量、样本评估和历史成功截图 |
 | [`boos/`](boos/) | BOSS直聘 `__zp_stoken__` | 自研 VM、种子轮换、Canvas/WebGL 等宿主环境表面 | Python 协议层 + `iv8` 环境仿真 | 已记录活体验收；明确标注为 `snapshot-driven`，尚非纯 Python |
 | [`aliyun_log3/`](aliyun_log3/) | 阿里云 `Log3` 设备上报与 `InitCaptcha` 初始化/刷新 | AES/Base64、HMAC、令牌 MD5、新 DeviceConfig / CertifyId 配对、SDK 切换 | Python `curl_cffi` + 无 npm 依赖的 Node.js 计算；配套样本随机选择 | 两个接口各 15 组完整比对与真实流程成功；设备画像为 `snapshot-driven` |
+| [`geetest/`](geetest/) | 极验 v4 `icon` 点选与 `/verify` | POW、AES-CBC、RSA、`w` 拼装、题目状态配对与评测计分 | 协议计算为 Python；图像定位依赖外部视觉模型 | `pt=1` 真实成功记录与对应截图；`pt=0` 尚未线上确认 |
 
 ## 仓库原则
 
@@ -68,6 +69,16 @@ Log3 配置自己的合法取样后，可使用 `python .\aliyun_log3.py --dry-r
 
 新增的 `python .\aliyun_initcaptcha.py` 会随机选择设备画像，重新初始化取得服务端 CertifyId / DeviceConfig，再计算并发送刷新请求；它不处理验证码答案或登录业务。
 
+### 极验 v4 协议与真实验证
+
+```powershell
+cd geetest
+python -m pip install -r requirements.txt
+python .\py\geetest_verify.py --selftest
+```
+
+按 [`geetest/README.md`](geetest/README.md) 配置 `GEETEST_CAPTCHA_ID` 与视觉模型环境变量后，可运行 `python .\py\geetest_verify.py --full --attempts 1`。使用 `--benchmark 10` 统计全量尝试通过率，未提交和错误组也计入分母。案例附有真实 `/verify` 成功记录和本地运行记录查看器截图，截图不冒充官方页面。
+
 ## 目录结构
 
 ```text
@@ -81,6 +92,7 @@ reserver/
 ├── tds/                         # 腾讯 TDC/Chaos VM 案例
 ├── boos/                        # BOSS token 环境仿真案例
 ├── aliyun_log3/                 # 阿里云 Log3 / InitCaptcha 参数与随机样本
+├── geetest/                     # 极验 v4 POW/AES/RSA 与真实 /verify 证据
 ├── LICENSE
 └── README.md
 ```

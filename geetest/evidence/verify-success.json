@@ -1,0 +1,154 @@
+{
+  "schema": 1,
+  "source": "live Python run of the public geetest checkout",
+  "presentation": "local record viewer; not an official GeeTest UI screenshot",
+  "started_at": "2026-10-15T19:41:25.029974+08:00",
+  "elapsed_ms": 51519.31,
+  "main_size": [
+    300,
+    200
+  ],
+  "server": {
+    "submitted": true,
+    "status": "success",
+    "result": "success"
+  },
+  "results": [
+    {
+      "index": 1,
+      "found": true,
+      "center": [
+        244.0,
+        72.5
+      ],
+      "box": [
+        219.0,
+        48.0,
+        269.0,
+        97.0
+      ],
+      "verified": true,
+      "candidate_verified": true,
+      "consistency": null,
+      "resampled": null,
+      "elapsed_ms": 21371.2,
+      "candidate_id": 9,
+      "candidate_source": "cv",
+      "verification_method": "candidate_choice"
+    },
+    {
+      "index": 2,
+      "found": true,
+      "center": [
+        57.5,
+        95.5
+      ],
+      "box": [
+        33.0,
+        71.0,
+        82.0,
+        120.0
+      ],
+      "verified": true,
+      "candidate_verified": true,
+      "consistency": null,
+      "resampled": null,
+      "elapsed_ms": 16793.5,
+      "candidate_id": 11,
+      "candidate_source": "cv",
+      "verification_method": "candidate_choice"
+    },
+    {
+      "index": 3,
+      "found": true,
+      "center": [
+        113.5,
+        62.0
+      ],
+      "box": [
+        88.0,
+        38.0,
+        139.0,
+        86.0
+      ],
+      "verified": true,
+      "candidate_verified": true,
+      "consistency": null,
+      "resampled": null,
+      "elapsed_ms": 13406.9,
+      "candidate_id": 8,
+      "candidate_source": "cv",
+      "verification_method": "candidate_choice"
+    }
+  ],
+  "targets": [
+    {
+      "index": 1,
+      "file": "success-target-1.png"
+    },
+    {
+      "index": 2,
+      "file": "success-target-2.png"
+    },
+    {
+      "index": 3,
+      "file": "success-target-3.png"
+    }
+  ],
+  "config": {
+    "verify": true,
+    "strict_verify": false,
+    "cross_check": true,
+    "candidate_verify": true,
+    "geometric_rescue": true,
+    "agree_px": 10.0,
+    "min_gap_px": 20.0,
+    "locate_retries": 2,
+    "main_scale": 2.0,
+    "timeout": 20.0,
+    "workers": 2,
+    "model": "gpt-6-luna"
+  },
+  "run_summary": {
+    "schema": 1,
+    "mode": "attempts",
+    "requested": 3,
+    "total": 1,
+    "submitted": 1,
+    "not_submitted": 0,
+    "success": 1,
+    "errors": 0,
+    "outcomes": {
+      "success": 1
+    },
+    "server_rejected": 0,
+    "success_per_total": 1.0,
+    "success_per_submitted": 1.0
+  },
+  "execution_context": {
+    "cookie_supplied": true,
+    "external_vision_model": true,
+    "client_type": "web"
+  },
+  "implementation_sha256": {
+    "geetest_solve.py": "4b5b890331340f24558b64349da745935f47d0af76a3cc589e4908ed73f33b15",
+    "geetest_vision.py": "b50738e77628278f247fe0a9c3b6a657216099d4755dd1920e20eda3d6a13de2",
+    "geetest_rescue.py": "a5930fff2db9195a369dacbec8f6862fe5269c1d9a8c01f9dac7284b1d042dd6"
+  },
+  "image_sha256": {
+    "success-main.png": "34de2536488a7e0f4cd9c820be847d6031703bff24d360728e2109334525b2f1",
+    "success-target-1.png": "a87202e71b2003b31afe14e6f4137e27465874e8df0f78d642d75b6b2d39222f",
+    "success-target-2.png": "9cf2c2f8964de33a583bda7618c4c1705d969d4f48eb26844ad1391b66c2e824",
+    "success-target-3.png": "a797f6a8d914309093642f1055c6620ab7189dbc4749f83ca1c391903ebd31c3",
+    "success-prediction.png": "e3703bc2db283a69815bcbed4a73dabf008388d3b82448e15cbd97ef923d9f85"
+  },
+  "offline_tests": {
+    "passed": 64,
+    "failed": 0,
+    "skipped": 0
+  },
+  "limitations": [
+    "A successful submission is not a stable success-rate measurement.",
+    "No credentials, tokens, encrypted request body or raw response are included."
+  ]
+}

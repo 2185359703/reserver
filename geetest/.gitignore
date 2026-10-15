@@ -1,0 +1,17 @@
+# Local credentials and raw request/response captures
+.env
+.env.*
+!.env.example
+*.log
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+# Runtime images and attempt records remain local unless deliberately sanitized.
+samples/
+runs/
+work/
+local/
+outputs/
+*.jsonl
