@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+data/
+**/response.json
+**/last_run.json
+**/prepared_request.json
+_common/native_http/*.exe
+_common/native_http/radisson-http
+_common/native_http/.*.tmp

@@ -1,0 +1,51 @@
+{
+  "checked_at_utc": "2026-10-15T16:35:29.831Z",
+  "dynamic_config": {
+    "keys": {
+      "default.taxes.included.country.codes": "AT,AU,BE,BG,CY,CZ,DE,DK,EE,EL,ES,FI,FR,GB,GR,HR,HU,IE,IS,IT,LI,LT,LU,LV,MT,NL,NO,PL,PO,PT,RO,SE,SI,SK,ZA",
+      "default.taxes.excluded.country.codes": "US",
+      "booking.sr.hotels.avail.request.limit": "30"
+    }
+  },
+  "categories": {
+    "hotels": [
+      {
+        "code": "CNJSWUXWET",
+        "groupCode": "rhg",
+        "memberOnlyRate": true
+      }
+    ]
+  },
+  "rooms": {
+    "rooms": [
+      {
+        "id": "BSUP------",
+        "tmsCode": "BSUP------"
+      },
+      {
+        "id": "BSTD------",
+        "tmsCode": "BSTD------"
+      },
+      {
+        "id": "SES1------",
+        "tmsCode": "SES1------"
+      },
+      {
+        "id": "UPRS------",
+        "tmsCode": "UPRS------"
+      },
+      {
+        "id": "PDLX------",
+        "tmsCode": "PDLX------"
+      },
+      {
+        "id": "JJST------",
+        "tmsCode": "JJST------"
+      },
+      {
+        "id": "PEXE------",
+        "tmsCode": "PEXE------"
+      }
+    ]
+  }
+}

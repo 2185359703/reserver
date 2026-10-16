@@ -1,0 +1,18 @@
+{
+  "queries": ["London", "Paris", "Dubai", "Singapore", "Shanghai", "Beijing", "New York", "Berlin"],
+  "max_hotels": 80,
+  "detail_hotels": 12,
+  "cards_batch_size": 20,
+  "max_requests": 150,
+  "request_interval_seconds": 0.3,
+  "transport": "native",
+  "network_route": "direct",
+  "preferred_currency": "USD",
+  "viewport_width": 1280,
+  "timeout": 25,
+  "scenarios": [
+    {"name": "standard", "check_in": "2026-11-01", "check_out": "2026-11-03", "occupancy": [{"adults": 2, "children": []}], "preferred_currency": "USD"},
+    {"name": "family", "check_in": "2026-11-15", "check_out": "2026-11-18", "occupancy": [{"adults": 2, "children": [8]}], "preferred_currency": "USD"},
+    {"name": "two_rooms", "check_in": "2026-12-01", "check_out": "2026-12-03", "occupancy": [{"adults": 1, "children": []}, {"adults": 1, "children": []}], "preferred_currency": "EUR"}
+  ]
+}

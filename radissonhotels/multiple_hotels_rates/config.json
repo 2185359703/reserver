@@ -1,0 +1,28 @@
+{
+  "mode": "live",
+  "transport": "native",
+  "timeout": 25,
+  "viewport_width": 1280,
+  "page_url": "https://www.radissonhotels.com/zh-cn/booking/search-results",
+  "hotel_codes": [
+    "CNJSWUXWET"
+  ],
+  "dependency_snapshot": "../_common/example_inputs.json",
+  "preferred_currency": "USD",
+  "device_country": null,
+  "check_in": null,
+  "check_out": null,
+  "nights": 1,
+  "occupancy": [
+    {
+      "adults": 2,
+      "children": []
+    }
+  ],
+  "search_type": "lowest",
+  "profile": null,
+  "loyalty_consent": null,
+  "model_exclude_member_rates": false,
+  "pay_with_points_rates": false,
+  "network_route": "direct"
+}

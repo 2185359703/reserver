@@ -13,6 +13,7 @@ Web 客户端协议逆向案例集。仓库关注浏览器中的动态参数、�
 | [`boos/`](boos/) | BOSS直聘 `__zp_stoken__` | 自研 VM、种子轮换、Canvas/WebGL 等宿主环境表面 | Python 协议层 + `iv8` 环境仿真 | 已记录活体验收；明确标注为 `snapshot-driven`，尚非纯 Python |
 | [`aliyun_log3/`](aliyun_log3/) | 阿里云 `Log3` 设备上报与 `InitCaptcha` 初始化/刷新 | AES/Base64、HMAC、令牌 MD5、新 DeviceConfig / CertifyId 配对、SDK 切换 | Python `curl_cffi` + 无 npm 依赖的 Node.js 计算；配套样本随机选择 | 两个接口各 15 组完整比对与真实流程成功；设备画像为 `snapshot-driven` |
 | [`geetest/`](geetest/) | 极验 v4 `icon` 点选与 `/verify` | POW、AES-CBC、RSA、`w` 拼装、题目状态配对与评测计分 | 协议计算为 Python；图像定位依赖外部视觉模型 | `pt=1` 真实成功记录与对应截图；`pt=0` 尚未线上确认 |
+| [`radissonhotels/`](radissonhotels/) | 丽笙酒店公开数据接口 | 参数构造、TLS/HTTP2、跨地区分批采集 | Python + 自动编译的 Go 后端 | 8 接口三轮通过；80 家酒店批量实采 |
 
 ## 仓库原则
 
@@ -79,6 +80,18 @@ python .\py\geetest_verify.py --selftest
 
 按 [`geetest/README.md`](geetest/README.md) 配置 `GEETEST_CAPTCHA_ID` 与视觉模型环境变量后，可运行 `python .\py\geetest_verify.py --full --attempts 1`。使用 `--benchmark 10` 统计全量尝试通过率，未提交和错误组也计入分母。案例附有真实 `/verify` 成功记录和本地运行记录查看器截图，截图不冒充官方页面。
 
+### 丽笙酒店
+
+需要 Python 3.10+ 和 Go 1.26+，首次运行自动编译 HTTP 后端。
+
+```powershell
+cd radissonhotels
+python .\main.py
+python .\collect_batch.py
+```
+
+接口和批量参数分别在各目录 config.json 与 batch_config.json 中配置，结果写入本地 JSONL/CSV，详见[案例说明](radissonhotels/README.md)。
+
 ## 目录结构
 
 ```text
@@ -93,6 +106,7 @@ reserver/
 ├── boos/                        # BOSS token 环境仿真案例
 ├── aliyun_log3/                 # 阿里云 Log3 / InitCaptcha 参数与随机样本
 ├── geetest/                     # 极验 v4 POW/AES/RSA 与真实 /verify 证据
+├── radissonhotels/              # 丽笙酒店接口与批量采集
 ├── LICENSE
 └── README.md
 ```

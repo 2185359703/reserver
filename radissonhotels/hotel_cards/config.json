@@ -1,0 +1,12 @@
+{
+  "mode": "live",
+  "transport": "native",
+  "timeout": 25,
+  "viewport_width": 1280,
+  "page_url": "https://www.radissonhotels.com/zh-cn/booking/search-results",
+  "hotel_codes": [
+    "CNJSWUXWET"
+  ],
+  "external_group": false,
+  "network_route": "direct"
+}

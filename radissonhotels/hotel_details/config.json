@@ -1,0 +1,9 @@
+{
+  "mode": "live",
+  "transport": "native",
+  "timeout": 25,
+  "viewport_width": 1280,
+  "page_url": "https://www.radissonhotels.com/zh-cn/booking/room-display",
+  "hotel_code": "CNJSWUXWET",
+  "network_route": "direct"
+}

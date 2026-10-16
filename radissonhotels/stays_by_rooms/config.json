@@ -1,0 +1,31 @@
+{
+  "mode": "live",
+  "transport": "native",
+  "timeout": 25,
+  "viewport_width": 1280,
+  "page_url": "https://www.radissonhotels.com/zh-cn/booking/room-display",
+  "hotel_code": "CNJSWUXWET",
+  "dependency_snapshot": "../_common/example_inputs.json",
+  "preferred_currency": "USD",
+  "device_country": null,
+  "check_in": null,
+  "check_out": null,
+  "nights": 1,
+  "occupancy": [
+    {
+      "adults": 2,
+      "children": []
+    }
+  ],
+  "search_type": "lowest",
+  "profile": null,
+  "saver_storage_value": null,
+  "promotion_code": null,
+  "search_params": {
+    "brands": "",
+    "brandFirst": "",
+    "so": "CLASSIC",
+    "usePoints": "false"
+  },
+  "network_route": "direct"
+}
