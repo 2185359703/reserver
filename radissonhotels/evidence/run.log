@@ -1,0 +1,11 @@
+python -B main.py
+{"folder":"hotel_search","mode":"live","accepted":true,"statuses":[200]}
+{"folder":"hotel_cards","mode":"live","accepted":true,"statuses":[200]}
+{"folder":"multiple_hotels_rates","mode":"live","accepted":true,"statuses":[200,200,200]}
+{"folder":"hotel_details","mode":"live","accepted":true,"statuses":[200]}
+{"folder":"hotel_rooms","mode":"live","accepted":true,"statuses":[200]}
+{"folder":"stays_by_rooms","mode":"live","accepted":true,"statuses":[200,200,200]}
+{"folder":"calendar_from","mode":"live","accepted":true,"statuses":[200,200]}
+{"folder":"autocomplete","mode":"live","accepted":true,"statuses":[200]}
+{"mode":"live","accepted":8,"total":8,"evidence":"data/latest-live-run.json"}
+exit_code=0

@@ -1,0 +1,354 @@
+{
+  "command": "python -B main.py",
+  "source_commit": "b2e8ad45747587cfc4a4267e2b5841ca025c3df7",
+  "started_at_utc": "2026-10-16T06:12:04.467142+00:00",
+  "finished_at_utc": "2026-10-16T06:12:22.728403+00:00",
+  "exit_code": 0,
+  "accepted_count": 8,
+  "records": [
+    {
+      "folder": "hotel_search",
+      "exit_code": 0,
+      "accepted": true,
+      "requests": [
+        {
+          "checked_at_utc": "2026-10-16T06:12:04.709403+00:00",
+          "method": "GET",
+          "path": "/zimba-api/search-result/hotels/search",
+          "transport": "native",
+          "network_route": "direct",
+          "browser_state_imported": false,
+          "accepted": true,
+          "status": 200,
+          "content_type": "application/json;charset=utf-8",
+          "bytes": 209,
+          "response_fields": [
+            "hotels",
+            "nearByHotels",
+            "matchStatus",
+            "place"
+          ]
+        }
+      ],
+      "business_fields": {
+        "hotels": {
+          "type": "list",
+          "count": 1
+        }
+      }
+    },
+    {
+      "folder": "hotel_cards",
+      "exit_code": 0,
+      "accepted": true,
+      "requests": [
+        {
+          "checked_at_utc": "2026-10-16T06:12:05.909093+00:00",
+          "method": "GET",
+          "path": "/zimba-api/search-result/hotels",
+          "transport": "native",
+          "network_route": "direct",
+          "browser_state_imported": false,
+          "accepted": true,
+          "status": 200,
+          "content_type": "application/json;charset=utf-8",
+          "bytes": 6836,
+          "response_fields": [
+            "hotels"
+          ]
+        }
+      ],
+      "business_fields": {
+        "hotels": {
+          "type": "list",
+          "count": 1
+        }
+      }
+    },
+    {
+      "folder": "multiple_hotels_rates",
+      "exit_code": 0,
+      "accepted": true,
+      "requests": [
+        {
+          "checked_at_utc": "2026-10-16T06:12:08.054794+00:00",
+          "method": "GET",
+          "path": "/zimba-api/config-dynamic",
+          "transport": "native",
+          "network_route": "direct",
+          "browser_state_imported": false,
+          "accepted": true,
+          "status": 200,
+          "content_type": "application/json;charset=utf-8",
+          "bytes": 6981,
+          "response_fields": [
+            "total",
+            "keys"
+          ]
+        },
+        {
+          "checked_at_utc": "2026-10-16T06:12:10.157663+00:00",
+          "method": "GET",
+          "path": "/zimba-api/search-result/categories/hotels",
+          "transport": "native",
+          "network_route": "direct",
+          "browser_state_imported": false,
+          "accepted": true,
+          "status": 200,
+          "content_type": "application/json;charset=utf-8",
+          "bytes": 1703616,
+          "response_fields": [
+            "states",
+            "cities",
+            "continents",
+            "regions",
+            "countries",
+            "categories",
+            "hotels",
+            "departments",
+            "groups",
+            "boosters"
+          ]
+        },
+        {
+          "checked_at_utc": "2026-10-16T06:12:11.422005+00:00",
+          "method": "POST",
+          "path": "/availability-api/multiple-hotels-rates",
+          "transport": "native",
+          "network_route": "direct",
+          "browser_state_imported": false,
+          "accepted": true,
+          "status": 200,
+          "content_type": "application/json",
+          "bytes": 907,
+          "response_fields": [
+            "activeCrs",
+            "hotels"
+          ]
+        }
+      ],
+      "business_fields": {
+        "batches": {
+          "type": "list",
+          "count": 1
+        }
+      },
+      "batch_hotel_counts": [
+        1
+      ]
+    },
+    {
+      "folder": "hotel_details",
+      "exit_code": 0,
+      "accepted": true,
+      "requests": [
+        {
+          "checked_at_utc": "2026-10-16T06:12:12.628971+00:00",
+          "method": "GET",
+          "path": "/content-api/hotels/CNJSWUXWET",
+          "transport": "native",
+          "network_route": "direct",
+          "browser_state_imported": false,
+          "accepted": true,
+          "status": 200,
+          "content_type": "application/json",
+          "bytes": 29792,
+          "response_fields": [
+            "hotel"
+          ]
+        }
+      ],
+      "business_fields": {
+        "hotel": {
+          "type": "dict",
+          "count": 37
+        }
+      }
+    },
+    {
+      "folder": "hotel_rooms",
+      "exit_code": 0,
+      "accepted": true,
+      "requests": [
+        {
+          "checked_at_utc": "2026-10-16T06:12:14.564523+00:00",
+          "method": "GET",
+          "path": "/content-api/hotels/CNJSWUXWET/rooms",
+          "transport": "native",
+          "network_route": "direct",
+          "browser_state_imported": false,
+          "accepted": true,
+          "status": 200,
+          "content_type": "application/json",
+          "bytes": 39460,
+          "response_fields": [
+            "rooms"
+          ]
+        }
+      ],
+      "business_fields": {
+        "rooms": {
+          "type": "list",
+          "count": 7
+        }
+      }
+    },
+    {
+      "folder": "stays_by_rooms",
+      "exit_code": 0,
+      "accepted": true,
+      "requests": [
+        {
+          "checked_at_utc": "2026-10-16T06:12:16.924603+00:00",
+          "method": "GET",
+          "path": "/zimba-api/config-dynamic",
+          "transport": "native",
+          "network_route": "direct",
+          "browser_state_imported": false,
+          "accepted": true,
+          "status": 200,
+          "content_type": "application/json;charset=utf-8",
+          "bytes": 6981,
+          "response_fields": [
+            "total",
+            "keys"
+          ]
+        },
+        {
+          "checked_at_utc": "2026-10-16T06:12:17.950458+00:00",
+          "method": "GET",
+          "path": "/content-api/hotels/CNJSWUXWET/rooms",
+          "transport": "native",
+          "network_route": "direct",
+          "browser_state_imported": false,
+          "accepted": true,
+          "status": 200,
+          "content_type": "application/json",
+          "bytes": 39460,
+          "response_fields": [
+            "rooms"
+          ]
+        },
+        {
+          "checked_at_utc": "2026-10-16T06:12:18.262636+00:00",
+          "method": "POST",
+          "path": "/availability-api/stays-by-rooms",
+          "transport": "native",
+          "network_route": "direct",
+          "browser_state_imported": false,
+          "accepted": true,
+          "status": 200,
+          "content_type": "application/json",
+          "bytes": 90063,
+          "response_fields": [
+            "activeCrs",
+            "currency",
+            "employeeAndHasNotTeamRatesAvailable",
+            "freeUpgradeBB",
+            "matchesSearch",
+            "maxDiscount",
+            "maxUpsellDifference",
+            "payUponArrival",
+            "rooms",
+            "searchApplicable",
+            "searchType"
+          ]
+        }
+      ],
+      "business_fields": {
+        "rooms": {
+          "type": "dict",
+          "count": 5
+        }
+      }
+    },
+    {
+      "folder": "calendar_from",
+      "exit_code": 0,
+      "accepted": true,
+      "requests": [
+        {
+          "checked_at_utc": "2026-10-16T06:12:19.820799+00:00",
+          "method": "GET",
+          "path": "/zimba-api/config-dynamic",
+          "transport": "native",
+          "network_route": "direct",
+          "browser_state_imported": false,
+          "accepted": true,
+          "status": 200,
+          "content_type": "application/json;charset=utf-8",
+          "bytes": 6981,
+          "response_fields": [
+            "total",
+            "keys"
+          ]
+        },
+        {
+          "checked_at_utc": "2026-10-16T06:12:21.013723+00:00",
+          "method": "GET",
+          "path": "/availability-api/calendar-from",
+          "transport": "native",
+          "network_route": "direct",
+          "browser_state_imported": false,
+          "accepted": true,
+          "status": 200,
+          "content_type": "application/json",
+          "bytes": 9587,
+          "response_fields": [
+            "activeCrs",
+            "averagePrice",
+            "byPoints",
+            "dates",
+            "futureDays",
+            "searchType",
+            "taxIncluded"
+          ]
+        }
+      ],
+      "business_fields": {
+        "dates": {
+          "type": "list",
+          "count": 62
+        }
+      }
+    },
+    {
+      "folder": "autocomplete",
+      "exit_code": 0,
+      "accepted": true,
+      "requests": [
+        {
+          "checked_at_utc": "2026-10-16T06:12:21.464818+00:00",
+          "method": "GET",
+          "path": "/zimba-api/autocomplete/wuxi",
+          "transport": "native",
+          "network_route": "direct",
+          "browser_state_imported": false,
+          "accepted": true,
+          "status": 200,
+          "content_type": "application/json;charset=utf-8",
+          "bytes": 2779,
+          "response_fields": [
+            "places",
+            "hotels",
+            "matchStatus"
+          ]
+        }
+      ],
+      "business_fields": {
+        "places": {
+          "type": "list",
+          "count": 5
+        },
+        "hotels": {
+          "type": "list",
+          "count": 2
+        }
+      }
+    }
+  ],
+  "browser_used": false,
+  "browser_state_imported": false,
+  "dependency_snapshot_used": false,
+  "log_redaction": "Only the absolute local output path was replaced by a project-relative path"
+}

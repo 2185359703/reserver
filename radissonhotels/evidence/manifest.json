@@ -1,0 +1,60 @@
+{
+  "created_at_utc": "2026-10-16T06:20:05.772079+00:00",
+  "screenshots": "Browser captures of the included local HTML log/data views; underlying values are actual recorded CLI and public batch data",
+  "current_entry_run": {
+    "source_commit": "b2e8ad45747587cfc4a4267e2b5841ca025c3df7",
+    "command": "python -B main.py",
+    "http_200": 13,
+    "api_accepted": 8
+  },
+  "historical_batch": {
+    "dataset": "batch-20261016-133114-704687",
+    "http_200": 79,
+    "hotels": 80,
+    "price_scenarios": 240,
+    "calendar_rows": 619,
+    "sample_rows": 19
+  },
+  "privacy": "No Cookie, Authorization, proxy credential or private request envelope values included",
+  "files": [
+    {
+      "file": "batch.json",
+      "bytes": 2096,
+      "sha256": "62eb346231af367b36b290b783ccc673f65982b70dac8755d7fa8ec91445eb54"
+    },
+    {
+      "file": "data-preview.png",
+      "bytes": 174966,
+      "sha256": "35c90567dbcceed4bba60c2895e11a8f95defdc17ad289e702b6aa193c073af8",
+      "width": 1560,
+      "height": 1649
+    },
+    {
+      "file": "index.html",
+      "bytes": 14489,
+      "sha256": "6b7570ebcd71462bac95f0da01f149eb1f0f7d7d501b6cb026cbb730c96f4811"
+    },
+    {
+      "file": "prices.sample.csv",
+      "bytes": 2048,
+      "sha256": "e4edf42a384bfc157e4639a17e3a800b02d245ff73b264c48d9e3cba8c231cad"
+    },
+    {
+      "file": "run-success.png",
+      "bytes": 110684,
+      "sha256": "71f65f5526297ce09e122516e61ba7f0eab51eb7b16085e18b5dead9fb89a2b4",
+      "width": 1561,
+      "height": 1244
+    },
+    {
+      "file": "run.json",
+      "bytes": 9514,
+      "sha256": "88b999cb74e7d92f90388edbf119b62b8c4e1373b644ccab5388692eae27412e"
+    },
+    {
+      "file": "run.log",
+      "bytes": 723,
+      "sha256": "0eea96e15775935f22f2eed2ac5d88fea081d8fef5ea4eed0b2745565711adb4"
+    }
+  ]
+}

@@ -54,3 +54,15 @@ python collect_batch.py
 离线查看请求可运行 `python main.py --build`，使用 `_common/example_inputs.json` 中公开示例数据，不发送 HTTP。更换酒店后的公开依赖由 live 模式取得。
 
 2026-10-16 实测：8 个接口三轮共 39 次 HTTP 全部 200；扩展采集 80 家酒店、3 组入住方案，79 次 HTTP 全部 200，得到 240 条酒店方案、619 条日历记录。19 条方案没有现金报价，保留为空。
+
+## 采集证据
+
+下面是本地运行日志和采集数据的截图。接口图对应当前发布代码的一次重新运行；数据图对应上述 80 家酒店的批次。
+
+![8 个接口真实运行记录，本地日志视图](evidence/run-success.png)
+
+![跨地区酒店房价数据，本地表格视图](evidence/data-preview.png)
+
+[运行摘要](evidence/run.json) · [CLI 输出](evidence/run.log) · [批量摘要](evidence/batch.json) · [19 行房价样例](evidence/prices.sample.csv) · [截图页面](evidence/index.html)
+
+接口记录包含 13 次 HTTP 200 和 8 个接口的业务结构校验结果。房价样例覆盖 6 个查询地区与 3 种入住方案，并保留一条空报价；CSV 的 source_row 可对应原始价格 JSONL 行号。文件校验值见 [evidence/manifest.json](evidence/manifest.json)。

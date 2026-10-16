@@ -1,0 +1,81 @@
+{
+  "kind": "historical_real_batch",
+  "dataset": "batch-20261016-133114-704687",
+  "started_at_utc": "2026-10-16T05:31:14.705401+00:00",
+  "finished_at_utc": "2026-10-16T05:35:55.777977+00:00",
+  "http_requests": 79,
+  "http_accepted": 79,
+  "row_counts": {
+    "requests": 79,
+    "cities": 8,
+    "hotels": 80,
+    "prices": 240,
+    "details": 12,
+    "rooms": 98,
+    "room_prices": 70,
+    "calendar_prices": 619
+  },
+  "selected_by_city": {
+    "London": 26,
+    "Paris": 5,
+    "Dubai": 12,
+    "Shanghai": 25,
+    "Beijing": 4,
+    "Berlin": 8
+  },
+  "scenario_inputs": [
+    {
+      "name": "standard",
+      "check_in": "2026-11-01",
+      "check_out": "2026-11-03",
+      "occupancy": [
+        {
+          "adults": 2,
+          "children": []
+        }
+      ],
+      "preferred_currency": "USD"
+    },
+    {
+      "name": "family",
+      "check_in": "2026-11-15",
+      "check_out": "2026-11-18",
+      "occupancy": [
+        {
+          "adults": 2,
+          "children": [
+            8
+          ]
+        }
+      ],
+      "preferred_currency": "USD"
+    },
+    {
+      "name": "two_rooms",
+      "check_in": "2026-12-01",
+      "check_out": "2026-12-03",
+      "occupancy": [
+        {
+          "adults": 1,
+          "children": []
+        },
+        {
+          "adults": 1,
+          "children": []
+        }
+      ],
+      "preferred_currency": "EUR"
+    }
+  ],
+  "cash_price_rows": 221,
+  "null_cash_price_rows": 19,
+  "sample_rows": 19,
+  "sample_rule": "First cash-rate row per scenario and query region, plus one missing-cash row; source_row is 1-based in the original prices.jsonl",
+  "sample_file": "prices.sample.csv",
+  "source_prices_sha256": "e4b3f2bddf95f012f0ce93c1ddb36e345ab22ca539dcf0046f9232d80fda2e5a",
+  "source_hotels_sha256": "e928e74f3621b5a60e4ab707c07e396e6e01506535ba3cae59e064e8b1a83da3",
+  "source_manifest_sha256": "badd840c3d644b59535a0deeec3a8c9b27071d159090e5e06e9fd874b2ef37a8",
+  "scope": "Pre-publication 80-hotel batch, distinct from the current published-entry run in run.json",
+  "browser_used": false,
+  "cookie_values_saved": false
+}
